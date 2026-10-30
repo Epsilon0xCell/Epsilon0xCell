@@ -62,7 +62,7 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 <h2 align="center">Key Achievements & Recognition</h2>
 
-- **NSA Codebreaker Challenge (2023–2024)**: Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions). Reached Level 7 within the first 10 days of the four-month competition, holding the **#1 rank on the institutional leaderboard**, and pioneered my high school's first-ever participation in the collegiate-level program through direct outreach to the NSA.
+- **NSA Codebreaker Challenge (2023–2024)**: Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions). Reached Level 7 within the first 10 days of the four-month competition, holding the **#1 rank on the institutional leaderboard**, and, through direct outreach to the NSA, made my high school the first high school ever to participate in the program.
 - **CyberStart America (2022–2024)**: **National Cyber Scholar with Honors, three consecutive years.** Top 1% of tens of thousands of participants, achieving the **maximum possible points** in every program year; **$12,000 in scholarships** earned.
 - **GIAC Advisory Board**: Invited to join the guidance community reserved for top scorers on SANS/GIAC certification exams.
 - **FBI TEAM Program**: Selected for the FBI's competitive Teen/Youth Engagement and Mentorship program, receiving mentorship from Bureau personnel.
