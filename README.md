@@ -8,6 +8,8 @@
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N). That account is permanently locked out (lost 2FA) and remains as a read-only archive of my 2023–2026 work: 163 repositories and my open-source record. Everything new ships from here, with full histories migrated and re-signed under this account's identity.
 
+> **Proof of ownership.** I am the same person who built as [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), and the succession can be checked from public evidence alone: (1) the repositories here carry the same projects with their full commit histories, re-signed under this account; (2) my starred library matches the old account exactly, 168 of 168 repositories; (3) the project lineages continue here without a break, including Event_Zero, Eclipse-Shield, and the ShadowGuard library now restoring under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization; (4) the old account's following network is being rebuilt here, and the final follow in that sequence is the old account itself.
+
 ---
 
 <h2 align="center">Flagships</h2>
