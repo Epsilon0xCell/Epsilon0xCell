@@ -94,9 +94,9 @@ An experimental AI analysis environment built around strict isolation: the host 
   </a>
 </p>
 
-### [Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield): AI-powered productivity analyzer with enterprise security
+### [Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield): productivity analyzer with a hardened Flask backend
 
-An intelligent system that uses AI to analyze browsing patterns and block unproductive sites based on contextual task understanding, with a browser-extension fleet reporting to a hardened backend.
+A browser extension and Flask backend that judge whether a site fits your current mode: work, school, or personal. Decisions run on local allow and block rules, with optional Gemini calls for sites no rule covers. Ships with a security test suite that passes 30 of 30 against the live server, plus a 33-test pytest suite.
 
 - **AI Task Analysis:** Gemini integration that asks contextual questions to understand goals and current focus
 - **Enterprise Security Implementation:** Full OWASP Top 10 (2021) coverage: UFW → Fail2ban → Nginx → Gunicorn → Flask security middleware; Redis-backed rate limiting; comprehensive input validation against XSS, SQLi, and prompt injection; CSRF tokens and request signing for extension traffic
