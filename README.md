@@ -1,28 +1,96 @@
-# Gavin Blacklock
+<h1 align="center">Epsilon0xCell</h1>
 
-**Security engineer & researcher.** I build defensive tooling, break systems in controlled settings to learn how they fail, and write up what I find.
+<p align="center">
+  <strong>Cybersecurity Researcher & Developer</strong><br>
+  <em>Offensive Security · OS Internals · AI-Driven Tooling</em><br>
+  <em>Penetration Testing · Bug Bounty · Zero-Day Research</em>
+</p>
 
-This account is the successor to **[@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N)** — same builder, new home. The earlier account is locked out permanently (lost 2FA) and stands as a read-only archive of my work from 2023–2026: 163 repositories, 646 followers, and my open-source contributions. Everything new happens here.
+> **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N). That account is permanently locked out (lost 2FA) and remains as a read-only archive of my 2023–2026 work — 163 repositories and my open-source record. Everything new ships from here, with full histories migrated and re-signed under this account's identity.
 
-## Credentials
+---
 
-- **GIAC Advisory Board** member; GIAC certifications via SANS
-- **NSA Codebreaker Challenge** — finisher, #72 solo
-- **National Cyber Scholar** (CyberStart America) — three consecutive years, maximum points
-- FBI & NSA program participant during high school
+### About
 
-## Current role
+My fascination with technology began with a fundamental curiosity about how systems work — pursued since age 12, and for the last five years focused on systems engineering, offensive security tradecraft, and autonomous tool development. I build robust, security-first solutions at the intersection of AI and systems security, and I work both sides of the discipline: **I build and I break.** That purple-shaded duality — mastering defense by understanding offense — is the methodology behind everything below.
 
-**Founding Security Engineer (Intern) — Maze3 Studios LLC** (since July 2025). Sole security person at a game studio; building the security program from scratch.
+---
 
-## Featured work
+### Experience
 
-- **Eclipse Shield** — web security scanner and hardening toolkit *(being rebuilt here with a clean history)*
-- **Event_Zero** — experimental security project *(being rebuilt here)*
-- Earlier body of work, including the community-adopted `spotify_to_ytmusic` fork and fixes merged into swayfx and SillyTavern: [github.com/CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N)
+**Founding Security Engineer (Intern)** | **Maze3 Studios LLC** | *July 2025 – Present*
 
-## Focus
+- Building the company's security program from the ground up for a new game development studio.
+- Solely responsible for all offensive and defensive security research, planning, and implementation.
+- Advising the co-founders on secure coding practices, infrastructure hardening, and risk management.
 
-Offensive & defensive security · security tooling · CTFs · applied research
+---
 
-*All commits from this account are signed to my GitHub noreply identity — no personal email, ever.*
+### Key Achievements & Recognition
+
+- **NSA Codebreaker Challenge (2023–2024)** — Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions). Reached Level 7 within the first 10 days of the four-month competition, holding the **#1 rank on the institutional leaderboard**, and pioneered my high school's first-ever participation in the collegiate-level program through direct outreach to the NSA.
+- **CyberStart America (2022–2024)** — **National Cyber Scholar with Honors, three consecutive years.** Top 1% of tens of thousands of participants, achieving the **maximum possible points** in every program year; **$12,000 in scholarships** earned.
+- **GIAC Advisory Board** — Invited to join the guidance community reserved for top scorers on SANS/GIAC certification exams.
+- **FBI TEAM Program** — Selected for the FBI's competitive Teen/Youth Engagement and Mentorship program, receiving mentorship from Bureau personnel.
+
+---
+
+### Education & Certifications
+
+- **GIAC Security Essentials (GSEC)** · **GIAC Foundational Cybersecurity Technologies (GFACT)**
+- **AP Scholar with Honors**
+- One of the only dual-award recipients (Business & Computer Science) in a graduating class of ~1,000
+- Verified Member of the GitHub Developer Program
+
+---
+
+## Featured Projects
+
+#### **ShadowStrike OS** — *flagship platform*
+A custom, security-focused Linux distribution engineered for penetration testing and security research — my primary development testbed for novel security tooling and system hardening.
+
+- **Architecture:** Hardened base with a tiling window workflow, an expanded containerized toolset, and ARM64 virtualization support.
+- **Key Features:** Role-based tooling menus, integrated WireGuard configurations, and a custom AI assistant for automating research tasks.
+- **Roadmap:** Post-quantum cryptography integration and adversarial AI threat modeling. *(Public release in preparation.)*
+
+#### **[Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield)** — AI-powered productivity analyzer with enterprise security
+An intelligent system that uses AI to analyze browsing patterns and block unproductive sites based on contextual task understanding, with a browser-extension fleet reporting to a hardened backend.
+
+- **AI Task Analysis:** Gemini integration that asks contextual questions to understand goals and current focus
+- **Enterprise Security Implementation:** Full OWASP Top 10 (2021) coverage — UFW → Fail2ban → Nginx → Gunicorn → Flask security middleware; Redis-backed rate limiting; comprehensive input validation against XSS, SQLi, and prompt injection; CSRF tokens and request signing for extension traffic
+- **Testing:** 50+ automated security tests covering authentication bypass, injection, rate limiting, and XSS
+
+#### **[Event_Zero](https://github.com/Epsilon0xCell/Event_Zero)**
+An experimental AI analysis environment built around strict isolation: the host system is completely separated from the analysis environment, and the AI operates inside a non-persistent container with restricted kernel access and no path to the underlying OS.
+
+#### More from the workshop
+[Best-RSS-Tool](https://github.com/Epsilon0xCell/Best-RSS-Tool) · [Epic-Calculator](https://github.com/Epsilon0xCell/Epic-Calculator) · [macos-terminal-video-high-quality](https://github.com/Epsilon0xCell/macos-terminal-video-high-quality) — and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
+
+---
+
+### Open Source Contributions
+
+- **[spotify_to_ytmusic](https://github.com/linsomniac/spotify_to_ytmusic/pull/117)** — Revived an unmaintained project: patched the core authentication error, added connection-stability features, and integrated four major community bug fixes. My fork became the community's de facto version during the original author's absence.
+- **[swayfx](https://github.com/WillPower3309/swayfx/pull/406)** — Patched a critical build failure in the Wayland compositor fork by updating its Nix flake dependencies, improving the development shell for all contributors.
+- **[SillyTavern Extension](https://github.com/SillyTavern/Extension-Speech-Recognition/pull/19)** — Built a "heartbeat" mechanism fixing a persistent Web Speech API bug in a popular AI toolkit (16k+ stars).
+
+---
+
+### Key Expertise
+
+- **Cybersecurity:** Offensive Security (Red Teaming), Penetration Testing, API Security, OSINT, Reverse Engineering (Ghidra), System Hardening, Digital Forensics
+- **Development:** Python (Advanced), C, Nix, Bash, Web Development, AI/ML Tooling (LLM Integration, API Automation), Git, CI/CD
+- **Systems & Infrastructure:** Linux / Windows / macOS Internals, Custom OS Development, Cloud Security, Virtualization (VMware, Parallels, QEMU, UTM), Docker, Networking (VPNs, OpSec)
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Epsilon0xCell&show_icons=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Epsilon0xCell&layout=compact&theme=radical" alt="Top Languages">
+</p>
+
+---
+
+**Off the keyboard:** DJing and music production (performing as GRAVIT8), guitar, martial arts, fitness, and long bike rides.
+
+*All commits from this account are authored under my GitHub noreply identity — no personal email, ever.*
