@@ -100,3 +100,9 @@ The flagship engineering effort, developed in private and held to an audit-first
 **Off the keyboard:** DJing and music production (performing as GRAVIT8), guitar, martial arts, fitness, and long bike rides.
 
 *All commits from this account are authored under my GitHub noreply identity — no personal email, ever.*
+
+---
+
+## Shatterpoint Security
+
+Founder of **[Shatterpoint Security](https://github.com/ShatterpointSecurity)** — a boutique offensive-security practice in formation. Penetration testing · red teaming · AI security testing.
