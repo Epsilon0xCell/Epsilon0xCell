@@ -126,7 +126,7 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 #### More from the workshop
 
-[spotify_to_ytmusic](https://github.com/Epsilon0xCell/spotify_to_ytmusic) · [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV) · [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
+[Spotify-To-YTMusic](https://github.com/Epsilon0xCell/Spotify-To-YTMusic) · [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV) · [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
 
 ---
 
@@ -162,7 +162,7 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 <h2 align="center">Open Source Contributions</h2>
 
-- **[spotify_to_ytmusic](https://github.com/linsomniac/spotify_to_ytmusic/pull/117)**: Revived an unmaintained project: patched the core authentication error, added connection-stability features, and integrated four major community bug fixes. My fork became the community's de facto version during the original author's absence.
+- **[Spotify-To-YTMusic](https://github.com/linsomniac/spotify_to_ytmusic/pull/117)**: Revived an unmaintained project: patched the core authentication error, added connection-stability features, and integrated four major community bug fixes. My fork became the community's de facto version during the original author's absence.
 - **[swayfx](https://github.com/WillPower3309/swayfx/pull/406)**: Patched a critical build failure in the Wayland compositor fork by updating its Nix flake dependencies, improving the development shell for all contributors.
 - **[SillyTavern Extension](https://github.com/SillyTavern/Extension-Speech-Recognition/pull/19)**: Built a "heartbeat" mechanism fixing a persistent Web Speech API bug in a popular AI toolkit (16k+ stars).
 
