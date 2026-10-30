@@ -38,12 +38,12 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 <p align="center"><img src="assets/ShadowStrike-Logo.png" alt="ShadowStrike" width="220"></p>
 
-#### **ShadowStrike OS** — *flagship platform*
+#### **[ShadowStrike OS](https://github.com/ShadowStrikeOS/ShadowStrike-OS)** — *flagship platform*
 A custom, security-focused Linux distribution engineered for penetration testing and security research — my primary development testbed for novel security tooling and system hardening.
 
 - **Architecture:** Hardened base with a tiling window workflow, an expanded containerized toolset, and ARM64 virtualization support.
 - **Key Features:** Role-based tooling menus, integrated WireGuard configurations, and a custom AI assistant for automating research tasks.
-- **Roadmap:** Post-quantum cryptography integration and adversarial AI threat modeling. *(Public release in preparation.)*
+- **Roadmap:** Post-quantum cryptography integration and adversarial AI threat modeling. *(Now public under the [ShadowStrike](https://github.com/ShadowStrikeOS) organization.)*
 
 <p align="center"><img src="assets/EclipseShield.png" alt="Eclipse Shield" width="320"></p>
 
