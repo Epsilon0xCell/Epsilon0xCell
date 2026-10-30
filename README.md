@@ -36,6 +36,8 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 ## Featured Projects
 
+<p align="center"><img src="assets/ShadowStrike-Logo.png" alt="ShadowStrike" width="220"></p>
+
 #### **ShadowStrike OS** — *flagship platform*
 A custom, security-focused Linux distribution engineered for penetration testing and security research — my primary development testbed for novel security tooling and system hardening.
 
@@ -43,12 +45,16 @@ A custom, security-focused Linux distribution engineered for penetration testing
 - **Key Features:** Role-based tooling menus, integrated WireGuard configurations, and a custom AI assistant for automating research tasks.
 - **Roadmap:** Post-quantum cryptography integration and adversarial AI threat modeling. *(Public release in preparation.)*
 
+<p align="center"><img src="assets/EclipseShield.png" alt="Eclipse Shield" width="320"></p>
+
 #### **[Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield)** — AI-powered productivity analyzer with enterprise security
 An intelligent system that uses AI to analyze browsing patterns and block unproductive sites based on contextual task understanding, with a browser-extension fleet reporting to a hardened backend.
 
 - **AI Task Analysis:** Gemini integration that asks contextual questions to understand goals and current focus
 - **Enterprise Security Implementation:** Full OWASP Top 10 (2021) coverage — UFW → Fail2ban → Nginx → Gunicorn → Flask security middleware; Redis-backed rate limiting; comprehensive input validation against XSS, SQLi, and prompt injection; CSRF tokens and request signing for extension traffic
 - **Testing:** 50+ automated security tests covering authentication bypass, injection, rate limiting, and XSS
+
+<p align="center"><img src="assets/Event_Zero.png" alt="Event_Zero" width="220"></p>
 
 #### **[Event_Zero](https://github.com/Epsilon0xCell/Event_Zero)**
 An experimental AI analysis environment built around strict isolation: the host system is completely separated from the analysis environment, and the AI operates inside a non-persistent container with restricted kernel access and no path to the underlying OS.
@@ -73,6 +79,11 @@ An experimental AI analysis environment built around strict isolation: the host 
 - **Systems & Infrastructure:** Linux / Windows / macOS Internals, Custom OS Development, Cloud Security, Virtualization (VMware, Parallels, QEMU, UTM), Docker, Networking (VPNs, OpSec)
 
 ---
+
+<p align="center">
+  <strong>Top 1% Coders USA — CodersRank</strong><br>
+  <img src="assets/CodersRank.png" alt="CodersRank: Top 1%" width="560">
+</p>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Epsilon0xCell&show_icons=true&theme=radical" alt="GitHub Stats">
