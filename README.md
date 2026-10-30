@@ -30,6 +30,12 @@ A custom, security-focused Linux distribution engineered for penetration testing
 
 ---
 
+<p align="center">
+  <a href="https://github.com/NightSalvo">
+    <img src="assets/NightSalvo.png" alt="NightSalvo" width="480">
+  </a>
+</p>
+
 <h3 align="center"><a href="https://github.com/NightSalvo">NightSalvo</a>: <em>the flagship tool</em></h3>
 
 The flagship engineering effort, developed in private and held to an audit-first standard. Its original core architecture is an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger, designed so that every action the system takes is authorized, bounded, and provable after the fact. Public artifacts and proof are released through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
@@ -106,7 +112,7 @@ A browser extension and Flask backend that judge whether a site fits your curren
 
 #### More from the workshop
 
-[Best-RSS-Tool](https://github.com/Epsilon0xCell/Best-RSS-Tool) · [Epic-Calculator](https://github.com/Epsilon0xCell/Epic-Calculator) · [macos-terminal-video-high-quality](https://github.com/Epsilon0xCell/macos-terminal-video-high-quality), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
+[spotify_to_ytmusic](https://github.com/Epsilon0xCell/spotify_to_ytmusic) · [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV) · [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
 
 ---
 
@@ -126,9 +132,9 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 <p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>, every claim below links to its source.</em></p>
 
-- **Star History: [Top Committer #8 of 2024](https://www.star-history.com/cy83r-3x71nc710n)**
-- **Star History: [Top 1000 Committers 2026: #150, with 13,288 commits](https://www.star-history.com/cy83r-3x71nc710n)**
-- **CodersRank: Top 1% of coders in the USA** (below)
+- **Star History: [Top Committer #8 of 2024](https://www.star-history.com/cy83r-3x71nc710n)** ([Wayback Machine archive](https://web.archive.org/web/20261030133321/https://www.star-history.com/cy83r-3x71nc710n/))
+- **Star History: [Top 1000 Committers 2026: #150, with 13,288 commits](https://www.star-history.com/cy83r-3x71nc710n)** ([Wayback Machine archive](https://web.archive.org/web/20261030133321/https://www.star-history.com/cy83r-3x71nc710n/))
+- **CodersRank: Top 1% of coders in the USA** (below) ([Wayback Machine archive](https://web.archive.org/web/20261030133417/https://profile.codersrank.io/user/CY83R-3X71NC710N))
 
 <p align="center">
   <strong>Top 1% Coders USA: CodersRank</strong><br>
