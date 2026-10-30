@@ -110,6 +110,18 @@ A browser extension and Flask backend that judge whether a site fits your curren
 
 ---
 
+<p align="center">
+  <a href="https://github.com/ShadowGuard-AI">
+    <img src="assets/ShadowGuard.png" alt="ShadowGuard AI" width="240">
+  </a>
+</p>
+
+### [ShadowGuard AI](https://github.com/ShadowGuard-AI): *the library*
+
+A 584-project library of security tools and experiments, built with AI assistance under my direction, originally published under the ShadowGuardAI organization and now being restored under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, repository by repository. The full catalogue lives on the org's [repositories page](https://github.com/orgs/ShadowGuard-AI/repositories).
+
+---
+
 <h2 align="center">Rankings</h2>
 
 <p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>, every claim below links to its source.</em></p>
