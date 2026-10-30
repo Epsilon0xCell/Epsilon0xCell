@@ -62,6 +62,11 @@ An experimental AI analysis environment built around strict isolation: the host 
 #### More from the workshop
 [Best-RSS-Tool](https://github.com/Epsilon0xCell/Best-RSS-Tool) · [Epic-Calculator](https://github.com/Epsilon0xCell/Epic-Calculator) · [macos-terminal-video-high-quality](https://github.com/Epsilon0xCell/macos-terminal-video-high-quality) — and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
 
+
+#### **[NightSalvo](https://github.com/NightSalvo)** — *the private program*
+
+The flagship engineering effort, developed in private and held to an audit-first standard. Its original core architecture — an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger — is designed so that every action the system takes is authorized, bounded, and provable after the fact. Public artifacts and proof are released through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
+
 ---
 
 ### Open Source Contributions
