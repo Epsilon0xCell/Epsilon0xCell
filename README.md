@@ -112,12 +112,6 @@ A browser extension and Flask backend that judge whether a site fits your curren
 
 ---
 
-#### More from the workshop
-
-[spotify_to_ytmusic](https://github.com/Epsilon0xCell/spotify_to_ytmusic) · [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV) · [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
-
----
-
 <p align="center">
   <a href="https://github.com/ShadowGuard-AI">
     <img src="assets/ShadowGuard.png" alt="ShadowGuard AI" width="240">
@@ -127,6 +121,12 @@ A browser extension and Flask backend that judge whether a site fits your curren
 ### [ShadowGuard AI](https://github.com/ShadowGuard-AI): *the library*
 
 A 584-project library of security tools and experiments, built with AI assistance under my direction, originally published under the ShadowGuardAI organization and now being restored under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, repository by repository. The full catalogue lives on the org's [repositories page](https://github.com/orgs/ShadowGuard-AI/repositories).
+
+---
+
+#### More from the workshop
+
+[spotify_to_ytmusic](https://github.com/Epsilon0xCell/spotify_to_ytmusic) · [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV) · [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
 
 ---
 
