@@ -38,7 +38,7 @@ The flagship engineering effort, developed in private and held to an audit-first
 
 <p align="center">
   <a href="https://github.com/ShatterpointSecurity">
-    <img src="assets/Shatterpoint.png" alt="Shatterpoint Security" width="240">
+    <img src="assets/Shatterpoint-Globehead.jpg" alt="Shatterpoint Security" width="240">
   </a>
 </p>
 
