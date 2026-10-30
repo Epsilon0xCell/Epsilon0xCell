@@ -16,16 +16,6 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 ---
 
-### Experience
-
-**Founding Security Engineer (Intern)** | **Maze3 Studios LLC** | *July 2025 – Present*
-
-- Building the company's security program from the ground up for a new game development studio.
-- Solely responsible for all offensive and defensive security research, planning, and implementation.
-- Advising the co-founders on secure coding practices, infrastructure hardening, and risk management.
-
----
-
 ### Key Achievements & Recognition
 
 - **NSA Codebreaker Challenge (2023–2024)** — Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions). Reached Level 7 within the first 10 days of the four-month competition, holding the **#1 rank on the institutional leaderboard**, and pioneered my high school's first-ever participation in the collegiate-level program through direct outreach to the NSA.
