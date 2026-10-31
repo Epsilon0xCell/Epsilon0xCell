@@ -57,10 +57,15 @@
     margin:46px 0 6px; font-weight:700}
   .sec-note{color:var(--paper-dim); margin:0 0 18px; max-width:46em}
   .ledger{border-top:1px solid var(--rule)}
-  .row{display:grid; grid-template-columns:92px 1fr auto; gap:20px;
+  .row{display:grid; grid-template-columns:96px 1fr auto; gap:20px;
     padding:20px 4px; border-bottom:1px solid var(--rule); align-items:start}
-  .row img.mark{width:84px; height:84px; object-fit:contain;
-    background:var(--ink2); border:1px solid var(--rule); padding:6px}
+  /* Marks sit at their own shape: no frame, no forced square box. A
+     round badge stays round at the column width, and the one wide
+     lockup gets a wide column so it runs at the shape it was drawn. */
+  .row img.mark{display:block; width:auto; height:auto; max-width:100%;
+    max-height:96px}
+  .row.wide{grid-template-columns:208px 1fr auto}
+  .row.wide img.mark{max-height:88px}
   .row h3{margin:2px 0 6px; font-size:21px; font-family:Georgia,serif}
   .row p{margin:0; color:var(--paper); max-width:40em}
   .row .what{color:var(--amber); font-size:12.5px; letter-spacing:.18em;
@@ -113,6 +118,7 @@
     .cols{grid-template-columns:1fr}
     aside.record{border-left:none; padding-left:0; border-top:1px solid var(--rule)}
     .row{grid-template-columns:64px 1fr}
+    .row.wide{grid-template-columns:150px 1fr}
     .row .links{text-align:left; grid-column:2}
   }
 </style>
@@ -199,7 +205,7 @@ larger.</p>
     </div>
   </div>
 
-  <div class="row">
+  <div class="row wide">
     <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/NightSalvo.png" alt="NightSalvo mark">
     <div>
       <h3>NightSalvo</h3>
