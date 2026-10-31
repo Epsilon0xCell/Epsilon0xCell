@@ -183,6 +183,6 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 ---
 
-**Off the keyboard:** I write, and I am the author of THE COMMAND CHAIR; I DJ and produce music as GRAVIT8, with production via AI prompting; I play piano and guitar just for fun; I command classic sci-fi real-time strategy games; and I keep up martial arts, fitness, and long bike rides. In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient, and my signature blend layers electronic music and UK drill at the same time.
+**Off the keyboard:** I write, and I am the author of THE COMMAND CHAIR; I DJ and produce electronic music, with production via AI prompting; I play piano and guitar just for fun; I command classic sci-fi real-time strategy games; and I keep up martial arts, fitness, and long bike rides. In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient, and my signature blend layers electronic music and UK drill at the same time.
 
 *All commits from this account are authored under my GitHub noreply identity, no personal email, ever.*
