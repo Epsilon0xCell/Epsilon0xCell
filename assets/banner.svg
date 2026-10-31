@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Epsilon0xCell">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="46%" r="55%">
+      <stop offset="0%" stop-color="#FF0033" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#FF0033" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#FF0033" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF0033" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF3355" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF0033" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softglow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="300" fill="#000000"/>
+  <rect x="0" y="0" width="1200" height="300" fill="url(#halo)"/>
+
+  <rect x="10" y="10" width="1180" height="280" fill="none" stroke="#FF0033" stroke-opacity="0.55" stroke-width="1.5" filter="url(#softglow)"/>
+  <path d="M10 44 V10 H44" fill="none" stroke="#FF3355" stroke-width="3" filter="url(#softglow)"/>
+  <path d="M1156 10 H1190 V44" fill="none" stroke="#FF3355" stroke-width="3" filter="url(#softglow)"/>
+  <path d="M10 256 V290 H44" fill="none" stroke="#FF3355" stroke-width="3" filter="url(#softglow)"/>
+  <path d="M1156 290 H1190 V256" fill="none" stroke="#FF3355" stroke-width="3" filter="url(#softglow)"/>
+
+  <text x="600" y="140" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="76" font-weight="bold" letter-spacing="2" fill="#FF0033" opacity="0.85" filter="url(#glow)">Epsilon0xCell</text>
+  <text x="600" y="140" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="76" font-weight="bold" letter-spacing="2" fill="#FFF3F5">Epsilon0xCell</text>
+
+  <rect x="430" y="176" width="340" height="2.5" fill="url(#rule)" filter="url(#softglow)"/>
+  <rect x="594" y="171" width="12" height="12" transform="rotate(45 600 177)" fill="#FF3355" filter="url(#softglow)"/>
+
+  <text x="600" y="228" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="27" letter-spacing="1" fill="#FF8296">I build it, I break it, and I write down what I find.</text>
+</svg>
