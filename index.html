@@ -175,11 +175,14 @@
     <p><span class="when">Rollout note, 2026-10-31</span>
     As of today, 25 of the 27 published project sites have been rebuilt
     to the Phase 3 standard. The last two, Kokoro-FastAPI-Colab and
-    MacOS-Performance-Tweaks, are live with their earlier sites and
-    wait on security decisions I have not made yet.</p>
+    MacOS-Performance-Tweaks, are live with their earlier sites. Their
+    security fixes have landed, and their site rebuilds are queued.</p>
     <p><span class="when">Security audit note, 2026-10-31</span>
-    My personal repos have been read line by line, 169 of 170, with
-    Banking-Program the one left waiting on my own decisions.</p>
+    My personal repos have been read line by line, 170 of 170,
+    Banking-Program included. Its audit found one defect, a deposit
+    overflow that could print an infinite balance; the defect is fixed,
+    and a regression test now covers it. The audit of the
+    ShadowGuard-AI library continues as the rest of its repos land.</p>
   </div>
 </section>
 
@@ -337,7 +340,7 @@ larger.</p>
     <h2>Still waiting</h2>
     <p>Two published sites are live with their earlier versions. They
     are not part of the 25 above, and I do not present them as rebuilt.
-    Both wait on security decisions I have not made yet.</p>
+    Their security fixes have landed; their rebuilds are queued.</p>
     <p><strong>Kokoro-FastAPI-Colab</strong>: a Kokoro text-to-speech
     server for Colab, documented endpoint by endpoint.
     <a href="https://epsilon0xcell.github.io/Kokoro-FastAPI-Colab/">Site</a> ·
