@@ -17,42 +17,46 @@
 <meta name="description" content="Portfolio index of Epsilon0xCell: flagship security projects, a rebuilt site for each of 25 projects, two sites still waiting, and the verified record behind them.">
 <style>
   /*
-    Warm charcoal and paper, one amber accent. I ruled the page like a
-    ledger with hairlines instead of boxing everything into cards:
-    rows are how indexes are actually read. The record rail sits on
-    the right and narrower, because the work comes first and the
-    proof second, in that order, on purpose.
+    Black paper, one neon red accent, lit like a sign. I ruled the
+    page like a ledger with hairlines instead of boxing everything
+    into cards: rows are how indexes are actually read. The record
+    rail sits on the right and narrower, because the work comes
+    first and the proof second, in that order, on purpose.
   */
   :root{
-    --ink:#141210; --ink2:#1d1a16; --paper:#f0ead9; --paper-dim:#b9b09a;
-    --amber:#e2a63d; --rule:#3a352b; --link:#8ec5e8;
+    --ink:#000000; --ink2:#12060a; --paper:#ededed; --paper-dim:#a3a3ab;
+    --neon:#ff0033; --neon-hi:#ff3355; --rule:#2c2126; --link:#ff5c74;
   }
   *{box-sizing:border-box}
+  ::selection{background:#ff0033; color:#ffffff}
   html{background:var(--ink)}
   body{margin:0; color:var(--paper);
     font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
     font-size:16.5px; line-height:1.6}
   a{color:var(--link)}
-  a:hover{color:var(--amber)}
+  a:hover{color:var(--neon-hi); text-shadow:0 0 8px rgba(255,0,51,.55)}
   .page{max-width:1180px; margin:0 auto; padding:0 26px 70px}
-  header.masthead{border-bottom:3px double var(--amber); padding:44px 0 26px}
+  header.masthead{border-bottom:3px double var(--neon); padding:44px 0 26px;
+    box-shadow:0 14px 26px -20px rgba(255,0,51,.85)}
   .kicker{font-size:12.5px; letter-spacing:.28em; text-transform:uppercase;
-    color:var(--amber); margin:0 0 10px}
+    color:var(--neon); margin:0 0 10px; text-shadow:0 0 10px rgba(255,0,51,.5)}
   h1{font-family:Georgia,"Iowan Old Style","Times New Roman",serif;
     font-weight:700; font-size:clamp(44px,7.5vw,84px); line-height:1.02;
-    margin:0 0 12px; letter-spacing:.01em}
+    margin:0 0 12px; letter-spacing:.01em;
+    text-shadow:0 0 24px rgba(255,0,51,.38), 0 0 3px rgba(255,0,51,.45)}
   .role{font-size:19px; color:var(--paper); max-width:44em; margin:0 0 16px}
-  .role b{color:var(--amber); font-weight:600}
+  .role b{color:var(--neon); font-weight:600}
   .badges{display:flex; flex-wrap:wrap; gap:8px}
   .badges img{height:20px; display:block}
   .intro{padding:30px 0 6px; max-width:46em}
   .intro p{margin:0 0 14px; font-size:17.5px}
-  .note{border-left:3px solid var(--amber); padding:4px 0 4px 16px;
+  .note{border-left:3px solid var(--neon); padding:4px 0 4px 16px;
     margin:20px 0; max-width:46em}
   .note p{margin:0 0 8px; font-size:16px}
   .note p:last-child{margin-bottom:0}
-  .note .when{color:var(--amber); font-size:12.5px; letter-spacing:.18em;
-    text-transform:uppercase; display:block; margin-bottom:4px}
+  .note .when{color:var(--neon); font-size:12.5px; letter-spacing:.18em;
+    text-transform:uppercase; display:block; margin-bottom:4px;
+    text-shadow:0 0 9px rgba(255,0,51,.5)}
   h2{font-family:Georgia,"Iowan Old Style",serif; font-size:29px;
     margin:46px 0 6px; font-weight:700}
   .sec-note{color:var(--paper-dim); margin:0 0 18px; max-width:46em}
@@ -68,7 +72,7 @@
   .row.wide img.mark{max-height:88px}
   .row h3{margin:2px 0 6px; font-size:21px; font-family:Georgia,serif}
   .row p{margin:0; color:var(--paper); max-width:40em}
-  .row .what{color:var(--amber); font-size:12.5px; letter-spacing:.18em;
+  .row .what{color:var(--neon); font-size:12.5px; letter-spacing:.18em;
     text-transform:uppercase; display:block; margin-bottom:4px}
   .row .links{white-space:nowrap; font-size:14.5px; text-align:right}
   .row .links a{display:block; margin-bottom:6px}
@@ -81,12 +85,12 @@
     vertical-align:top}
   table.index td.name{font-weight:600}
   table.index td.name .concept{display:block; font-weight:400;
-    color:var(--amber); font-size:13.5px}
+    color:var(--neon); font-size:13.5px}
   table.index td.desc{color:var(--paper-dim)}
   aside.record{border-left:1px solid var(--rule); padding-left:24px}
   aside.record h2{margin-top:46px}
   aside.record h3{font-size:13px; letter-spacing:.16em; text-transform:uppercase;
-    color:var(--amber); margin:22px 0 8px}
+    color:var(--neon); margin:22px 0 8px}
   aside.record ul{margin:0; padding-left:18px}
   aside.record li{margin-bottom:9px; font-size:15px}
   aside.record figure{margin:18px 0 0}
@@ -97,7 +101,7 @@
   .how{border-top:1px solid var(--rule); margin-top:48px; padding-top:22px;
     max-width:46em}
   .how p{margin:0 0 12px}
-  footer{margin-top:54px; border-top:3px double var(--amber); padding-top:18px;
+  footer{margin-top:54px; border-top:3px double var(--neon); padding-top:18px;
     color:var(--paper-dim); font-size:14px; display:flex; flex-wrap:wrap;
     gap:8px 28px; justify-content:space-between}
   /*
@@ -135,9 +139,9 @@
   first, then a rebuilt site of its own for every finished project,
   then the record, with its sources.</p>
   <div class="badges">
-    <img src="https://img.shields.io/github/followers/Epsilon0xCell?style=flat&amp;label=followers&amp;labelColor=1d1a16&amp;color=e2a63d" alt="GitHub followers">
-    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Event_Zero?style=flat&amp;label=Event_Zero%20stars&amp;labelColor=1d1a16&amp;color=e2a63d" alt="Event Zero stars">
-    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Eclipse-Shield?style=flat&amp;label=Eclipse-Shield%20stars&amp;labelColor=1d1a16&amp;color=e2a63d" alt="Eclipse Shield stars">
+    <img src="https://img.shields.io/github/followers/Epsilon0xCell?style=flat&amp;label=followers&amp;labelColor=000000&amp;color=ff0033" alt="GitHub followers">
+    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Event_Zero?style=flat&amp;label=Event_Zero%20stars&amp;labelColor=000000&amp;color=ff0033" alt="Event Zero stars">
+    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Eclipse-Shield?style=flat&amp;label=Eclipse-Shield%20stars&amp;labelColor=000000&amp;color=ff0033" alt="Eclipse Shield stars">
   </div>
 </header>
 
@@ -418,8 +422,8 @@ larger.</p>
 </section>
 
 <footer>
-  <span>Built by Epsilon0xCell. Colophon: ledger layout, warm charcoal
-  and paper, serif masthead, hairline rules, one amber rule top and
+  <span>Built by Epsilon0xCell. Colophon: ledger layout, black and
+  neon red, serif masthead, hairline rules, one red rule top and
   bottom.</span>
   <span><a href="https://github.com/Epsilon0xCell">github.com/Epsilon0xCell</a></span>
   <span>Last updated 2026-10-31</span>
