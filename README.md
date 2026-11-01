@@ -17,10 +17,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/prompt-flagships.svg" alt="" width="100%">
+  <img src="assets/prompt-flagships.svg" alt="Flagships" width="100%">
 </p>
-
-<h2 align="center">Flagships</h2>
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -72,7 +70,9 @@ Founder of **[Shatterpoint Security](https://github.com/ShatterpointSecurity)**:
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
-<h2 align="center">About</h2>
+<p align="center">
+  <img src="assets/prompt-about.svg" alt="About" width="100%">
+</p>
 
 My fascination with technology began with a fundamental curiosity about how systems work, pursued since age 12, and for the last five years focused on systems engineering, offensive security tradecraft, and autonomous tool development. I build robust, security-first solutions at the intersection of AI and systems security, and I work both sides of the discipline: **I build and I break.** That purple-shaded duality, mastering defense by understanding offense, is the methodology behind everything below.
 
@@ -81,10 +81,8 @@ My fascination with technology began with a fundamental curiosity about how syst
 </p>
 
 <p align="center">
-  <img src="assets/prompt-achievements.svg" alt="" width="100%">
+  <img src="assets/prompt-achievements.svg" alt="Key Achievements & Recognition" width="100%">
 </p>
-
-<h2 align="center">Key Achievements & Recognition</h2>
 
 - **NSA Codebreaker Challenge (2023–2024)**: Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions). Reached Level 7 within the first 10 days of the four-month competition, holding the **#1 rank on the institutional leaderboard**, and, through direct outreach to the NSA, made my high school the first high school ever to participate in the program.
 - **CyberStart America (2022–2024)**: **National Cyber Scholar with Honors, three consecutive years.** Top 1% of tens of thousands of participants, achieving the **maximum possible points** in every program year; **$12,000 in scholarships** earned.
@@ -96,10 +94,8 @@ My fascination with technology began with a fundamental curiosity about how syst
 </p>
 
 <p align="center">
-  <img src="assets/prompt-credentials.svg" alt="" width="100%">
+  <img src="assets/prompt-credentials.svg" alt="Education & Certifications" width="100%">
 </p>
-
-<h2 align="center">Education & Certifications</h2>
 
 - **GIAC Security Essentials (GSEC)** · **GIAC Foundational Cybersecurity Technologies (GFACT)**
 - **AP Scholar with Honors**
@@ -111,10 +107,8 @@ My fascination with technology began with a fundamental curiosity about how syst
 </p>
 
 <p align="center">
-  <img src="assets/prompt-featured-projects.svg" alt="" width="100%">
+  <img src="assets/prompt-featured-projects.svg" alt="Featured Projects" width="100%">
 </p>
-
-<h2 align="center">Featured Projects</h2>
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -175,10 +169,8 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
-  <img src="assets/prompt-rankings.svg" alt="" width="100%">
+  <img src="assets/prompt-rankings.svg" alt="Rankings" width="100%">
 </p>
-
-<h2 align="center">Rankings</h2>
 
 <p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>, every claim below links to its source.</em></p>
 
@@ -199,10 +191,8 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
-  <img src="assets/prompt-trophy-wall.svg" alt="" width="100%">
+  <img src="assets/prompt-trophy-wall.svg" alt="Trophy Wall" width="100%">
 </p>
-
-<h2 align="center">Trophy Wall</h2>
 
 <p align="center">
   <a href="https://github.com/CY83R-3X71NC710N">
@@ -216,7 +206,9 @@ A 584-project library of security tools and experiments, built with AI assistanc
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
-<h2 align="center">Open Source Contributions</h2>
+<p align="center">
+  <img src="assets/prompt-open-source.svg" alt="Open Source Contributions" width="100%">
+</p>
 
 - **[Spotify-To-YTMusic](https://github.com/linsomniac/spotify_to_ytmusic/pull/117)**: Revived an unmaintained project: patched the core authentication error, added connection-stability features, and integrated four major community bug fixes. My fork became the community's de facto version during the original author's absence.
 - **[swayfx](https://github.com/WillPower3309/swayfx/pull/406)**: Patched a critical build failure in the Wayland compositor fork by updating its Nix flake dependencies, improving the development shell for all contributors.
@@ -226,7 +218,9 @@ A 584-project library of security tools and experiments, built with AI assistanc
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
-<h2 align="center">Key Expertise</h2>
+<p align="center">
+  <img src="assets/prompt-expertise.svg" alt="Key Expertise" width="100%">
+</p>
 
 - **Cybersecurity:** Offensive Security (Red Teaming), Penetration Testing, API Security, OSINT, Reverse Engineering (Ghidra), System Hardening, Digital Forensics
 - **Development:** Python (Advanced), C, Nix, Bash, Web Development, AI/ML Tooling (LLM Integration, API Automation), Git, CI/CD
@@ -237,7 +231,7 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
-  <img src="assets/prompt-stats.svg" alt="" width="100%">
+  <img src="assets/prompt-stats.svg" alt="GitHub Stats" width="100%">
 </p>
 
 <p align="center">
@@ -250,7 +244,7 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
-  <img src="assets/prompt-off-the-keyboard.svg" alt="" width="100%">
+  <img src="assets/prompt-off-the-keyboard.svg" alt="Off the keyboard" width="100%">
 </p>
 
 **Off the keyboard:** I write, and I am the author of THE COMMAND CHAIR; I DJ and produce electronic music, with production via AI prompting; I play piano and guitar just for fun; I command classic sci-fi real-time strategy games; and I keep up martial arts, fitness, and long bike rides. In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient, and my signature blend layers electronic music and UK drill at the same time.
