@@ -58,7 +58,10 @@ A custom, security-focused Linux distribution engineered for penetration testing
 
 <h3 align="center"><a href="https://github.com/NightSalvo">NightSalvo</a>: <em>the flagship tool</em></h3>
 
-The flagship engineering effort, developed in private and held to an audit-first standard. Its original core architecture is an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger, designed so that every action the system takes is authorized, bounded, and provable after the fact. Public artifacts and proof are released through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
+- The flagship engineering effort, developed in private and held to an audit-first standard.
+- Its original core architecture is an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger.
+- Designed so that every action the system takes is authorized, bounded, and provable after the fact.
+- Public artifacts and proof are released through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -90,7 +93,11 @@ Founder of **[Shatterpoint Security](https://github.com/ShatterpointSecurity)**:
   <img src="assets/prompt-about.svg" alt="About" width="100%">
 </p>
 
-My fascination with technology began with a fundamental curiosity about how systems work, pursued since age 12, and for the last five years focused on systems engineering, offensive security tradecraft, and autonomous tool development. I build robust, security-first solutions at the intersection of AI and systems security, and I work both sides of the discipline: **I build and I break.** That purple-shaded duality, mastering defense by understanding offense, is the methodology behind everything below.
+- My fascination with technology began with a fundamental curiosity about how systems work, pursued since age 12.
+- For the last five years, focused on systems engineering, offensive security tradecraft, and autonomous tool development.
+- I build robust, security-first solutions at the intersection of AI and systems security.
+- I work both sides of the discipline: **I build and I break.**
+- That purple-shaded duality, mastering defense by understanding offense, is the methodology behind everything below.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -168,7 +175,9 @@ An experimental AI analysis environment built around strict isolation: the host 
 
 ### [Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield): productivity analyzer with a hardened Flask backend
 
-A browser extension and Flask backend that judge whether a site fits your current mode: work, school, or personal. Decisions run on local allow and block rules, with optional Gemini calls for sites no rule covers. Ships with a security test suite that passes 30 of 30 against the live server, plus a 33-test pytest suite.
+- A browser extension and Flask backend that judge whether a site fits your current mode: work, school, or personal.
+- Decisions run on local allow and block rules, with optional Gemini calls for sites no rule covers.
+- Ships with a security test suite that passes 30 of 30 against the live server, plus a 33-test pytest suite.
 
 - **AI Task Analysis:** Gemini integration that asks contextual questions to understand goals and current focus
 - **Enterprise Security Implementation:** Full OWASP Top 10 (2021) coverage: UFW → Fail2ban → Nginx → Gunicorn → Flask security middleware; Redis-backed rate limiting; comprehensive input validation against XSS, SQLi, and prompt injection; CSRF tokens and request signing for extension traffic
@@ -311,7 +320,15 @@ A 584-project library of security tools and experiments, built with AI assistanc
   <img src="assets/prompt-off-the-keyboard.svg" alt="Off the keyboard" width="100%">
 </p>
 
-**Off the keyboard:** I write, and I am the author of THE COMMAND CHAIR; I DJ and produce electronic music, with production via AI prompting; I play piano and guitar just for fun; I command classic sci-fi real-time strategy games; and I keep up martial arts, fitness, and long bike rides. In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient, and my signature blend layers electronic music and UK drill at the same time.
+**Off the keyboard:**
+
+- I write, and I am the author of THE COMMAND CHAIR.
+- I DJ and produce electronic music, with production via AI prompting.
+- I play piano and guitar just for fun.
+- I command classic sci-fi real-time strategy games.
+- I keep up martial arts, fitness, and long bike rides.
+- In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient.
+- My signature blend layers electronic music and UK drill at the same time.
 
 *All commits from this account are authored under my GitHub noreply identity, no personal email, ever.*
 
