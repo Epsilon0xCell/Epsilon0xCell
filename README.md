@@ -16,6 +16,10 @@
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/prompt-flagships.svg" alt="" width="100%">
+</p>
+
 <h2 align="center">Flagships</h2>
 
 <p align="center">
@@ -76,6 +80,10 @@ My fascination with technology began with a fundamental curiosity about how syst
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/prompt-achievements.svg" alt="" width="100%">
+</p>
+
 <h2 align="center">Key Achievements & Recognition</h2>
 
 - **NSA Codebreaker Challenge (2023–2024)**: Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions). Reached Level 7 within the first 10 days of the four-month competition, holding the **#1 rank on the institutional leaderboard**, and, through direct outreach to the NSA, made my high school the first high school ever to participate in the program.
@@ -87,6 +95,10 @@ My fascination with technology began with a fundamental curiosity about how syst
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/prompt-credentials.svg" alt="" width="100%">
+</p>
+
 <h2 align="center">Education & Certifications</h2>
 
 - **GIAC Security Essentials (GSEC)** · **GIAC Foundational Cybersecurity Technologies (GFACT)**
@@ -96,6 +108,10 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/prompt-featured-projects.svg" alt="" width="100%">
 </p>
 
 <h2 align="center">Featured Projects</h2>
@@ -158,6 +174,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/prompt-rankings.svg" alt="" width="100%">
+</p>
+
 <h2 align="center">Rankings</h2>
 
 <p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>, every claim below links to its source.</em></p>
@@ -176,6 +196,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/prompt-trophy-wall.svg" alt="" width="100%">
 </p>
 
 <h2 align="center">Trophy Wall</h2>
@@ -213,6 +237,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
+  <img src="assets/prompt-stats.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Epsilon0xCell&show_icons=true&bg_color=000000&title_color=FF3355&text_color=EDEDED&icon_color=FF3355&ring_color=FF0033&border_color=FF0033" alt="GitHub Stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Epsilon0xCell&layout=compact&bg_color=000000&title_color=FF3355&text_color=EDEDED&border_color=FF0033" alt="Top Languages">
 </p>
@@ -221,6 +249,14 @@ A 584-project library of security tools and experiments, built with AI assistanc
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/prompt-off-the-keyboard.svg" alt="" width="100%">
+</p>
+
 **Off the keyboard:** I write, and I am the author of THE COMMAND CHAIR; I DJ and produce electronic music, with production via AI prompting; I play piano and guitar just for fun; I command classic sci-fi real-time strategy games; and I keep up martial arts, fitness, and long bike rides. In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient, and my signature blend layers electronic music and UK drill at the same time.
 
 *All commits from this account are authored under my GitHub noreply identity, no personal email, ever.*
+
+<p align="center">
+  <img src="assets/logout.svg" alt="" width="100%">
+</p>
