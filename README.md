@@ -17,6 +17,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-a.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/prompt-flagships.svg" alt="Flagships" width="100%">
 </p>
 
@@ -43,6 +47,10 @@ A custom, security-focused Linux distribution engineered for penetration testing
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-b.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <a href="https://github.com/NightSalvo">
     <img src="assets/NightSalvo.png" alt="NightSalvo" width="480">
   </a>
@@ -54,6 +62,10 @@ The flagship engineering effort, developed in private and held to an audit-first
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/rain-band-c.svg" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -71,6 +83,10 @@ Founder of **[Shatterpoint Security](https://github.com/ShatterpointSecurity)**:
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-d.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/prompt-about.svg" alt="About" width="100%">
 </p>
 
@@ -78,6 +94,10 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/rain-band-a.svg" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -94,6 +114,10 @@ My fascination with technology began with a fundamental curiosity about how syst
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-b.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/prompt-credentials.svg" alt="Education & Certifications" width="100%">
 </p>
 
@@ -104,6 +128,10 @@ My fascination with technology began with a fundamental curiosity about how syst
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/rain-band-c.svg" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -129,6 +157,10 @@ An experimental AI analysis environment built around strict isolation: the host 
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-d.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <a href="https://github.com/Epsilon0xCell/Eclipse-Shield">
     <img src="assets/EclipseShield.png" alt="Eclipse Shield" width="240">
   </a>
@@ -147,6 +179,10 @@ A browser extension and Flask backend that judge whether a site fits your curren
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-a.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <a href="https://github.com/ShadowGuard-AI">
     <img src="assets/ShadowGuard.png" alt="ShadowGuard AI" width="240">
   </a>
@@ -160,12 +196,20 @@ A 584-project library of security tools and experiments, built with AI assistanc
   <img src="assets/divider.svg" alt="" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/rain-band-b.svg" alt="" width="100%">
+</p>
+
 #### More from the workshop
 
 [Spotify-To-YTMusic](https://github.com/Epsilon0xCell/Spotify-To-YTMusic) · [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV) · [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis), and the full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/rain-band-c.svg" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -191,6 +235,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-d.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/prompt-trophy-wall.svg" alt="Trophy Wall" width="100%">
 </p>
 
@@ -207,6 +255,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-a.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/prompt-open-source.svg" alt="Open Source Contributions" width="100%">
 </p>
 
@@ -216,6 +268,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/rain-band-b.svg" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -231,6 +287,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 </p>
 
 <p align="center">
+  <img src="assets/rain-band-c.svg" alt="" width="100%">
+</p>
+
+<p align="center">
   <img src="assets/prompt-stats.svg" alt="GitHub Stats" width="100%">
 </p>
 
@@ -241,6 +301,10 @@ A 584-project library of security tools and experiments, built with AI assistanc
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/rain-band-d.svg" alt="" width="100%">
 </p>
 
 <p align="center">
