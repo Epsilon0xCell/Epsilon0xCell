@@ -22,6 +22,16 @@
     <clipPath id="winclip">
       <rect x="10" y="10" width="1180" height="280" rx="16"/>
     </clipPath>
+      <linearGradient id="scanfade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FF5C74" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF5C74" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FF5C74" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sheenfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFE9EC" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFE9EC" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFE9EC" stop-opacity="0"/>
+    </linearGradient>
   </defs>
 
   <rect x="0" y="0" width="1200" height="300" fill="#000000"/>
@@ -33,10 +43,14 @@
     <rect x="10" y="10" width="1180" height="41" fill="#FF0033" opacity="0.09"/>
     <rect x="10" y="51" width="1180" height="1.5" fill="#FF0033" opacity="0.45"/>
   </g>
+  <g clip-path="url(#winclip)">
+    <rect x="10" y="-50" width="1180" height="48" fill="url(#scanfade)"><animateTransform attributeName="transform" type="translate" values="0 0;0 400" dur="9s" repeatCount="indefinite"/></rect>
+    <g><animateTransform attributeName="transform" type="translate" values="-320 0;1420 0;1420 0" keyTimes="0;0.45;1" dur="16s" repeatCount="indefinite"/><rect x="0" y="-60" width="150" height="420" fill="url(#sheenfade)" transform="skewX(-18)"/></g>
+  </g>
 
-  <circle cx="40" cy="30" r="8.5" fill="#FF3355" filter="url(#softglow)"/>
-  <circle cx="65" cy="30" r="8.5" fill="#FF0033" filter="url(#softglow)"/>
-  <circle cx="90" cy="30" r="8.5" fill="#FF8296" filter="url(#softglow)"/>
+  <circle cx="40" cy="30" r="8.5" fill="#FF3355" filter="url(#softglow)"><animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="3.6s" begin="0s" repeatCount="indefinite"/></circle>
+  <circle cx="65" cy="30" r="8.5" fill="#FF0033" filter="url(#softglow)"><animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="3.6s" begin="0.4s" repeatCount="indefinite"/></circle>
+  <circle cx="90" cy="30" r="8.5" fill="#FF8296" filter="url(#softglow)"><animate attributeName="opacity" values="1;0.45;1" keyTimes="0;0.5;1" dur="3.6s" begin="0.8s" repeatCount="indefinite"/></circle>
   <text x="114" y="37" font-family="'Courier New', Courier, monospace" font-size="16" letter-spacing="1" fill="#FF8296">epsilon0xcell: shell</text>
 
   <text x="48" y="94" font-family="'Courier New', Courier, monospace" font-size="21"><tspan font-weight="bold" fill="#FF5C74">guest@github:~$</tspan><tspan fill="#FF8296"> whoami</tspan></text>
