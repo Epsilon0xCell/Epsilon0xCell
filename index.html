@@ -125,9 +125,20 @@
     .row.wide{grid-template-columns:150px 1fr}
     .row .links{text-align:left; grid-column:2}
   }
+  /*
+    Red rain behind the ledger: a fixed canvas, the first element in
+    body, paints falling red code over the black page, and the page
+    column carries a translucent black ground so every line of text
+    stays readable over it. If the canvas never paints, the page is
+    what it always was: black paper, neon rule, ink.
+  */
+  #matrix-rain{position:fixed; inset:0; z-index:0; opacity:.5;
+    pointer-events:none}
+  .page{position:relative; z-index:1; background:rgba(0,0,0,.66)}
 </style>
 </head>
 <body>
+<canvas id="matrix-rain" aria-hidden="true"></canvas>
 <div class="page">
 
 <header class="masthead">
@@ -453,6 +464,83 @@ larger.</p>
       });
     }, { threshold: 0.12 });
     rows.forEach(function (row) { watcher.observe(row); });
+  })();
+</script>
+<script>
+  /*
+    The rain itself: columns of katakana, digits, and hex letters
+    falling in red on the fixed canvas. Trails come from laying a
+    translucent black wash over each frame instead of clearing it.
+    The loop is throttled to about thirty frames a second, and the
+    canvas is capped at one and a half times pixel density, so the
+    decoration never taxes the page it decorates. Reduced motion
+    gets one still frame. No script at all gets the black page,
+    complete, exactly as it read before the rain came.
+  */
+  (function () {
+    var canvas = document.getElementById("matrix-rain");
+    if (!canvas || typeof canvas.getContext !== "function") { return; }
+    var ctx = canvas.getContext("2d");
+    if (!ctx) { return; }
+    var GLYPHS = "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0123456789ABCDEF";
+    var FONT = 17;
+    var width = 0;
+    var height = 0;
+    var drops = [];
+    var reduce = false;
+    if (window.matchMedia) {
+      reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    }
+    function sizeCanvas() {
+      var dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = Math.floor(width * dpr);
+      canvas.height = Math.floor(height * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var cols = Math.max(1, Math.ceil(width / FONT));
+      drops = [];
+      for (var i = 0; i < cols; i++) {
+        drops.push(Math.floor(Math.random() * (height / FONT)));
+      }
+      ctx.fillStyle = "#000000";
+      ctx.fillRect(0, 0, width, height);
+    }
+    function frame() {
+      var i;
+      var r;
+      ctx.fillStyle = "rgba(0,0,0,0.08)";
+      ctx.fillRect(0, 0, width, height);
+      ctx.font = FONT + "px ui-monospace, 'DejaVu Sans Mono', monospace";
+      for (i = 0; i < drops.length; i++) {
+        r = Math.random();
+        ctx.fillStyle = r < 0.10 ? "#FFC2CC" : (r < 0.45 ? "#FF8296" : "#FF3355");
+        ctx.fillText(GLYPHS.charAt(Math.floor(Math.random() * GLYPHS.length)), i * FONT, drops[i] * FONT);
+        drops[i] += 1;
+        if (drops[i] * FONT > height && Math.random() > 0.976) { drops[i] = 0; }
+      }
+    }
+    sizeCanvas();
+    if (reduce) {
+      for (var k = 0; k < 28; k++) { frame(); }
+      return;
+    }
+    var last = 0;
+    function loop(now) {
+      requestAnimationFrame(loop);
+      if (now - last < 33) { return; }
+      last = now;
+      frame();
+    }
+    requestAnimationFrame(loop);
+    var resizeTimer = null;
+    window.addEventListener("resize", function () {
+      if (resizeTimer) { clearTimeout(resizeTimer); }
+      resizeTimer = setTimeout(function () {
+        sizeCanvas();
+        if (reduce) { for (var k2 = 0; k2 < 28; k2++) { frame(); } }
+      }, 150);
+    });
   })();
 </script>
 </body>
