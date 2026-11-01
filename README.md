@@ -150,6 +150,12 @@
   <img src="assets/prompt-credentials.svg" alt="Education & Certifications" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/badge-wall.svg" alt="Credential badge wall: NSA Codebreaker Challenge, Finisher, Solo; FBI TEAM Program, Alumnus; SANS GIAC, GSEC Certified; SANS GIAC, GFACT Certified; GIAC Advisory Board; National Cyber Scholar with Honors; CyberStart America" width="100%">
+</p>
+
+<p align="center"><em>Every badge on this page can be checked.</em></p>
+
 - **GIAC Security Essentials (GSEC)** · **GIAC Foundational Cybersecurity Technologies (GFACT)**
 - **AP Scholar with Honors**
 - One of the only dual-award recipients (Business & Computer Science) in a graduating class of ~1,000
