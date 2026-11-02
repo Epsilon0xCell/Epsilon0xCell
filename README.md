@@ -15,16 +15,20 @@
 - **Role:** Gavin Blacklock, security engineer and researcher. Epsilon0xCell is the name on the account; the work is where offensive security, operating-system internals, and AI tooling meet.
 - **Fleet:** 757 repositories across my account and my organizations. At the center, a 584-project library, built under my direction and audited line by line.
 - **Succession proof:** [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession) indexes 2,867 commits under my name, across 32 repositories.
-- **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), with an invitation to join the GIAC Advisory Board.
+- **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), and invited member of the GIAC Advisory Board.
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. He attained the CyberStart America maximum score of 147,600 in three consecutive program years. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CVE Record:** Fourteen published advisories from my own fleet audit and thirty-one third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
+- **CVE Record:** Fourteen published advisories from my own fleet audit and thirty-two third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 - **CTF Writeups:** [NIGHTSALVO // CTF WRITEUPS](https://github.com/Epsilon0xCell/NIGHTSALVO-CTF-WRITEUPS): 11 solved challenges written up in full, ranked on a tier ladder that starts at INITIATE.
 
 ## CVE Record
 
-CVE IDs are in review; every entry links to its live advisory or submission record, and each entry gains its direct CVE record link the day an ID is assigned.
+CVE IDs are requested for these records and are in review; none has been assigned yet, so the credited count stands at zero and every entry below is a filed record, not a credited one. Every entry links to its live advisory or submission record, and each entry gains its direct CVE record link the day an ID is assigned.
+
+My method, in one line: I read a published security fix closely, then test whether the same flaw survives in a sibling surface the fix did not reach, and I file only when the surviving flaw reproduces against the current release with controls.
+
+For disclosure coordination or follow-up on any record below, reach me through this GitHub account or at epsilon0cell@proton.me.
 
 ### Published advisories, CVE requested
 
