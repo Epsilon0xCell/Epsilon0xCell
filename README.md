@@ -19,7 +19,7 @@
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CVE Record:** Fourteen published advisories from my own fleet audit and twenty-eight third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
+- **CVE Record:** Fourteen published advisories from my own fleet audit and twenty-nine third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 
 ## CVE Record
 
@@ -76,6 +76,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - [protobufjs](https://github.com/protobufjs/protobuf.js/security/advisories/GHSA-2qvh-fghc-g2q2): quadratic denial of service through fieldsById rebuilds during type construction, CVSS 5.3. Reported privately; in triage.
 - [PyJWT](https://github.com/jpadilla/pyjwt/security/advisories/GHSA-9g97-wv24-r8wg): a malformed oct JWK missing its key material aborts parsing of the whole key set, CVSS 5.9. Reported privately; in triage.
 - [Pillow](https://github.com/python-pillow/Pillow/security/advisories/GHSA-7qjr-cff2-jxr2): MSP RLE decoder clamp overshoots the packed row size eightfold, CVSS 5.3. Reported privately; in triage.
+- [parse5](https://github.com/inikulin/parse5/security/advisories/GHSA-4h9c-4xh7-4fhc): quadratic denial of service through deeply nested special elements, CVSS 7.5. Reported privately; in triage.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
