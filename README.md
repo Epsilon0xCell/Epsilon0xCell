@@ -12,7 +12,7 @@
   <strong>At a Glance</strong>
 </p>
 
-- **Role:** A security engineer and researcher, at work where offensive security, operating-system internals, and AI tooling meet.
+- **Role:** Gavin Blacklock, security engineer and researcher. Epsilon0xCell is the name on the account; the work is where offensive security, operating-system internals, and AI tooling meet.
 - **Fleet:** 757 repositories across my account and my organizations. At the center, a 584-project library, built under my direction and audited line by line.
 - **Succession proof:** [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession) indexes 2,867 commits under my name, across 32 repositories.
 - **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), with an invitation to join the GIAC Advisory Board.
@@ -110,7 +110,7 @@
   <img src="assets/prompt-about.svg" alt="About" width="100%">
 </p>
 
-- Since I was twelve, I have been asking how systems work. I never stopped asking.
+- I am Gavin Blacklock. Since I was twelve, I have been asking how systems work. I never stopped asking.
 - The last five years belong to three crafts: systems engineering, offensive tradecraft, and autonomous tools.
 - I build at the intersection of AI and systems security, and security comes first.
 - I work both sides of the discipline. **I build, and I break.**
