@@ -19,7 +19,7 @@
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CVE Record:** Fourteen published advisories from my own fleet audit and twenty-one third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
+- **CVE Record:** Fourteen published advisories from my own fleet audit and twenty-four third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 
 ## CVE Record
 
@@ -69,6 +69,9 @@ Findings in other people's projects, reported under my name through coordinated 
 - [Django](https://github.com/django/django): a crafted SQL connector settable after Q construction, past the CVE-2025-64459 validation, CVSS 5.9. Reported to the Django security team by email; in review.
 - [Apache Superset](https://github.com/apache/superset): chart update ties a chart to a dashboard the user can only read, CVSS 4.3. Reported to the Apache Superset security team by email, with the proof level stated in the report; in review.
 - [marked](https://github.com/markedjs/marked/security/advisories/GHSA-24hm-c94w-w7mv): denial of service through asterisk emphasis delimiter runs, CVSS 7.5. Reported privately; in triage. The first filing from the campaign's greenfield zero-day board.
+- [multer](https://github.com/expressjs/multer/security/advisories/GHSA-9q5m-vwxv-555g): denial of service through an oversized array index in field names, with the shipped fix limit left at its disabled default, CVSS 7.5. Reported privately; in triage.
+- [form-data](https://github.com/form-data/form-data/security/advisories/GHSA-q552-jg2p-mhxj): CRLF header injection through the contentType option, surviving in the release that fixed the sibling name and filename channels, CVSS 5.3. Reported privately; in triage.
+- [redis-py](https://github.com/redis/redis-py): pure Python RESP parsers accept negative lengths and fabricate empty responses, CVSS 6.5 per the filed vector (the packet stated 5.3, corrected at filing). Reported to [VulnCheck](https://www.vulncheck.com/advisories) for coordinated disclosure; in review. Submission ID: 1c52fb29-93bd-4ea2-a5af-332bc26e9333.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
