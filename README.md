@@ -380,8 +380,7 @@
 **Off the keyboard:**
 
 - I write, and THE COMMAND CHAIR is my book.
-- I DJ and produce electronic music; the production runs through AI prompting.
-- Piano and guitar, played for pleasure.
+- I specialize in DJing and AI Human Sounding Soul Music Production, with the human soul at the center.
 - I command classic sci-fi real-time strategy games.
 - I keep up martial arts, fitness, and long bike rides.
 - My listening and mixing range across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient.
