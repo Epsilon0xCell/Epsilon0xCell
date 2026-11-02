@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Epsilon0xCell" width="100%">
+  <img src="assets/banner.svg" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
 </p>
 
 <p align="center">
@@ -69,6 +69,8 @@
 </p>
 
 <h3 align="center"><a href="https://github.com/NightSalvo">NightSalvo</a>: <em>the flagship tool</em></h3>
+
+<p align="center"><em>Night falls. Threats end.</em></p>
 
 - The flagship engineering effort, developed in private and held to an audit-first standard.
 - Its original core architecture is an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger.
