@@ -19,7 +19,7 @@
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CVE Record:** Fourteen published advisories from my own fleet audit and twenty-four third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
+- **CVE Record:** Fourteen published advisories from my own fleet audit and twenty-six third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 
 ## CVE Record
 
@@ -72,6 +72,8 @@ Findings in other people's projects, reported under my name through coordinated 
 - [multer](https://github.com/expressjs/multer/security/advisories/GHSA-9q5m-vwxv-555g): denial of service through an oversized array index in field names, with the shipped fix limit left at its disabled default, CVSS 7.5. Reported privately; in triage.
 - [form-data](https://github.com/form-data/form-data/security/advisories/GHSA-q552-jg2p-mhxj): CRLF header injection through the contentType option, surviving in the release that fixed the sibling name and filename channels, CVSS 5.3. Reported privately; in triage.
 - [redis-py](https://github.com/redis/redis-py): pure Python RESP parsers accept negative lengths and fabricate empty responses, CVSS 6.5 per the filed vector (the packet stated 5.3, corrected at filing). Reported to [VulnCheck](https://www.vulncheck.com/advisories) for coordinated disclosure; in review. Submission ID: 1c52fb29-93bd-4ea2-a5af-332bc26e9333.
+- [validator](https://github.com/validatorjs/validator.js/security/advisories/GHSA-6hq5-8g5q-9j52): isURL backslash host confusion bypasses a host whitelist, CVSS 6.5. Reported privately; in triage.
+- [protobufjs](https://github.com/protobufjs/protobuf.js/security/advisories/GHSA-2qvh-fghc-g2q2): quadratic denial of service through fieldsById rebuilds during type construction, CVSS 5.3. Reported privately; in triage.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
