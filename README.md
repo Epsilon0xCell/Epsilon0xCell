@@ -17,6 +17,7 @@
 - **Succession proof:** [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession) indexes 2,867 commits under my name, across 32 repositories.
 - **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), with an invitation to join the GIAC Advisory Board.
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
+- **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
@@ -133,9 +134,9 @@
   - Held the **#1 rank on the institutional leaderboard**.
   - And a first: through direct outreach to the NSA, my high school became the first high school ever to participate in the program.
 - **CyberStart America (2022–2024)**
-  - **National Cyber Scholar with Honors, three consecutive years.**
+  - **National Cyber Scholar with Honors, three consecutive years.** The title goes to 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel.
   - In the top 1% of tens of thousands of participants.
-  - The **maximum possible points**, in every program year.
+  - The **maximum possible points, 147,600**, in every program year.
   - **$12,000 in scholarships** earned.
 - **GIAC Advisory Board**: An invitation to the guidance community reserved for top scorers on SANS/GIAC certification exams.
 - **FBI TEAM Program**: Chosen for the FBI's competitive Teen/Youth Engagement and Mentorship program, and mentored by Bureau personnel.
