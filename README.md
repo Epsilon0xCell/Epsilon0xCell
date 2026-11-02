@@ -4,7 +4,7 @@
 
 <p align="center">
   <strong>Cybersecurity Researcher & Developer</strong><br>
-  <em>Offensive Security · OS Internals · AI-Driven Tooling</em><br>
+  <em>Offensive Security · OS Internals · AI Tooling</em><br>
   <em>Penetration Testing · Bug Bounty · Zero-Day Research</em>
 </p>
 
@@ -12,12 +12,12 @@
   <strong>At a Glance</strong>
 </p>
 
-- **Role:** Security engineer & researcher working across offensive security, OS internals, and AI-driven tooling.
-- **Fleet:** 757 repositories across Epsilon0xCell and my organizations, including the 584-project ShadowGuard-AI library.
-- **Succession proof:** [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession) indexes 2,867 name-authored commits across 32 repositories.
-- **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT); invited to join the GIAC Advisory Board.
-- **Recognition:** NSA Codebreaker Challenge #72, competing solo; National Cyber Scholar with Honors for three consecutive years.
-- **Flagships:** ShadowStrike OS for platform work, NightSalvo for the flagship tool, Event_Zero for isolated AI analysis, and Eclipse Shield for a hardened Flask backend.
+- **Role:** A security engineer and researcher, at work where offensive security, operating-system internals, and AI tooling meet.
+- **Fleet:** 757 repositories across my account and my organizations. At the center, a 584-project library, built under my direction and audited line by line.
+- **Succession proof:** [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession) indexes 2,867 commits under my name, across 32 repositories.
+- **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), with an invitation to join the GIAC Advisory Board.
+- **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
+- **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
@@ -47,12 +47,12 @@
 
 ### [ShadowStrike OS](https://github.com/ShadowStrikeOS/ShadowStrike-OS): *the platform*
 
-- **Purpose:** A custom, security-focused Linux distribution engineered for penetration testing and security research.
-- **Role:** My primary development testbed for novel security tooling and system hardening.
-- **Status:** Now public under the [ShadowStrike](https://github.com/ShadowStrikeOS) organization.
-- **Architecture:** Hardened base with a tiling window workflow, an expanded containerized toolset, and ARM64 virtualization support.
-- **Key Features:** Role-based tooling menus, integrated WireGuard configurations, and a custom AI assistant for automating research tasks.
-- **Roadmap:** Post-quantum cryptography integration and adversarial AI threat modeling.
+- **Purpose:** A Linux distribution of my own design, made for penetration testing and security research, with security at its center.
+- **Role:** My principal testbed, where new security tooling is tried and systems are hardened.
+- **Status:** Public now, under the [ShadowStrike](https://github.com/ShadowStrikeOS) organization.
+- **Architecture:** A hardened base, a tiling window workflow, an expanded toolset in containers, and support for ARM64 virtualization.
+- **Key Features:** Role-based tooling menus, integrated WireGuard configurations, and a custom AI assistant built to automate research tasks.
+- **Roadmap:** Ahead: post-quantum cryptography integration, and adversarial AI threat modeling.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -72,10 +72,10 @@
 
 <p align="center"><em>Night falls. Threats end.</em></p>
 
-- The flagship engineering effort, developed in private and held to an audit-first standard.
-- Its original core architecture is an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger.
-- Designed so that every action the system takes is authorized, bounded, and provable after the fact.
-- Public artifacts and proof are released through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
+- The flagship engineering effort, developed in private, with patience, and held to an audit-first standard.
+- At its heart, an original architecture in three movements: an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger. Imagination, restraint, proof.
+- It was designed so that every action is authorized before it is taken, bounded while it runs, and provable after the fact.
+- What can be shown is shown: public artifacts and proof appear through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -94,7 +94,7 @@
 ### [Shatterpoint Security](https://github.com/ShatterpointSecurity): *the firm*
 
 - **Role:** Founder of **[Shatterpoint Security](https://github.com/ShatterpointSecurity)**.
-- **Practice:** A boutique offensive-security practice in formation.
+- **Practice:** An offensive-security practice in formation, deliberately boutique: small by design, exacting by habit.
 - **Services:** Penetration testing · red teaming · AI security testing.
 
 <p align="center">
@@ -109,11 +109,11 @@
   <img src="assets/prompt-about.svg" alt="About" width="100%">
 </p>
 
-- My fascination with technology began with a fundamental curiosity about how systems work, pursued since age 12.
-- For the last five years, focused on systems engineering, offensive security tradecraft, and autonomous tool development.
-- I build robust, security-first solutions at the intersection of AI and systems security.
-- I work both sides of the discipline: **I build and I break.**
-- That purple-shaded duality, mastering defense by understanding offense, is the methodology behind everything below.
+- Since I was twelve, I have been asking how systems work. I never stopped asking.
+- The last five years belong to three crafts: systems engineering, offensive tradecraft, and autonomous tools.
+- I build at the intersection of AI and systems security, and security comes first.
+- I work both sides of the discipline. **I build, and I break.**
+- The duality even has a color: purple. To defend well, first understand the offense. That is the method behind everything below.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -128,17 +128,17 @@
 </p>
 
 - **NSA Codebreaker Challenge (2023–2024)**
-  - Placed **#72 nationally, competing solo** against multi-person university teams (top 16% of 450+ institutions).
-  - Reached Level 7 within the first 10 days of the four-month competition.
+  - Seventy-second in the nation, **competing solo** against multi-person university teams: the top 16% of more than 450 institutions.
+  - Level 7 reached within the first 10 days of a four-month competition.
   - Held the **#1 rank on the institutional leaderboard**.
-  - Through direct outreach to the NSA, made my high school the first high school ever to participate in the program.
+  - And a first: through direct outreach to the NSA, my high school became the first high school ever to participate in the program.
 - **CyberStart America (2022–2024)**
   - **National Cyber Scholar with Honors, three consecutive years.**
-  - Top 1% of tens of thousands of participants.
-  - Achieved the **maximum possible points** in every program year.
+  - In the top 1% of tens of thousands of participants.
+  - The **maximum possible points**, in every program year.
   - **$12,000 in scholarships** earned.
-- **GIAC Advisory Board**: Invited to join the guidance community reserved for top scorers on SANS/GIAC certification exams.
-- **FBI TEAM Program**: Selected for the FBI's competitive Teen/Youth Engagement and Mentorship program, receiving mentorship from Bureau personnel.
+- **GIAC Advisory Board**: An invitation to the guidance community reserved for top scorers on SANS/GIAC certification exams.
+- **FBI TEAM Program**: Chosen for the FBI's competitive Teen/Youth Engagement and Mentorship program, and mentored by Bureau personnel.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -187,10 +187,10 @@
 
 ### [Event_Zero](https://github.com/Epsilon0xCell/Event_Zero)
 
-- **Design:** An experimental AI analysis environment built around strict isolation.
-- **Separation:** The host system is completely separated from the analysis environment.
-- **Containment:** The AI operates inside a non-persistent container.
-- **Access:** Restricted kernel access and no path to the underlying OS.
+- **Design:** An experimental AI analysis environment, composed around strict isolation.
+- **Separation:** The host system remains completely separate from the analysis environment.
+- **Containment:** The AI operates inside a container that does not persist.
+- **Access:** Kernel access is restricted. There is no path to the underlying OS.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -208,17 +208,17 @@
 
 ### [Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield): productivity analyzer with a hardened Flask backend
 
-- **Product:** A browser extension and Flask backend that judge whether a site fits your current mode: work, school, or personal.
-- **Decision rules:** Decisions run on local allow and block rules, with optional Gemini calls for sites no rule covers.
-- **Validation:** Ships with a security test suite that passes 30 of 30 against the live server, plus a 33-test pytest suite.
+- **Product:** A browser extension and Flask backend that quietly judge whether a site fits the mode of the moment: work, school, or personal.
+- **Decision rules:** Local allow and block rules decide first. Where no rule speaks, Gemini may be called.
+- **Validation:** A security test suite that passes 30 of 30 against the live server, beside a 33-test pytest suite.
 
-- **AI Task Analysis:** Gemini integration that asks contextual questions to understand goals and current focus
-- **Security coverage:** Full OWASP Top 10 (2021) coverage.
+- **AI Task Analysis:** A Gemini integration that asks after context: goals, and current focus.
+- **Security coverage:** The full OWASP Top 10 (2021).
 - **Security stack:** UFW → Fail2ban → Nginx → Gunicorn → Flask security middleware.
 - **Rate limiting:** Redis-backed rate limiting.
-- **Input validation:** Comprehensive input validation against XSS, SQLi, and prompt injection.
-- **Extension traffic:** CSRF tokens and request signing.
-- **Testing:** 50+ automated security tests.
+- **Input validation:** Careful validation against XSS, SQLi, and prompt injection.
+- **Extension traffic:** Guarded by CSRF tokens and request signing.
+- **Testing:** 50+ automated security tests, kept on the record.
 - **Test coverage:** Authentication bypass, injection, rate limiting, and XSS.
 
 <p align="center">
@@ -237,11 +237,11 @@
 
 ### [ShadowGuard AI](https://github.com/ShadowGuard-AI): *the library*
 
-- **Scale:** A 584-project library of security tools and experiments.
-- **Direction:** Built with AI assistance under my direction.
-- **Origin:** Originally published under the ShadowGuardAI organization.
-- **Current home:** Now being restored under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, repository by repository.
-- **Catalogue:** The full catalogue lives on the org's [repositories page](https://github.com/orgs/ShadowGuard-AI/repositories).
+- **Scale:** 584 projects: security tools and experiments, gathered into one library.
+- **Direction:** Built with AI assistance, under my direction, and audited line by line.
+- **Origin:** First published under the ShadowGuardAI organization.
+- **Current home:** Being restored under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, repository by repository, each in its place.
+- **Catalogue:** The full catalogue may be read on the org's [repositories page](https://github.com/orgs/ShadowGuard-AI/repositories).
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -256,7 +256,7 @@
 - [Spotify-To-YTMusic](https://github.com/Epsilon0xCell/Spotify-To-YTMusic)
 - [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV)
 - [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis)
-- The full body of work on the [archive profile](https://github.com/CY83R-3X71NC710N), now migrating here repo by repo.
+- The full body of work began on the [archive profile](https://github.com/CY83R-3X71NC710N); it is arriving here repo by repo.
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -270,7 +270,7 @@
   <img src="assets/prompt-rankings.svg" alt="Rankings" width="100%">
 </p>
 
-<p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>, every claim below links to its source.</em></p>
+<p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>; every claim below is linked to its source.</em></p>
 
 - **Star History: [Top Committer #8 of 2024](https://www.star-history.com/cy83r-3x71nc710n)** ([Wayback Machine archive](https://web.archive.org/web/20261030133321/https://www.star-history.com/cy83r-3x71nc710n/))
 - **Star History: [Top 1000 Committers 2026: #150, with 13,288 commits](https://www.star-history.com/cy83r-3x71nc710n)** ([Wayback Machine archive](https://web.archive.org/web/20261030133321/https://www.star-history.com/cy83r-3x71nc710n/))
@@ -317,19 +317,19 @@
 </p>
 
 - **[Spotify-To-YTMusic](https://github.com/linsomniac/spotify_to_ytmusic/pull/117)**
-  - Revived an unmaintained project.
+  - Brought back an unmaintained project.
   - Patched the core authentication error.
   - Added connection-stability features.
-  - Integrated four major community bug fixes.
-  - My fork became the community's de facto version during the original author's absence.
+  - Brought in four major community bug fixes.
+  - During the original author's absence, my fork became the community's de facto version.
 - **[swayfx](https://github.com/WillPower3309/swayfx/pull/406)**
-  - Patched a critical build failure in the Wayland compositor fork.
+  - Mended a critical build failure in the Wayland compositor fork.
   - Updated its Nix flake dependencies.
-  - Improved the development shell for all contributors.
+  - Improved the development shell for every contributor.
 - **[SillyTavern Extension](https://github.com/SillyTavern/Extension-Speech-Recognition/pull/19)**
   - Built a "heartbeat" mechanism.
   - Fixed a persistent Web Speech API bug.
-  - The bug was in a popular AI toolkit (16k+ stars).
+  - The bug lived in a popular AI toolkit (16k+ stars).
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -343,9 +343,9 @@
   <img src="assets/prompt-expertise.svg" alt="Key Expertise" width="100%">
 </p>
 
-- **Cybersecurity:** Offensive Security (Red Teaming), Penetration Testing, API Security, OSINT, Reverse Engineering (Ghidra), System Hardening, Digital Forensics
-- **Development:** Python (Advanced), C, Nix, Bash, Web Development, AI/ML Tooling (LLM Integration, API Automation), Git, CI/CD
-- **Systems & Infrastructure:** Linux / Windows / macOS Internals, Custom OS Development, Cloud Security, Virtualization (VMware, Parallels, QEMU, UTM), Docker, Networking (VPNs, OpSec)
+- **Cybersecurity:** Offensive security, with red teaming, penetration testing, API security, OSINT, reverse engineering in Ghidra, system hardening, and digital forensics
+- **Development:** Python, advanced; C, Nix, and Bash; web development; AI/ML tooling for LLM integration and API automation; Git and CI/CD
+- **Systems & Infrastructure:** The internals of Linux, Windows, and macOS; custom OS development; cloud security; virtualization across VMware, Parallels, QEMU, and UTM; Docker; and networking, with VPNs and OpSec
 
 <p align="center">
   <img src="assets/divider.svg" alt="" width="100%">
@@ -378,15 +378,15 @@
 
 **Off the keyboard:**
 
-- I write, and I am the author of THE COMMAND CHAIR.
-- I DJ and produce electronic music, with production via AI prompting.
-- I play piano and guitar just for fun.
+- I write, and THE COMMAND CHAIR is my book.
+- I DJ and produce electronic music; the production runs through AI prompting.
+- Piano and guitar, played for pleasure.
 - I command classic sci-fi real-time strategy games.
 - I keep up martial arts, fitness, and long bike rides.
-- In music I mix and listen across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient.
-- My signature blend layers electronic music and UK drill at the same time.
+- My listening and mixing range across dark techno, techno, UK drill, rap, R&B, grunge, pop, melancholic romantic dark academia, and melancholic ambient.
+- My signature blend sets electronic music and UK drill in the same moment.
 
-*All commits from this account are authored under my GitHub noreply identity, no personal email, ever.*
+*Commits from this account are authored under my GitHub noreply identity: no personal email, ever.*
 
 <p align="center">
   <img src="assets/logout.svg" alt="" width="100%">
