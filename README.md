@@ -19,7 +19,7 @@
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. He attained the CyberStart America maximum score of 147,600 in three consecutive program years. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CVE Record:** Fourteen published advisories from my own fleet audit and thirty-nine third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
+- **CVE Record:** Fourteen published advisories from my own fleet audit and forty-one third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 - **CTF Writeups:** [NIGHTSALVO // CTF WRITEUPS](https://github.com/Epsilon0xCell/NIGHTSALVO-CTF-WRITEUPS): 11 solved challenges written up in full, ranked on a tier ladder that starts at INITIATE.
 
 ## CVE Record
@@ -92,6 +92,8 @@ Findings in other people's projects, reported under my name through coordinated 
 - [FastMCP](https://github.com/PrefectHQ/fastmcp/security/advisories/GHSA-j9pc-m9cw-hm35): the synthesized Prefab renderer resource for an authorization hidden tool is listed and readable and discloses the tool CSP configuration, CVSS 4.3. Reported privately; in triage. Filed against 4.1.6 after fresh re-verification, the prepared 4.1.5 text corrected and disclosed in the report.
 - [pytest](https://github.com/pytest-dev/pytest/security/advisories/GHSA-gc9p-fxcv-8rvw): the cache provider writes through a planted symlink inside .pytest_cache, escaping the cache directory, CVSS 3.9. Reported privately; in triage.
 - [content-disposition](https://github.com/jshttp/content-disposition/security/advisories/GHSA-7vg8-6w5c-f7vp): RFC 2231 continuation segments are never reassembled, so this parser and compliant consumers read different filenames, CVSS 3.7. Reported privately; in triage.
+- [nanoid](https://github.com/ai/nanoid/security/advisories/GHSA-cc9f-9m87-3893): customRandom loops indefinitely for fractional and infinite sizes, CVSS 5.9. Reported privately; in triage.
+- [mysql2](https://github.com/sidorares/node-mysql2/security/advisories/GHSA-mccj-fxgw-vqw2): object-form string 'false' silently enables the cleartext password plugin, CVSS 5.9. Reported privately; in triage.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
