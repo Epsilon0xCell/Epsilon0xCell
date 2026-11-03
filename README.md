@@ -13,7 +13,7 @@
 </p>
 
 - **Role:** Gavin Blacklock, security engineer and researcher. Epsilon0xCell is the name on the account; the work is where offensive security, operating-system internals, and AI tooling meet.
-- **Fleet:** 757 repositories across my account and my organizations. At the center, a 584-project library, built under my direction and audited line by line.
+- **Fleet:** 763 repositories across my account and my organizations. At the center, a 584-project library, built under my direction and audited line by line.
 - **Succession proof:** [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession) indexes 2,867 commits under my name, across 32 repositories.
 - **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), and invited member of the GIAC Advisory Board.
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
@@ -24,7 +24,7 @@
 
 ## CVE Record
 
-Two CVE IDs have been assigned and published by the VulnCheck CNA: CVE-2026-120459 for python-jose, which credits me as a finder alongside Conner Webber, and CVE-2026-120492 for Chainlit. A third ID, CVE-2026-114360, is assigned to a webpack-dev-server advisory still in draft, where I am credited as a finder. The remaining entries are filed records in review, and the closed ones say so plainly. Every entry links to its live advisory or submission record, and each entry gains its direct CVE record link the day an ID is assigned.
+Two CVE IDs have been assigned and published by the VulnCheck CNA: CVE-2026-120459 for python-jose, which credits me as a finder alongside Conner Webber, and CVE-2026-120492 for Chainlit. A third ID, CVE-2026-114360, is assigned to a webpack-dev-server advisory still in draft, where I am credited as a reporter. The remaining entries are filed records in review, and the closed ones say so plainly. Every entry links to its live advisory or submission record, and each entry gains its direct CVE record link the day an ID is assigned.
 
 My method, in one line: I read a published security fix closely, then test whether the same flaw survives in a sibling surface the fix did not reach, and I file only when the surviving flaw reproduces against the current release with controls.
 
@@ -57,7 +57,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - [Authlib](https://github.com/authlib/authlib/security/advisories/GHSA-qh79-cpm4-66xr): public keys accepted as HMAC secrets, CVSS 7.4. Reported privately; in triage.
 - [joserfc](https://github.com/authlib/joserfc/security/advisories/GHSA-r829-87wg-5fvm): public keys accepted as HMAC secrets, CVSS 7.4. Reported privately; in triage.
 - [MLflow](https://github.com/mlflow/mlflow/security/advisories/GHSA-hq9f-8r34-rwfr): assessment_id path traversal, CVSS 7.0. Reported privately; in triage.
-- [CVE-2026-120459](https://www.cve.org/CVERecord?id=CVE-2026-120459): python-jose, empty HMAC keys accepted, CVSS 7.4. Reported to VulnCheck for coordinated disclosure and published by the VulnCheck CNA on 2026-11-02, crediting me as a finder alongside Conner Webber. Submission ID: 4fa6aca3-107c-4303-8431-94435d352047.
+- [CVE-2026-120459](https://www.cve.org/CVERecord?id=CVE-2026-120459): python-jose, empty HMAC keys accepted, CVSS 7.4. Reported to VulnCheck for coordinated disclosure and published by the VulnCheck CNA on 2026-11-02, crediting me as a finder alongside Conner Webber. Global advisory GHSA-7jv8-hwmh-86qc. Submission ID: 4fa6aca3-107c-4303-8431-94435d352047.
 - [fast-jwt](https://github.com/nearform/fast-jwt/security/advisories/GHSA-54w5-pr3p-mxx6): public keys accepted as HMAC secrets, CVSS 7.4. Reported privately; closed by the maintainers on 2026-11-02, who confirmed the behavior and documented it as a conscious design decision, so no advisory was published.
 - [happy-dom](https://github.com/capricorn86/happy-dom/security/advisories/GHSA-wc23-gwfm-xp98): server-side request forgery through a preload fetch, CVSS 7.5. Reported privately; in triage.
 - [LMDeploy](https://github.com/InternLM/lmdeploy/security/advisories/GHSA-6cpj-h37w-jc87): unauthenticated pickle deserialization, CVSS 9.8. Reported privately; in triage.
@@ -66,7 +66,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - [Home Assistant](https://github.com/home-assistant/core/security/advisories/GHSA-v2j4-8cr2-8cmc): symlink following backup restore, CVSS 7.5. Reported privately; in triage.
 - [LiteLLM](https://github.com/BerriAI/litellm/security/advisories/GHSA-x38x-j3hm-5gq5): Responses API id forgery, CVSS 7.1 per the filed vector (the packet stated 6.4). Reported privately; in triage.
 - [OAuthLib](https://github.com/oauthlib/oauthlib/security/advisories/GHSA-7pg3-fhv6-chf6): split client identity on revocation and introspection, CVSS 6.3. Reported privately; in triage.
-- [CVE-2026-120492](https://www.cve.org/CVERecord?id=CVE-2026-120492): Chainlit, MCP allowlist scope escape through a semicolon path segment, CVSS 6.5 per my filed vector (published at 5.4). Reported to VulnCheck for coordinated disclosure and published by the VulnCheck CNA on 2026-11-02 as an incomplete fix of CVE-2026-45019. Submission ID: be91a8cb-6b80-4c6b-a1b3-6f8c97a6076f.
+- [CVE-2026-120492](https://www.cve.org/CVERecord?id=CVE-2026-120492): Chainlit, MCP allowlist scope escape through a semicolon path segment, CVSS 6.5 per my filed vector (published at 5.4). Reported to VulnCheck for coordinated disclosure and published by the VulnCheck CNA on 2026-11-02 as an incomplete fix of CVE-2026-45019. Global advisory GHSA-xhx7-9vjr-p2h8. Submission ID: be91a8cb-6b80-4c6b-a1b3-6f8c97a6076f.
 - [fsspec](https://github.com/fsspec/filesystem_spec/security/advisories/GHSA-cwp7-cgc4-m57x): template evaluation through the simple-template branch an earlier fix missed, CVSS 7.4. Reported privately; in triage.
 - [gradio](https://github.com/gradio-app/gradio/security/advisories/GHSA-m2fv-grp4-vp4v): multipart field data with no size limit, CVSS 7.5. Reported privately; in triage.
 - [gunicorn](https://github.com/benoitc/gunicorn/security/advisories/GHSA-gx3p-p99v-cv34): ASGI chunk terminator never verified, CVSS 6.5 per the filed vector (the packet stated 5.4, corrected at filing). Reported privately; in triage.
@@ -84,7 +84,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - [Pillow](https://github.com/python-pillow/Pillow/security/advisories/GHSA-7qjr-cff2-jxr2): MSP RLE decoder clamp overshoots the packed row size eightfold, CVSS 5.3. Reported privately; in triage. The maintainer noted the referenced proof files were not attached, and I posted the full proof script and captured output into the advisory on 2026-11-02.
 - [parse5](https://github.com/inikulin/parse5/security/advisories/GHSA-4h9c-4xh7-4fhc): quadratic denial of service through deeply nested special elements, CVSS 7.5. Reported privately; in triage.
 - [vite](https://github.com/vitejs/vite/security/advisories/GHSA-ff9m-2v2v-33xp): a custom server.fs.deny entry silently discards the built-in sensitive-file blocklist, so .env files, private keys, .npmrc, and .git contents are served, CVSS 5.9. Reported privately; in triage.
-- [webpack-dev-server](https://github.com/webpack/webpack-dev-server/security/advisories/GHSA-qr8q-8r62-4mm8): the same-origin fallback behind the internal endpoint CSRF guard accepts any Origin when the Host is allow-listed, an incomplete patch inside the GHSA-f5vj-f2hx-8m93 fix, CVSS 4.2 per the filed vector (the packet stated 4.4, corrected at filing). Reported privately; closed on 2026-11-02 as a duplicate and merged into the canonical advisory GHSA-pmx6-3hc4-22qg, where I am credited as a finder. That advisory carries CVE-2026-114360 and is still in draft.
+- [webpack-dev-server](https://github.com/webpack/webpack-dev-server/security/advisories/GHSA-qr8q-8r62-4mm8): the same-origin fallback behind the internal endpoint CSRF guard accepts any Origin when the Host is allow-listed, an incomplete patch inside the GHSA-f5vj-f2hx-8m93 fix, CVSS 4.2 per the filed vector (the packet stated 4.4, corrected at filing). Reported privately; closed on 2026-11-02 as a duplicate and merged into the canonical advisory GHSA-pmx6-3hc4-22qg, where I am credited as a reporter. That advisory carries CVE-2026-114360 and is still in draft.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
