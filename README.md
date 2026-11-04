@@ -1,6 +1,10 @@
+<p align="center"><img src="intro-banner.png" alt="The command deck: one chair before a curved display, a fleet of repo lights at anchor beyond the glass" width="800"></p>
+
 <p align="center">
   <img src="assets/banner.svg" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
 </p>
+
+<p align="center"><img src="logo.png" alt="Epsilon0xCell logo: a hexagonal command badge in glowing cyan, a radar arc and an upward chevron inside, one gold accent at the crown" width="200"></p>
 
 <p align="center">
   <strong>Cybersecurity Researcher & Developer</strong><br>
@@ -21,6 +25,17 @@
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
 - **CVE Record:** Fourteen published advisories from my own fleet audit and forty-one third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 - **CTF Writeups:** [NIGHTSALVO // CTF WRITEUPS](https://github.com/Epsilon0xCell/NIGHTSALVO-CTF-WRITEUPS): 11 solved challenges written up in full, ranked on a tier ladder that starts at INITIATE.
+
+**The Neon Command Deck**
+_One chair, one curved display, and a fleet of seven hundred lights at anchor beyond the glass. This is the front door to all of it._
+
+![Banner: the command deck at full span, the holographic globe turning at the center of the fleet grid](banner.png)
+
+![Scene: the command deck radar sweep turning over the fleet grid](assets-scene.svg)
+
+![Major separator](sep-heavy.svg)
+
+![Minor separator](sep-light.svg)
 
 ## CVE Record
 

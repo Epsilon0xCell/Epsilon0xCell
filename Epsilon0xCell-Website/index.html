@@ -24,11 +24,11 @@
     first and the proof second, in that order, on purpose.
   */
   :root{
-    --ink:#000000; --ink2:#12060a; --paper:#ededed; --paper-dim:#a3a3ab;
-    --neon:#ff0033; --neon-hi:#ff3355; --rule:#2c2126; --link:#ff5c74;
+    --ink:#000000; --ink2:#0a0616; --paper:#ededed; --paper-dim:#a3a3ab;
+    --neon:#ff2bd6; --neon-hi:#22d3ee; --rule:#1c1030; --link:#67e8f9;
   }
   *{box-sizing:border-box}
-  ::selection{background:#ff0033; color:#ffffff}
+  ::selection{background:#ff2bd6; color:#ffffff}
   html{background:var(--ink)}
   body{margin:0; color:var(--paper);
     font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
@@ -430,7 +430,7 @@ larger.</p>
   <style>
   .elite .elite-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:1px solid #2A2A30;margin:20px 0;background:rgba(0,0,0,.45)}
   .elite .elite-cell{padding:14px;border-right:1px solid #2A2A30}.elite .elite-cell:last-child{border-right:none}
-  .elite .elite-n{font-size:26px;color:#FF8296}.elite .elite-l{font-size:11px;letter-spacing:1.5px;color:#B9B2A4;line-height:1.5}
+  .elite .elite-n{font-size:26px;color:#f9a8d4}.elite .elite-l{font-size:11px;letter-spacing:1.5px;color:#B9B2A4;line-height:1.5}
   .elite .elite-wall{display:flex;flex-wrap:wrap;gap:10px}
   .elite figure.elite-badge{margin:0;text-align:center;width:168px}
   .elite figure.elite-badge figcaption{font-size:11px;color:#B9B2A4;line-height:1.5;padding:0 6px}
@@ -546,7 +546,7 @@ larger.</p>
       ctx.font = FONT + "px ui-monospace, 'DejaVu Sans Mono', monospace";
       for (i = 0; i < drops.length; i++) {
         r = Math.random();
-        ctx.fillStyle = r < 0.10 ? "#FFC2CC" : (r < 0.45 ? "#FF8296" : "#FF3355");
+        ctx.fillStyle = r < 0.10 ? "#a5f3fc" : (r < 0.45 ? "#f9a8d4" : "#22d3ee");
         ctx.fillText(GLYPHS.charAt(Math.floor(Math.random() * GLYPHS.length)), i * FONT, drops[i] * FONT);
         drops[i] += 1;
         if (drops[i] * FONT > height && Math.random() > 0.976) { drops[i] = 0; }
