@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
 </p>
 
-<p align="center"><img src="logo.png" alt="The Crimson Command insignia: a red globe under a crown of spikes, ringed by the legend of the record" width="200"></p>
+<p align="center"><img src="logo-wide.png" alt="The Crimson Command insignia: a red globe under a crown of spikes, ringed by the legend of the record, centered on a star field that runs the full width of the page" width="100%"></p>
 
 <p align="center">
   <strong>Cybersecurity Researcher & Developer</strong><br>
