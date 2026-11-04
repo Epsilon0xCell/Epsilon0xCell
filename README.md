@@ -29,8 +29,6 @@
 **The Neon Command Deck**
 _One chair, one curved display, and a fleet of seven hundred lights at anchor beyond the glass. This is the front door to all of it._
 
-![Banner: the command deck at full span, the holographic globe turning at the center of the fleet grid](banner.png)
-
 ![Scene: the command deck radar sweep turning over the fleet grid](assets-scene.svg)
 
 ![Major separator](sep-heavy.svg)
@@ -54,6 +52,10 @@ Fourteen advisories from my own fleet audit, each found, fixed, and disclosed un
 - [GHSA-jpj2-7hpf-cj7w](https://github.com/ShadowGuard-AI/dm-structured-data-anonymizer/security/advisories/GHSA-jpj2-7hpf-cj7w): dm-structured-data-anonymizer: code injection through eval() of config transformation rules (CWE-95).
 - [GHSA-27ph-qx26-578x](https://github.com/ShadowGuard-AI/dm-data-conditional-masker/security/advisories/GHSA-27ph-qx26-578x): dm-data-conditional-masker: code injection through eval() of masking conditions (CWE-95).
 - [GHSA-wgp3-ch2c-77vr](https://github.com/ShadowGuard-AI/sao-logeventcorrelator/security/advisories/GHSA-wgp3-ch2c-77vr): sao-logeventcorrelator: command injection through an os.system command built from a config pattern name (CWE-78).
+
+<details>
+<summary>View all coordinated disclosures: 50 more entries (55 in total, first 5 shown above)</summary>
+
 - [GHSA-w4qr-hm9q-4wpr](https://github.com/ShadowGuard-AI/cvsa-dependency-checker/security/advisories/GHSA-w4qr-hm9q-4wpr): cvsa-dependency-checker: command injection through a shell=True command built from the project path (CWE-78).
 - [GHSA-7crg-qw6v-xgmh](https://github.com/ShadowGuard-AI/cba-immutable-infrastructure-verifier/security/advisories/GHSA-7crg-qw6v-xgmh): cba-immutable-infrastructure-verifier: command injection through a definition-file service name (CWE-78).
 - [GHSA-5589-fcgv-3r86](https://github.com/ShadowGuard-AI/spc-policyenforcergenerator/security/advisories/GHSA-5589-fcgv-3r86): spc-policyenforcergenerator: policy values escape into the Python and bash enforcement scripts the tool generates (CWE-94).
@@ -122,6 +124,8 @@ Findings in other people's projects, reported under my name through coordinated 
 - [unzipper](https://github.com/ZJONSSON/node-unzipper/security/advisories/GHSA-rc9h-q8pq-xcpx): Extract has no error route for ensureDir failures, so collisions and long names escape as unhandled rejections, CVSS 5.3. Reported privately; in triage.
 - [sax](https://github.com/isaacs/sax-js/security/advisories/GHSA-xc8w-cpgp-8hpq): strict mode accepts duplicate attributes, two roots, and ]]> in content, CVSS 3.7. Reported privately; in triage.
 
+</details>
+
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
 > **One builder, two accounts.** The old account is retired and cannot post, so it cannot vouch for this one, and copied code alone would prove nothing anyway: everything it published is public, and anyone can copy public work. Two things cannot be copied into existence. The lineage: the project histories continue here without a break, including Event_Zero, Eclipse-Shield, and the ShadowGuard library now restoring under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, the same commits carried forward and re-signed under this account. And the name: the old account's history carries my full legal name, the name listed on my LinkedIn, as the author of [2,867 of its commits](https://github.com/CY83R-3X71NC710N) across 32 repositories, written between January and May 2023, before my git identity switched to my handle, and years before this account existed. Every one of those commits is indexed in [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession), together with the Terms of Service basis for the succession. The rest of the record matches as well, offered as consistency rather than proof: the starred library matches the old account exactly, 168 of 168 repositories, and its following network is being rebuilt name by name, ending with the old account itself. If the old account still shows fresh commits, that is its CI/CD: GitHub Actions workflows I built years ago, including a weather dashboard updater and a quote scraper, still run on schedule and commit on their own, with no human working from that account since September 2026.
@@ -150,6 +154,8 @@ Findings in other people's projects, reported under my name through coordinated 
 
 ### [ShadowStrike OS](https://github.com/ShadowStrikeOS/ShadowStrike-OS): *the platform*
 
+![Platform](https://img.shields.io/badge/Platform-Linux-blue?style=flat-square) ![Status](https://img.shields.io/badge/Status-Public-green?style=flat-square)
+
 - **Purpose:** A Linux distribution of my own design, made for penetration testing and security research, with security at its center.
 - **Role:** My principal testbed, where new security tooling is tried and systems are hardened.
 - **Status:** Public now, under the [ShadowStrike](https://github.com/ShadowStrikeOS) organization.
@@ -173,6 +179,8 @@ Findings in other people's projects, reported under my name through coordinated 
 
 <h3 align="center"><a href="https://github.com/NightSalvo">NightSalvo</a>: <em>the flagship tool</em></h3>
 
+<p align="center"><img src="https://img.shields.io/badge/Status-Private%20development-lightgrey?style=flat-square" alt="Status: Private development"></p>
+
 <p align="center"><em>Night falls. Threats end.</em></p>
 
 - The flagship engineering effort, developed in private, with patience, and held to an audit-first standard.
@@ -195,6 +203,8 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 ### [Shatterpoint Security](https://github.com/ShatterpointSecurity): *the firm*
+
+![Status](https://img.shields.io/badge/Status-In%20formation-orange?style=flat-square)
 
 - **Role:** Founder of **[Shatterpoint Security](https://github.com/ShatterpointSecurity)**.
 - **Practice:** An offensive-security practice in formation, deliberately boutique: small by design, exacting by habit.
@@ -290,6 +300,8 @@ Findings in other people's projects, reported under my name through coordinated 
 
 ### [Event_Zero](https://github.com/Epsilon0xCell/Event_Zero)
 
+![Status](https://img.shields.io/badge/Status-Experimental-orange?style=flat-square)
+
 - **Design:** An experimental AI analysis environment, composed around strict isolation.
 - **Separation:** The host system remains completely separate from the analysis environment.
 - **Containment:** The AI operates inside a container that does not persist.
@@ -310,6 +322,8 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 ### [Eclipse Shield](https://github.com/Epsilon0xCell/Eclipse-Shield): productivity analyzer with a hardened Flask backend
+
+![Stack](https://img.shields.io/badge/Stack-Flask-blue?style=flat-square) ![AI](https://img.shields.io/badge/AI-Gemini-blue?style=flat-square) ![Security](https://img.shields.io/badge/Security-OWASP%20Top%2010%20(2021)-red?style=flat-square)
 
 - **Product:** A browser extension and Flask backend that quietly judge whether a site fits the mode of the moment: work, school, or personal.
 - **Decision rules:** Local allow and block rules decide first. Where no rule speaks, Gemini may be called.
