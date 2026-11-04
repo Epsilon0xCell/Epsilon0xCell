@@ -23,7 +23,7 @@
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. He attained the CyberStart America maximum score of 147,600 in three consecutive program years. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
 - **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CVE Record:** Fourteen published advisories from my own fleet audit and forty-eight third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
+- **CVE Record:** Fourteen published advisories from my own fleet audit and fifty-three third-party coordinated disclosures, every one linked to its live record. Full record: see CVE Record below.
 - **CTF Writeups:** [NIGHTSALVO // CTF WRITEUPS](https://github.com/Epsilon0xCell/NIGHTSALVO-CTF-WRITEUPS): 11 solved challenges written up in full, ranked on a tier ladder that starts at INITIATE.
 
 **The Neon Command Deck**
@@ -116,6 +116,11 @@ Findings in other people's projects, reported under my name through coordinated 
 - [litestar](https://github.com/litestar-org/litestar/security/advisories/GHSA-3rhv-523m-9gwr): AllowedHosts www redirect pattern is built without re.escape, so lookalike hosts receive redirects, CVSS 4.3. Reported privately; in triage.
 - [websocket-client](https://github.com/websocket-client/websocket-client/security/advisories/GHSA-wrv8-wcqp-xhww): leading dot no_proxy entries match suffix lookalike hosts, sending traffic around the intended proxy, CVSS 3.7. Reported privately; in triage.
 - [streamlit](https://github.com/streamlit/streamlit/security/advisories/GHSA-8qc9-p6h2-888w): cache_data hashing of PIL images omits mode and size, so distinct images with equal flat bytes collide, CVSS 3.6. Reported privately; in triage.
+- [picomatch](https://github.com/micromatch/picomatch/security/advisories/GHSA-8hcr-8c58-v9pw): extglob ReDoS guard analyzes only plus and star spellings, so at and brace spellings stay unguarded, CVSS 5.3. Reported privately; in triage.
+- [graphql](https://github.com/graphql/graphql-js/security/advisories/GHSA-qmvg-hxgh-p69p): fragment chain validation recurses one stack frame per link and throws RangeError on a 4,000 chain, CVSS 5.3. Reported privately; in triage.
+- [unzipper](https://github.com/ZJONSSON/node-unzipper/security/advisories/GHSA-h59r-mc52-7pf5): Open API feeds the unchecked zip64 entry count into an array mapping, so a small archive exhausts the heap, CVSS 5.3. Reported privately; in triage.
+- [unzipper](https://github.com/ZJONSSON/node-unzipper/security/advisories/GHSA-rc9h-q8pq-xcpx): Extract has no error route for ensureDir failures, so collisions and long names escape as unhandled rejections, CVSS 5.3. Reported privately; in triage.
+- [sax](https://github.com/isaacs/sax-js/security/advisories/GHSA-xc8w-cpgp-8hpq): strict mode accepts duplicate attributes, two roots, and ]]> in content, CVSS 3.7. Reported privately; in triage.
 
 > **Successor account.** This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N), an account I opened in April 2022 at fifteen years old and built over four years into 163 repositories and a nationally ranked open-source record. I stopped working from it in September 2026 and consolidated everything here, with full histories migrated and re-signed under this account's identity. The original stands untouched as the archive of record, and everything new ships from here.
 
