@@ -54,7 +54,7 @@ Fourteen advisories from my own fleet audit, each found, fixed, and disclosed un
 - [GHSA-wgp3-ch2c-77vr](https://github.com/ShadowGuard-AI/sao-logeventcorrelator/security/advisories/GHSA-wgp3-ch2c-77vr): sao-logeventcorrelator: command injection through an os.system command built from a config pattern name (CWE-78).
 
 <details>
-<summary>View all coordinated disclosures: 50 more entries (55 in total, first 5 shown above)</summary>
+<summary>View all coordinated disclosures: 62 more entries (67 in total, first 5 shown above)</summary>
 
 - [GHSA-w4qr-hm9q-4wpr](https://github.com/ShadowGuard-AI/cvsa-dependency-checker/security/advisories/GHSA-w4qr-hm9q-4wpr): cvsa-dependency-checker: command injection through a shell=True command built from the project path (CWE-78).
 - [GHSA-7crg-qw6v-xgmh](https://github.com/ShadowGuard-AI/cba-immutable-infrastructure-verifier/security/advisories/GHSA-7crg-qw6v-xgmh): cba-immutable-infrastructure-verifier: command injection through a definition-file service name (CWE-78).
