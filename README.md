@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
+  <img src="assets/banner.gif" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
 </p>
 
 <p align="center"><img src="logo-wide.png" alt="The Crimson Command insignia: a red globe under a crown of spikes, ringed by the legend of the record, centered on a star field that runs the full width of the page" width="100%"></p>
@@ -124,7 +124,7 @@ Findings in other people's projects, reported under my name through coordinated 
 > **One builder, two accounts.** The old account is retired and cannot post, so it cannot vouch for this one, and copied code alone would prove nothing anyway: everything it published is public, and anyone can copy public work. Two things cannot be copied into existence. The lineage: the project histories continue here without a break, including Event_Zero, Eclipse-Shield, and the ShadowGuard library now restoring under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, the same commits carried forward and re-signed under this account. And the name: the old account's history carries my full legal name, the name listed on my LinkedIn, as the author of [2,867 of its commits](https://github.com/CY83R-3X71NC710N) across 32 repositories, written between January and May 2023, before my git identity switched to my handle, and years before this account existed. Every one of those commits is indexed in [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession), together with the Terms of Service basis for the succession. The rest of the record matches as well, offered as consistency rather than proof: the starred library matches the old account exactly, 168 of 168 repositories, and its following network is being rebuilt name by name, ending with the old account itself. If the old account still shows fresh commits, that is its CI/CD: GitHub Actions workflows I built years ago, including a weather dashboard updater and a quote scraper, still run on schedule and commit on their own, with no human working from that account since September 2026.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -132,11 +132,11 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-flagships.svg" alt="Flagships" width="100%">
+  <img src="assets/prompt-flagships.gif" alt="Flagships" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -157,7 +157,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **Roadmap:** Ahead: post-quantum cryptography integration, and adversarial AI threat modeling.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -182,7 +182,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - What can be shown is shown: public artifacts and proof appear through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -204,7 +204,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **Services:** Penetration testing · red teaming · AI security testing.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -212,7 +212,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-about.svg" alt="About" width="100%">
+  <img src="assets/prompt-about.gif" alt="About" width="100%">
 </p>
 
 - I am Gavin Blacklock. Since I was twelve, I have been asking how systems work. I never stopped asking.
@@ -222,7 +222,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - The duality even has a color: purple. To defend well, first understand the offense. That is the method behind everything below.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -230,7 +230,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-achievements.svg" alt="Key Achievements & Recognition" width="100%">
+  <img src="assets/prompt-achievements.gif" alt="Key Achievements & Recognition" width="100%">
 </p>
 
 - **NSA Codebreaker Challenge (2023–2024)**
@@ -247,7 +247,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **FBI TEAM Program**: Chosen for the FBI's competitive Teen/Youth Engagement and Mentorship program, and mentored by Bureau personnel.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -255,7 +255,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-credentials.svg" alt="Education & Certifications" width="100%">
+  <img src="assets/prompt-credentials.gif" alt="Education & Certifications" width="100%">
 </p>
 
 <p align="center">
@@ -270,7 +270,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - Verified Member of the GitHub Developer Program
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -278,11 +278,11 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-featured-projects.svg" alt="Featured Projects" width="100%">
+  <img src="assets/prompt-featured-projects.gif" alt="Featured Projects" width="100%">
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -301,7 +301,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **Access:** Kernel access is restricted. There is no path to the underlying OS.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -332,7 +332,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **Test coverage:** Authentication bypass, injection, rate limiting, and XSS.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -354,7 +354,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **Catalogue:** The full catalogue may be read on the org's [repositories page](https://github.com/orgs/ShadowGuard-AI/repositories).
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -369,7 +369,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - The full body of work began on the [archive profile](https://github.com/CY83R-3X71NC710N); it is arriving here repo by repo.
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -377,7 +377,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-rankings.svg" alt="Rankings" width="100%">
+  <img src="assets/prompt-rankings.gif" alt="Rankings" width="100%">
 </p>
 
 <p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>; every claim below is linked to its source.</em></p>
@@ -395,7 +395,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -403,7 +403,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-trophy-wall.svg" alt="Trophy Wall" width="100%">
+  <img src="assets/prompt-trophy-wall.gif" alt="Trophy Wall" width="100%">
 </p>
 
 <p align="center">
@@ -415,7 +415,7 @@ Findings in other people's projects, reported under my name through coordinated 
 <p align="center"><em>S Rank Hacker · God Committer · God PR User · Ultra Celebrity · Super Repo Creator · Super Star, earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>; the wall links to that profile.</em></p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -423,7 +423,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-open-source.svg" alt="Open Source Contributions" width="100%">
+  <img src="assets/prompt-open-source.gif" alt="Open Source Contributions" width="100%">
 </p>
 
 - **[Spotify-To-YTMusic](https://github.com/linsomniac/spotify_to_ytmusic/pull/117)**
@@ -442,7 +442,7 @@ Findings in other people's projects, reported under my name through coordinated 
   - The bug lived in a popular AI toolkit (16k+ stars).
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -450,7 +450,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-expertise.svg" alt="Key Expertise" width="100%">
+  <img src="assets/prompt-expertise.gif" alt="Key Expertise" width="100%">
 </p>
 
 - **Cybersecurity:** Offensive security, with red teaming, penetration testing, API security, OSINT, reverse engineering in Ghidra, system hardening, and digital forensics
@@ -458,7 +458,7 @@ Findings in other people's projects, reported under my name through coordinated 
 - **Systems & Infrastructure:** The internals of Linux, Windows, and macOS; custom OS development; cloud security; virtualization across VMware, Parallels, QEMU, and UTM; Docker; and networking, with VPNs and OpSec
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -466,7 +466,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-stats.svg" alt="GitHub Stats" width="100%">
+  <img src="assets/prompt-stats.gif" alt="GitHub Stats" width="100%">
 </p>
 
 <p align="center">
@@ -475,7 +475,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/divider.svg" alt="" width="100%">
+  <img src="assets/divider.gif" alt="" width="100%">
 </p>
 
 <p align="center">
@@ -483,7 +483,7 @@ Findings in other people's projects, reported under my name through coordinated 
 </p>
 
 <p align="center">
-  <img src="assets/prompt-off-the-keyboard.svg" alt="Off the keyboard" width="100%">
+  <img src="assets/prompt-off-the-keyboard.gif" alt="Off the keyboard" width="100%">
 </p>
 
 **Off the keyboard:**
