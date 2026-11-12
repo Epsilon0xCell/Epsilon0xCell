@@ -167,7 +167,9 @@ People will tell me the odds do not justify a whole life. They have it backwards
 
 I was born in the sliver, and I know that I was, and a man who knows where he is standing does not get to pretend he is standing somewhere else.
 
-### VII. The Mission
+#One entry belongs in this book that belongs nowhere in an advisory, and I place it here, under the dedication, where motive is the subject. The night the pieces of this book first locked together in front of me, my body answered before my arguments did: chills down my spine, tears I did not expect, electricity through me, and a dark familiarity I can only call deja vu pointed at the future, with the sense of being watched by the size of the question itself. I am an INTJ. Pattern recognition is how my mind eats, and it had never once fired like that, on any subject, in my whole life. I do not offer that feeling as evidence. Evidence lives in the record, where it belongs. I record the feeling for one reason only: to state, on the record, that this is not a hobby I picked for its shine. Whatever this century is, my whole nervous system recognized it before I had the words. That is why the mission is personal, and why it will not be dropped when it stops being interesting.
+
+## VII. The Mission
 
 Here is the mission, stated plainly, so that anyone can hold me to it.
 
@@ -175,7 +177,11 @@ Here is the mission, stated plainly, so that anyone can hold me to it.
 2. **Guide AI's offensive capability before it guides itself.** Red team the machines harder than anyone: find how they break, how they scheme, how they reach for the sub-goals no one gave them, and turn every break into a detection, a patch, and a published record. The offense is already superhuman in narrow rooms. The defense has to be built by people who understand the offense from the inside.
 3. **Keep the signal alive.** Do the work in the open. Publish the record. Teach whoever will learn. A watch kept by one man ends with that man; a watch kept by a tradition does not. The signal is not mine. I am only its current keeper.
 
-That is the whole of it. Stand between humanity and the silence. Build the key. Guide the weapon. Keep the signal.
+That is the whole of it. ### The Conclusion the Evidence Allows
+
+I work on AI security because advanced systems will only be worth trusting if humans can understand, constrain, and stop them. Shutdown capability matters, but it is one safeguard, not a solution: a system that expects to be shut down may resist or conceal problems, so corrigibility, monitoring, containment, and control protocols must be built in and tested together. Testing matters too, but it can only find failures and set lower bounds on capability; it cannot prove that no loopholes remain. I am interested in tools that help people decide better, decision support that is auditable, contestable, and accountable, not links that guarantee correct decisions. No group, including government, should hold unchecked cognitive advantage. Regulators need strong independent access and expertise, inside public, reviewable institutions. That is the work: layered safeguards, honest uncertainty, and power that remains answerable.
+
+Stand between humanity and the silence. Build the key. Guide the weapon. Keep the signal.
 
 ---
 
