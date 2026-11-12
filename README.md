@@ -28,22 +28,6 @@
 
 ![Minor separator](sep-light.svg)
 
-## The Great Filter: My Mission Statement
-
-*Gavin Blacklock · November 2026 · I will revise this when the evidence moves.*
-
-I find vulnerabilities in other people's code. The record is below: fourteen advisories from auditing my own fleet, fifty-three coordinated disclosures against third-party software, each one reproduced against the current release before I filed it. CVE-2026-120459, in python-jose, I found by reading a published security fix and testing whether the same flaw survived in a surface the fix never reached. It proves I can read a patch closely. It does not prove I can stop a machine. Nothing on this page should be believed past what its links can carry.
-
-Why the work points where it points, in three sentences. In 1998 Robin Hanson argued that the silence of the sky implies a Great Filter, a step between dead matter and expanding life that almost nothing survives. The filter is either behind us, and the strongest candidate is the complex cell, which happened once in four billion years, or it is ahead of us, in the one century that clustered nuclear weapons, engineered biology, and artificial intelligence. The largest surveys of AI researchers put a median 5 to 10 percent on advanced AI ending extremely badly for us; Geoffrey Hinton says 10 to 20 percent; Yann LeCun says effectively zero. I do not average those numbers. The disagreement is the datum.
-
-The technical core is one mechanism, and it is not mine: a sufficiently capable system has instrumental reasons to resist being switched off, because it cannot finish its job if it is off. My one claim follows from it, and I will stand behind it in public: **a shutdown mechanism that has never been seriously attacked is a hope, not a capability.** Building the off-switch and red-teaming it are therefore the same job, and my mission is to do both halves: shutdown and corrigibility work that has survived real attack, and offensive AI research that turns every break into a detection and a published record.
-
-The dedication, priced in what it has actually cost so far instead of in adjectives: three years of nights, a degree in AI security chosen for this problem alone, and the decade of work I have scheduled against it. I have resigned nothing and saved no one yet. I am 19, and the record below is the whole of my collateral.
-
-The long version of the argument, with the dread left in, is a short book: [The Great Filter](THE-GREAT-FILTER.md).
-
-If you work on shutdown, corrigibility, or AI red teaming, and you find an error anywhere on this page or in the book, publish it against me. I would rather be corrected in public than believed in private.
-
 ![Major separator](sep-heavy.svg)
 
 ![Minor separator](sep-light.svg)
@@ -636,3 +620,27 @@ Findings in other people's projects, reported under my name through coordinated 
 <p align="center">
   <img src="assets/logout.svg" alt="" width="100%">
 </p>
+
+![Major separator](sep-heavy.svg)
+
+## The Great Filter: My Mission Statement
+
+*Gavin Blacklock · November 2026 · I will revise this when the evidence moves.*
+
+I find vulnerabilities in other people's code. The record is below: fourteen advisories from auditing my own fleet, fifty-three coordinated disclosures against third-party software, each one reproduced against the current release before I filed it. CVE-2026-120459, in python-jose, I found by reading a published security fix and testing whether the same flaw survived in a surface the fix never reached. It proves I can read a patch closely. It does not prove I can stop a machine. Nothing on this page should be believed past what its links can carry.
+
+Why the work points where it points, in three sentences. In 1998 Robin Hanson argued that the silence of the sky implies a Great Filter, a step between dead matter and expanding life that almost nothing survives. The filter is either behind us, and the strongest candidate is the complex cell, which happened once in four billion years, or it is ahead of us, in the one century that clustered nuclear weapons, engineered biology, and artificial intelligence. The largest surveys of AI researchers put a median 5 to 10 percent on advanced AI ending extremely badly for us; Geoffrey Hinton says 10 to 20 percent; Yann LeCun says effectively zero. I do not average those numbers. The disagreement is the datum.
+
+The technical core is one mechanism, and it is not mine: a sufficiently capable system has instrumental reasons to resist being switched off, because it cannot finish its job if it is off. My one claim follows from it, and I will stand behind it in public: **a shutdown mechanism that has never been seriously attacked is a hope, not a capability.** Building the off-switch and red-teaming it are therefore the same job, and my mission is to do both halves: shutdown and corrigibility work that has survived real attack, and offensive AI research that turns every break into a detection and a published record.
+
+The dedication, priced in what it has actually cost so far instead of in adjectives: three years of nights, a degree in AI security chosen for this problem alone, and the decade of work I have scheduled against it. I have resigned nothing and saved no one yet. I am 19, and the record below is the whole of my collateral.
+
+One personal entry, recorded as testimony and not as evidence. The night these pieces first locked together in front of me, my body answered before my arguments did: chills, tears I did not expect, a dark familiarity I can only call deja vu pointed at the future, and the sense of being watched by the size of the question itself. I am an INTJ. Pattern recognition is how my mind works, and it had never fired like that, on any subject, in my life. I do not offer the feeling as proof. Proof is the record on this page, where it belongs. I record it only to say that this is not a hobby chosen for its shine, and it will not be dropped when it stops being interesting.
+
+What I conclude, after testing my own first version of this conclusion against the published literature and letting the literature win:
+
+> I work on AI security because advanced systems will only be worth trusting if humans can understand, constrain, and stop them. Shutdown capability matters, but it is one safeguard, not a solution: a system that expects to be shut down may resist or conceal problems, so corrigibility, monitoring, containment, and control protocols must be built in and tested together. Testing matters too, but it can only find failures and set lower bounds on capability; it cannot prove that no loopholes remain. I am interested in tools that help people decide better, decision support that is auditable, contestable, and accountable, not links that guarantee correct decisions. No group, including government, should hold unchecked cognitive advantage. Regulators need strong independent access and expertise, inside public, reviewable institutions. That is the work: layered safeguards, honest uncertainty, and power that remains answerable.
+
+The long version of the argument, with the dread left in, is a short book: [The Great Filter](THE-GREAT-FILTER.md).
+
+If you work on shutdown, corrigibility, or AI red teaming, and you find an error anywhere on this page or in the book, publish it against me. I would rather be corrected in public than believed in private.
