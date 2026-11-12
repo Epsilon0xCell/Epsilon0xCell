@@ -644,3 +644,5 @@ What I conclude, after testing my own first version of this conclusion against t
 The long version of the argument, with the dread left in, is a short book: [The Great Filter](THE-GREAT-FILTER.md).
 
 If you work on shutdown, corrigibility, or AI red teaming, and you find an error anywhere on this page or in the book, publish it against me. I would rather be corrected in public than believed in private.
+
+My life's work is the alignment process itself: the whole layered effort to keep advanced AI from ever becoming dangerous in the first place, not merely to react once it has. My specialty inside that process is its hardest edge, offensive testing, shutdown capability, and the study of how control fails, but the mission is the process entire, pursued for as long as it takes.
