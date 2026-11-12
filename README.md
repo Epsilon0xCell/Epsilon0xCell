@@ -50,7 +50,7 @@ Single cells, drifting in dark water, for billions of years.
 
 Then, in the last sliver of that time, something opened its eyes.
 
-And almost immediately after opening them, it built a nuclear capability.
+And almost immediately after opening them, it reached nuclear capability.
 
 Then it built a plague in a lab.
 
