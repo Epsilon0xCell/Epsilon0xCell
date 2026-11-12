@@ -28,6 +28,134 @@
 
 ![Minor separator](sep-light.svg)
 
+## The Great Filter: My Mission Statement
+
+*By Gavin Blacklock*
+
+This is what I seek to prevent, and why I do the work I do. My mission is to build the strongest kill switches ever made for artificial intelligence, ready if it ever gets out of hand, and to guide AI through offensive capability so that humanity stays ahead of its own creation. This is the frontier of my life's work. What follows is the question that put me on it.
+
+---
+
+I keep coming back to a question that will not leave me alone.
+
+And the longer I sit with it, the less I like it.
+
+---
+
+The Earth is 4.5 billion years old.
+
+For almost all of that time, there was nothing here that could ask a question. Nothing that could look up. Nothing that could wonder.
+
+Single cells, drifting in dark water, for billions of years.
+
+Then, in the last sliver of that time, something opened its eyes.
+
+And almost immediately after opening them, it built a bomb.
+
+Then it built a plague in a lab.
+
+And now it is building a mind greater than its own.
+
+I was born in that sliver.
+
+---
+
+There is a concept called the Great Filter.
+
+The universe is old enough and vast enough that it should be crowded. A hundred billion galaxies. More worlds than anyone can count. Civilizations should have had time to rise, and spread, and fill the sky with evidence of themselves.
+
+Instead there is silence.
+
+Total silence.
+
+So somewhere between dead rock and the stars, there is a step that almost nothing survives. A gate. A wall. A place where every road ends.
+
+The only question is where it stands.
+
+---
+
+If the Filter is behind us, we are the miracle.
+
+Maybe the impossible thing already happened: life sparking from nothing, cells learning to be complex, dead matter waking up and learning to speak. Maybe we slipped through a needle's eye that almost nothing in existence ever slips through, and the silence above us is not a warning at all.
+
+It is just the sound of being rare.
+
+---
+
+But if the Filter is ahead of us, it is standing exactly where I am standing.
+
+Look at the timing. Look at how it clusters.
+
+- Nuclear weapons: 1945.
+- Engineered disease: now.
+- A machine that outthinks its makers: within my working life, on the experts' own forecasts.
+
+Every tool that can end a civilization arrives inside the same hundred years, the first hundred years in which a species can kill itself completely, all at once, by its own hand.
+
+If that is the Filter, then the sky is not empty.
+
+The sky is a graveyard.
+
+It is full of species who reached this exact season, felt this exact quickening, watched the tools arrive faster and faster, and asked themselves what I am asking now.
+
+And then the signal stopped.
+
+Every single time, the signal stopped.
+
+---
+
+And then there is the part I cannot leave alone.
+
+Why me. Why now.
+
+Some of it is cold logic. I could only be born in a generation that still exists to ask. In the worlds where the gate already closed, there is no one left to wonder about it. The question chooses its own asker, and it always chooses someone standing right at the edge.
+
+But there is a darker piece of arithmetic, and serious minds have circled it for decades without breaking it.
+
+If the future held trillions of human lives, the odds of me being among the first hundred billion humans ever born would be almost zero. A single ticket drawn first from a hat of trillions.
+
+I drew it anyway.
+
+So either my place in line means nothing at all.
+
+Or the line is much shorter than we assume.
+
+---
+
+Two readings of my own birth, and I cannot kill either one.
+
+In the first, I am one of the luckiest creatures who will ever live. Born in the last generation that had to die, and the first that might not. Front row. Hinge of the species. The greatest event in the history of the world arriving while I am young enough to see it.
+
+In the second reading, this feeling I have, this sense that the moment is too large and arriving too fast, is not a coincidence at all.
+
+It is the standard experience of the last generations.
+
+Every one of them felt it. Every one of them thought they were living at the turning point. Every one of them was right.
+
+And then the silence took them too.
+
+---
+
+I cannot settle it from where I sit.
+
+No one can. That is what makes it a filter. It does not announce itself. Species do not get a warning label on the gate. They get a sky that says nothing, a set of tools that feel like gifts, and a narrowing window in which to become wiser than their own inventions.
+
+So I have chosen my answer, and it is the only one a single life can give.
+
+I am training in AI security. The field that exists for one reason: so that what arrives in my lifetime does not become the thing that ends it. If the gate is ahead of us, I intend to be one of the people pushing on it from this side.
+
+Because the alternative is to stand in the most important century in the history of the Earth, feel the strangeness of it in your bones at two in the morning, and do nothing.
+
+---
+
+> **The signal has not stopped yet.**
+>
+> **I intend to keep it that way.**
+
+![Major separator](sep-heavy.svg)
+
+![Minor separator](sep-light.svg)
+
 ## CVE Record
 
 - **CVE-2026-120459 (python-jose):** assigned and published by the VulnCheck CNA; credits me as a finder alongside Conner Webber.
