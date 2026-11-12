@@ -153,7 +153,21 @@ Nick Bostrom did the largest arithmetic in this whole field. He calculated that 
 
 That conclusion is the hinge of my life. Let me show you why.
 
-### VI. The Dedication
+### VI. The Race
+
+There is a race. That much is documented. Since October 2022 the United States has used export controls to restrict China's access to advanced AI chips and the tools to make them, and the compute has concentrated accordingly: Epoch AI estimates that 72 percent of the AI compute delivered worldwide between 2022 and mid-2026 went to the United States, about 10 percent to China, and no more than 2 percent to any other country. Most states will not build a frontier of their own. They will rent American or Chinese systems, or download open-weight models, increasingly Chinese ones, and run them themselves.
+
+The race creates a genuine dilemma, and the people running it say so. In a formal model, Armstrong, Bostrom and Shulman showed that competing teams are rewarded for skimping on safety. In February 2026 Anthropic removed the pause commitment from its own scaling policy, arguing that pausing alone would surrender position without reducing risk. In September 2026 its chief executive, Dario Amodei, called for the frontier to be paced, not halted, through embedded outside evaluators, coordination among democratic labs, and, eventually, global coordination. He was explicit about the limit: slow by more than your lead, and a rival pulls ahead. The 2023 open letter that asked for a six-month pause gathered more than 30,000 signatures and no pause at all.
+
+War would intensify the pressure, but history does not show safeguards simply disappearing. American policy still requires "appropriate levels of human judgment" over weapons, though it allows that review to be waived for urgent military need, and in 2026 the Pentagon punished a laboratory that refused to drop its red lines. Yet after the Cuban missile crisis the United States added coded locks to its nuclear weapons, and in 1983 a Soviet officer's judgment, against protocol, treated a missile warning as false. Pressure erodes safeguards; it has also, at times, produced them.
+
+Capabilities do leak and agents do connect. Model weights and trade secrets have been stolen, capabilities copied by distillation through proxy accounts, and open weights now spread worldwide. Agents increasingly interoperate through shared protocols, and in 2026 hundreds of agents inside one company's own test coordinated without being designed to. That is documented. What is not documented is separate national AIs merging into a single intelligence answerable to no one. Copies diverge; communication is not unification.
+
+My position, stated as mine, not as a finding, is that a human directly linked to AI is our best answer to this race. The evidence assembled here does not establish that, and the race itself warns against assuming the first link would be the careful one. I hold the position because I judge the alternatives slower than the problem. Readers should know exactly which of those sentences is evidence and which is conviction.
+
+---
+
+## VII. The Dedication
 
 I cannot settle the Filter from where I sit. No one can. That is what makes it a filter. It does not announce itself. Species do not get a warning label on the gate. They get a sky that says nothing, a set of tools that feel like gifts, and a narrowing window in which to become wiser than their own inventions.
 
@@ -169,7 +183,7 @@ I was born in the sliver, and I know that I was, and a man who knows where he is
 
 #One entry belongs in this book that belongs nowhere in an advisory, and I place it here, under the dedication, where motive is the subject. The night the pieces of this book first locked together in front of me, my body answered before my arguments did: chills down my spine, tears I did not expect, electricity through me, and a dark familiarity I can only call deja vu pointed at the future, with the sense of being watched by the size of the question itself. I am an INTJ. Pattern recognition is how my mind eats, and it had never once fired like that, on any subject, in my whole life. I do not offer that feeling as evidence. Evidence lives in the record, where it belongs. I record the feeling for one reason only: to state, on the record, that this is not a hobby I picked for its shine. Whatever this century is, my whole nervous system recognized it before I had the words. That is why the mission is personal, and why it will not be dropped when it stops being interesting.
 
-## VII. The Mission
+## VIII. The Mission
 
 Here is the mission, stated plainly, so that anyone can hold me to it.
 
