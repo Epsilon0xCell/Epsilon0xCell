@@ -20,8 +20,8 @@
 - **Credentials:** GIAC Security Essentials (GSEC) and GIAC Foundational Cybersecurity Technologies (GFACT), and invited member of the GIAC Advisory Board.
 - **Recognition:** Seventy-second nationally in the NSA Codebreaker Challenge, alone. National Cyber Scholar with Honors, three years running.
 - **Standing:** The Scholar title is earned by 600 of 30,000 students who seek to qualify: the top 2% of the national cybersecurity student funnel, held with Honors three years running. He attained the CyberStart America maximum score of 147,600 in three consecutive program years. Measured against the whole field, an assessment of this record models the 88th percentile of all participants in cybersecurity, and a modeled 76th percentile among working professionals alone.
-- **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightSalvo, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
-- **CTF Writeups:** [NIGHTSALVO // CTF WRITEUPS](https://github.com/Epsilon0xCell/NIGHTSALVO-CTF-WRITEUPS): 11 solved challenges written up in full, ranked on a tier ladder that starts at INITIATE.
+- **Flagships:** Four flagships, each with a single charge. ShadowStrike OS, the platform. NightStrike, the flagship tool. Event_Zero, AI analysis in isolation. Eclipse Shield, a hardened Flask backend.
+- **CTF Writeups:** [NIGHTSTRIKE // CTF WRITEUPS](https://github.com/Epsilon0xCell/NIGHTSALVO-CTF-WRITEUPS): 11 solved challenges written up in full, ranked on a tier ladder that starts at INITIATE.
 
 ![Major separator](sep-heavy.svg)
 
@@ -105,25 +105,26 @@
 
 <p align="center">
   <a href="https://github.com/NightSalvo">
-    <img src="assets/NightSalvo.png" alt="NightSalvo" width="480">
+    <img src="assets/NightSalvo.png" alt="NightStrike" width="480">
   </a>
 </p>
 
-<h3 align="center"><a href="https://github.com/NightSalvo">NightSalvo</a>: <em>the flagship tool</em></h3>
+<h3 align="center"><a href="https://github.com/NightSalvo">NightStrike</a>: <em>the flagship tool</em></h3>
 
 <p align="center"><img src="https://img.shields.io/badge/Status-Private%20development-lightgrey?style=flat-square" alt="Status: Private development"></p>
 
 <p align="center"><em>Night falls. Threats end.</em></p>
 
 <details>
-<summary>NightSalvo: what it is, in four points</summary>
+<summary>NightStrike: what it is, in four points</summary>
 
 - The flagship engineering effort, developed in private, with patience, and held to an audit-first standard.
 - At its heart, an original architecture in three movements: an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger. Imagination, restraint, proof.
 - It was designed so that every action is authorized before it is taken, bounded while it runs, and provable after the fact.
-- What can be shown is shown: public artifacts and proof appear through the [NightSalvo](https://github.com/NightSalvo) organization as they clear review.
+- What can be shown is shown: public artifacts and proof appear through the [NightStrike](https://github.com/NightSalvo) organization as they clear review.
 
 </details>
+<p align="center">SNI - ShadowStrike NightStrike Intelligence, the house mark of ShatterPoint Security.</p>
 
 <p align="center">
   <img src="assets/divider.gif" alt="" width="100%">
