@@ -124,7 +124,7 @@
 - What can be shown is shown: public artifacts and proof appear through the [NightStrike](https://github.com/NightSalvo) organization as they clear review.
 
 </details>
-<p align="center">SNI - ShadowStrike NightStrike Intelligence, the house mark of ShatterPoint Security.</p>
+<p align="center">SNI (ShadowStrike NightStrike Intelligence), the house mark of ShatterPoint Security.</p>
 
 <p align="center">
   <img src="assets/divider.gif" alt="" width="100%">
