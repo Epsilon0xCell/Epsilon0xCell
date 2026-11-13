@@ -464,8 +464,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Epsilon0xCell&show_icons=true&bg_color=000000&title_color=FF3355&text_color=EDEDED&icon_color=FF3355&ring_color=FF0033&border_color=FF0033" alt="GitHub Stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Epsilon0xCell&layout=compact&bg_color=000000&title_color=FF3355&text_color=EDEDED&border_color=FF0033" alt="Top Languages">
+  <img src="assets/stats-card.svg" alt="GitHub Stats">
+  <img src="assets/top-langs.svg" alt="Top Languages">
 </p>
 
 <p align="center">
