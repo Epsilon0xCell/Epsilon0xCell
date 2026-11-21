@@ -52,6 +52,7 @@
 > - **The name:** the old account's history carries my full legal name, the name listed on my LinkedIn, as the author of [2,867 of its commits](https://github.com/CY83R-3X71NC710N) across 32 repositories.
 > - Those commits were written between January and May 2023, before my git identity switched to my handle, and years before this account existed.
 > - Every one of those commits is indexed in [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession), together with the Terms of Service basis for the succession.
+> - **The research identity:** I publish security research as Gavin Blacklock; my ORCID record is [0009-0001-2203-5576](https://orcid.org/0009-0001-2203-5576) and my arXiv account is Epsilon0xCell.
 > - The rest of the record matches as well, offered as consistency rather than proof: the starred library matches the old account exactly, 168 of 168 repositories, and its following network is being rebuilt name by name, ending with the old account itself.
 > - If the old account still shows fresh commits, that is its CI/CD: GitHub Actions workflows I built years ago, including a weather dashboard updater and a quote scraper, still run on schedule and commit on their own, with no human working from that account since August 2025.
 
