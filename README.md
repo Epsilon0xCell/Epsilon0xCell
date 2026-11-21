@@ -39,7 +39,7 @@
 > - This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N).
 > - That account was opened in April 2022, at fifteen years old.
 > - Over four years it grew into 163 repositories and a nationally ranked open-source record.
-> - I stopped working from it in September 2026 and consolidated everything here.
+> - My last work from it was in August 2025, and in September 2026 I consolidated everything here.
 > - Full histories were migrated and re-signed under this account's identity.
 > - The original stands untouched as the archive of record, and everything new ships from here.
 
@@ -53,7 +53,7 @@
 > - Those commits were written between January and May 2023, before my git identity switched to my handle, and years before this account existed.
 > - Every one of those commits is indexed in [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession), together with the Terms of Service basis for the succession.
 > - The rest of the record matches as well, offered as consistency rather than proof: the starred library matches the old account exactly, 168 of 168 repositories, and its following network is being rebuilt name by name, ending with the old account itself.
-> - If the old account still shows fresh commits, that is its CI/CD: GitHub Actions workflows I built years ago, including a weather dashboard updater and a quote scraper, still run on schedule and commit on their own, with no human working from that account since September 2026.
+> - If the old account still shows fresh commits, that is its CI/CD: GitHub Actions workflows I built years ago, including a weather dashboard updater and a quote scraper, still run on schedule and commit on their own, with no human working from that account since August 2025.
 
 </details>
 
