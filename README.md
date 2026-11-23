@@ -36,7 +36,7 @@
 
 > **Successor account.**
 >
-> - This is the new home of the builder behind [@CY83R-3X71NC710N](https://github.com/CY83R-3X71NC710N).
+> - This is the new home of the builder.
 > - That account was opened in April 2022, at fifteen years old.
 > - Over four years it grew into 163 repositories and a nationally ranked open-source record.
 > - My last work from it was in August 2025, and in September 2026 I consolidated everything here.
@@ -49,7 +49,7 @@
 > - Copied code alone would prove nothing anyway: everything it published is public, and anyone can copy public work.
 > - Two things cannot be copied into existence.
 > - **The lineage:** the project histories continue here without a break, including Event_Zero, Eclipse-Shield, and the ShadowGuard library now restoring under the [ShadowGuard-AI](https://github.com/ShadowGuard-AI) organization, the same commits carried forward and re-signed under this account.
-> - **The name:** the old account's history carries my full legal name, the name listed on my LinkedIn, as the author of [2,867 of its commits](https://github.com/CY83R-3X71NC710N) across 32 repositories.
+> - **The name:** the old account's history carries my full legal name, the name listed on my LinkedIn, as the author of 2,867 of its commits across 32 repositories.
 > - Those commits were written between January and May 2023, before my git identity switched to my handle, and years before this account existed.
 > - Every one of those commits is indexed in [proof-of-succession](https://github.com/Epsilon0xCell/proof-of-succession), together with the Terms of Service basis for the succession.
 > - **The research identity:** I publish security research as Gavin Blacklock; my ORCID record is [0009-0001-2203-5576](https://orcid.org/0009-0001-2203-5576) and my arXiv account is Epsilon0xCell.
@@ -350,7 +350,7 @@
 - [Spotify-To-YTMusic](https://github.com/Epsilon0xCell/Spotify-To-YTMusic)
 - [Custom-Linux-AV](https://github.com/Epsilon0xCell/Custom-Linux-AV)
 - [Hacking-Distributions-Trust-Analysis](https://github.com/Epsilon0xCell/Hacking-Distributions-Trust-Analysis)
-- The full body of work began on the [archive profile](https://github.com/CY83R-3X71NC710N); it is arriving here repo by repo.
+- The full body of work began on the archive profile; it is arriving here repo by repo.
 
 </details>
 
@@ -366,17 +366,17 @@
   <img src="assets/prompt-rankings.gif" alt="Rankings" width="100%">
 </p>
 
-<p align="center"><em>Earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>; every claim below is linked to its source.</em></p>
+<p align="center"><em>Every claim below is linked to its source.</em></p>
 
-- **Star History: [Top Committer #8 of 2024](https://www.star-history.com/cy83r-3x71nc710n)** ([Wayback Machine archive](https://web.archive.org/web/20261030133321/https://www.star-history.com/cy83r-3x71nc710n/))
-- **Star History: [Top 1000 Committers 2026: #150, with 13,288 commits](https://www.star-history.com/cy83r-3x71nc710n)** ([Wayback Machine archive](https://web.archive.org/web/20261030133321/https://www.star-history.com/cy83r-3x71nc710n/))
-- **CodersRank: Top 1% of coders in the USA** (below) ([Wayback Machine archive](https://web.archive.org/web/20261030133417/https://profile.codersrank.io/user/CY83R-3X71NC710N))
+- **Star History: Top Committer #8 of 2024**
+- **Star History: Top 1000 Committers 2026: #150, with 13,288 commits**
+- **CodersRank: Top 1% of coders in the USA** (below)
 
 <p align="center">
   <strong>Top 1% Coders USA: CodersRank</strong><br>
-  <a href="https://profile.codersrank.io/user/CY83R-3X71NC710N">
+
     <img src="assets/CodersRank.png" alt="CodersRank: Score 291.7, Rank Top 1%" width="560">
-  </a><br>
+  <br>
   <em>CodersRank Score 291.7 · Rank: Top 1% · Based on 159 repositories</em>
 </p>
 
@@ -392,13 +392,8 @@
   <img src="assets/prompt-trophy-wall.gif" alt="Trophy Wall" width="100%">
 </p>
 
-<p align="center">
-  <a href="https://github.com/CY83R-3X71NC710N">
-    <img src="https://hacked-github-stat-trophies.vercel.app/?username=cy83r-3x71nc710n&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A&theme=dracula&margin-w=18&margin-h=10" alt="GitHub Profile Trophies, earned as CY83R-3X71NC710N">
-  </a>
-</p>
 
-<p align="center"><em>S Rank Hacker · God Committer · God PR User · Ultra Celebrity · Super Repo Creator · Super Star, earned as <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>; the wall links to that profile.</em></p>
+<p align="center"><em>S Rank Hacker · God Committer · God PR User · Ultra Celebrity · Super Repo Creator · Super Star.</em></p>
 
 <p align="center">
   <img src="assets/divider.gif" alt="" width="100%">
