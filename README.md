@@ -3,11 +3,8 @@
 </p>
 
 <p align="center"><img src="logo-wide.gif" alt="The Crimson Command insignia: a red globe under a crown of spikes, ringed by the legend of the record, centered on a star field that runs the full width of the page" width="100%"></p>
-
 <p align="center">
-  <strong>Cybersecurity Researcher & Developer</strong><br>
-  <em>Offensive Security · OS Internals · AI Tooling</em><br>
-  <em>Penetration Testing · Bug Bounty · Zero-Day Research</em>
+  <strong>Founder, ShatterPoint Security™ | Offensive Security & AI Red Teaming | Adversary Emulation · LLM & Agent Exploitation | NSA Codebreaker Champion · FBI TEAM Threat Hunter · 3x National Cyber Scholar · GIAC GSEC & GFACT</strong>
 </p>
 
 <p align="center">
