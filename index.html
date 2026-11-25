@@ -75,6 +75,11 @@ footer{margin-top:80px;border-top:1px solid var(--line2);padding-top:34px;text-a
 footer img.insignia{width:110px;height:110px;display:block;margin:12px auto 0}
 footer img.sign{width:340px;max-width:80vw;height:auto;display:block;margin:0 auto}
 footer .fine{color:var(--muted);font-size:13px;margin-top:16px}
+.fsep{display:flex;align-items:center;justify-content:center;gap:10px;max-width:420px;margin:12px auto}
+.fsep::before,.fsep::after{content:"";height:1px;flex:1}
+.fsep::before{background:linear-gradient(to right,rgba(191,0,255,0),rgba(191,0,255,.85))}
+.fsep::after{background:linear-gradient(to left,rgba(191,0,255,0),rgba(191,0,255,.85))}
+.fsep i{width:7px;height:7px;display:block;background:#E0AAFF;border:1px solid #BF00FF;transform:rotate(45deg)}
 .js .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 .js .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
@@ -242,8 +247,11 @@ footer .fine{color:var(--muted);font-size:13px;margin-top:16px}
 </section>
 
 <footer>
+  <div class="fsep" aria-hidden="true"><i></i></div>
   <img class="sign" src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="2499" height="694">
+  <div class="fsep" aria-hidden="true"><i></i></div>
   <img class="insignia" src="assets/gb-insignia-sni.png" alt="The GB insignia of Gavin Blacklock, recoloured in the violet of Shadow Night Intelligence" width="1600" height="1600">
+  <div class="fsep" aria-hidden="true"><i></i></div>
   <p class="fine">Gavin Blacklock · Epsilon0xCell · Founder, ShatterPoint Security<br>
   <a href="https://github.com/Epsilon0xCell">GitHub</a> · <a href="https://orcid.org/0009-0001-2203-5576">ORCID</a> · <a href="https://github.com/Epsilon0xCell/Epsilon0xCell">The profile dossier</a></p>
   <p class="fine">Defense is the promise. Eradication is the proof.</p>
