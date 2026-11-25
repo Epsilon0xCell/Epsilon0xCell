@@ -1,583 +1,275 @@
 <!DOCTYPE html>
-<!-- pages-campaign site for Epsilon0xCell/Epsilon0xCell -->
-<!--
-  I am the author of everything this page indexes, so I built its front
-  door the way I would want to find it: one page, every flagship named,
-  every rebuilt project site linked, and the record stated with its
-  sources. No template. I set the masthead in a serif because this page
-  is a ledger, not a landing page, and ledgers are read, not scrolled
-  past. This is the Phase 3 rebuild of the hub itself, written fresh in
-  the same ledger idiom as the first version.
--->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Epsilon0xCell: the work, indexed</title>
-<meta name="description" content="Portfolio index of Epsilon0xCell: flagship security projects, a rebuilt site for each of 25 projects, two sites still waiting, and the verified record behind them.">
+<title>Shadow Night Intelligence: Epsilon0xCell</title>
+<meta name="description" content="Shadow Night Intelligence. The dossier of Gavin Blacklock (Epsilon0xCell): offensive security, AI red teaming, and the case files of ShatterPoint Security.">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
-  @font-face{font-family:"Audiowide";src:url('fonts/Audiowide-Regular.ttf') format('truetype');font-display:swap}
-  @font-face{font-family:"Exo 2";src:url('fonts/Exo2-Regular.ttf') format('truetype');font-display:swap}
-  @font-face{font-family:"Exo 2";src:url('fonts/Exo2-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
-  /*
-    Black paper, one neon red accent, lit like a sign. I ruled the
-    page like a ledger with hairlines instead of boxing everything
-    into cards: rows are how indexes are actually read. The record
-    rail sits on the right and narrower, because the work comes
-    first and the proof second, in that order, on purpose.
-  */
-  :root{
-    --ink:#000000; --ink2:#0a0a0a; --paper:#ededed; --paper-dim:#a3a3ab;
-    --neon:#ff0033; --neon-hi:#ff5c74; --rule:#2e060e; --link:#ff3355;
-  }
-  *{box-sizing:border-box}
-  ::selection{background:#ff0033; color:#ffffff}
-  html{background:var(--ink)}
-  body{margin:0; color:var(--paper);
-    font-family:"Exo 2","Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
-    font-size:16.5px; line-height:1.6}
-  a{color:var(--link)}
-  a:hover{color:var(--neon-hi); text-shadow:0 0 8px rgba(255,0,51,.55)}
-  .page{max-width:1180px; margin:0 auto; padding:0 26px 70px}
-  header.masthead{border-bottom:3px double var(--neon); padding:44px 0 26px;
-    box-shadow:0 14px 26px -20px rgba(255,0,51,.85)}
-  .kicker{font-size:12.5px; letter-spacing:.28em; text-transform:uppercase;
-    color:var(--neon); margin:0 0 10px; text-shadow:0 0 10px rgba(255,0,51,.5)}
-  h1{font-family:"Audiowide",Georgia,serif;
-    font-weight:700; font-size:clamp(44px,7.5vw,84px); line-height:1.02;
-    margin:0 0 12px; letter-spacing:.01em;
-    text-shadow:0 0 24px rgba(255,0,51,.38), 0 0 3px rgba(255,0,51,.45)}
-  .role{font-size:19px; color:var(--paper); max-width:44em; margin:0 0 16px}
-  .role b{color:var(--neon); font-weight:600}
-  .badges{display:flex; flex-wrap:wrap; gap:8px}
-  .badges img{height:20px; display:block}
-  .intro{padding:30px 0 6px; max-width:46em}
-  .intro p{margin:0 0 14px; font-size:17.5px}
-  .note{border-left:3px solid var(--neon); padding:4px 0 4px 16px;
-    margin:20px 0; max-width:46em}
-  .note p{margin:0 0 8px; font-size:16px}
-  .note p:last-child{margin-bottom:0}
-  .note .when{color:var(--neon); font-size:12.5px; letter-spacing:.18em;
-    text-transform:uppercase; display:block; margin-bottom:4px;
-    text-shadow:0 0 9px rgba(255,0,51,.5)}
-  h2{font-family:"Audiowide",Georgia,serif; font-size:29px;
-    margin:46px 0 6px; font-weight:700}
-  .sec-note{color:var(--paper-dim); margin:0 0 18px; max-width:46em}
-  .ledger{border-top:1px solid var(--rule)}
-  .row{display:grid; grid-template-columns:96px 1fr auto; gap:20px;
-    padding:20px 4px; border-bottom:1px solid var(--rule); align-items:start}
-  /* Marks sit at their own shape: no frame, no forced square box. A
-     round badge stays round at the column width, and the one wide
-     lockup gets a wide column so it runs at the shape it was drawn. */
-  .row img.mark{display:block; width:auto; height:auto; max-width:100%;
-    max-height:96px}
-  .row.wide{grid-template-columns:208px 1fr auto}
-  .row.wide img.mark{max-height:88px}
-  .row h3{margin:2px 0 6px; font-size:21px; font-family:"Audiowide",Georgia,serif}
-  h3{font-family:"Audiowide",Georgia,serif}
-  .row p{margin:0; color:var(--paper); max-width:40em}
-  .row .what{color:var(--neon); font-size:12.5px; letter-spacing:.18em;
-    text-transform:uppercase; display:block; margin-bottom:4px}
-  .row .links{white-space:nowrap; font-size:14.5px; text-align:right}
-  .row .links a{display:block; margin-bottom:6px}
-  .cols{display:grid; grid-template-columns:1fr 340px; gap:44px; align-items:start}
-  table.index{width:100%; border-collapse:collapse; font-size:15.5px}
-  table.index th{font-size:12px; letter-spacing:.16em; text-transform:uppercase;
-    color:var(--paper-dim); text-align:left; padding:8px 10px 8px 0;
-    border-bottom:1px solid var(--rule)}
-  table.index td{padding:11px 10px 11px 0; border-bottom:1px solid var(--rule);
-    vertical-align:top}
-  table.index td.name{font-weight:600}
-  table.index td.name .concept{display:block; font-weight:400;
-    color:var(--neon); font-size:13.5px}
-  table.index td.desc{color:var(--paper-dim)}
-  aside.record{border-left:1px solid var(--rule); padding-left:24px}
-  aside.record h2{margin-top:46px}
-  aside.record h3{font-size:13px; letter-spacing:.16em; text-transform:uppercase;
-    color:var(--neon); margin:22px 0 8px}
-  aside.record ul{margin:0; padding-left:18px}
-  aside.record li{margin-bottom:9px; font-size:15px}
-  aside.record figure{margin:18px 0 0}
-  aside.record figure img{width:100%; border:1px solid var(--rule); display:block}
-  aside.record figcaption{color:var(--paper-dim); font-size:13px; margin-top:6px}
-  .waiting{border-top:1px solid var(--rule); margin-top:34px; max-width:46em}
-  .waiting p{margin:0 0 10px}
-  .how{border-top:1px solid var(--rule); margin-top:48px; padding-top:22px;
-    max-width:46em}
-  .how p{margin:0 0 12px}
-  footer{margin-top:54px; border-top:3px double var(--neon); padding-top:18px;
-    color:var(--paper-dim); font-size:14px; display:flex; flex-wrap:wrap;
-    gap:8px 28px; justify-content:space-between}
-  /*
-    I keep the motion quiet, because a ledger should not perform. With
-    JavaScript on, flagship rows and index rows fade and rise once, in
-    reading order, as they arrive. The record rail does not move at
-    all. With JavaScript off, or with reduced motion set, every row is
-    simply there, complete.
-  */
-  .js .row, .js table.index tr.reveal{opacity:0; transform:translateY(10px)}
-  .js .row.seen, .js table.index tr.reveal.seen{opacity:1; transform:none;
-    transition:opacity .55s ease, transform .55s ease}
-  @media (prefers-reduced-motion: reduce){
-    .js .row, .js table.index tr.reveal{opacity:1; transform:none}
-    .js .row.seen, .js table.index tr.reveal.seen{transition:none}
-  }
-  @media (max-width:900px){
-    .cols{grid-template-columns:1fr}
-    aside.record{border-left:none; padding-left:0; border-top:1px solid var(--rule)}
-    .row{grid-template-columns:64px 1fr}
-    .row.wide{grid-template-columns:150px 1fr}
-    .row .links{text-align:left; grid-column:2}
-  }
-  /*
-    Red rain behind the ledger: a fixed canvas, the first element in
-    body, paints falling red code over the black page, and the page
-    column carries a translucent black ground so every line of text
-    stays readable over it. If the canvas never paints, the page is
-    what it always was: black paper, neon rule, ink.
-  */
-  #matrix-rain{position:fixed; inset:0; z-index:0; opacity:.5;
-    pointer-events:none}
-  .page{position:relative; z-index:1; background:rgba(0,0,0,.66)}
+@font-face{font-family:'Audiowide';src:url('fonts/Audiowide-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Exo2';src:url('fonts/Exo2-Regular.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Exo2';src:url('fonts/Exo2-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
+:root{--bg:#000;--panel:#0B0216;--panel2:#07010D;--ink:#F5F0FA;--muted:#C9B8E8;--pale:#E0AAFF;--lav:#D8B4FE;--acc:#BF00FF;--line:rgba(191,0,255,.32);--line2:rgba(191,0,255,.16)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Exo2',system-ui,sans-serif;line-height:1.65}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:60;opacity:.05;background:repeating-linear-gradient(0deg,rgba(224,170,255,.5) 0 1px,transparent 1px 3px)}
+::selection{background:var(--acc);color:#000}
+a{color:var(--pale)}
+a:hover{color:#fff}
+.wrap{max-width:1060px;margin:0 auto;padding:0 20px 80px}
+#loader{position:fixed;inset:0;background:#000;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;cursor:pointer;transition:opacity .5s ease}
+#loader.done{opacity:0;pointer-events:none}
+#loader .ring{width:120px;height:120px}
+#loader .ring circle{fill:none;stroke:var(--acc);stroke-width:1.5;stroke-dasharray:339;stroke-dashoffset:339;animation:draw 1.4s ease forwards}
+#loader .ring circle.inner{stroke:var(--pale);stroke-dasharray:264;stroke-dashoffset:264;animation-delay:.25s}
+@keyframes draw{to{stroke-dashoffset:0}}
+#loader .agency{font-family:'Audiowide',monospace;letter-spacing:.42em;text-indent:.42em;font-size:15px;color:var(--ink);text-align:center;animation:fadein 1s ease .3s both}
+#loader .beat{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.3em;color:var(--acc);animation:fadein .6s ease 1.2s both}
+#loader .skip{font-size:11px;color:var(--muted);letter-spacing:.15em;animation:fadein .6s ease 1.6s both}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){#loader{display:none}}
+header.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0 10px;font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.22em;color:var(--muted);border-bottom:1px solid var(--line2)}
+header.top .zulu{color:var(--pale)}
+.hero{text-align:center;padding:56px 0 30px}
+.hero img.seal{width:230px;height:230px;max-width:60vw}
+.hero h1{font-family:'Audiowide',monospace;font-size:clamp(26px,5.4vw,46px);letter-spacing:.18em;margin:22px 0 6px;line-height:1.25}
+.hero .sub{letter-spacing:.34em;text-indent:.34em;font-size:12px;color:var(--acc);font-family:ui-monospace,Menlo,monospace}
+.hero .who{margin:20px auto 0;max-width:640px;color:var(--muted);font-size:17px}
+.hero .who strong{color:var(--ink)}
+.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.badges img{height:20px}
+section{margin-top:64px}
+.dossier{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.3em;color:var(--acc);margin:0 0 6px}
+h2{font-family:'Audiowide',monospace;font-weight:400;letter-spacing:.12em;font-size:clamp(20px,3.4vw,28px);margin:0 0 8px}
+.rule{height:1px;background:linear-gradient(90deg,var(--acc),transparent);margin:14px 0 26px}
+p.lede{color:var(--muted);max-width:760px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line2);padding:22px;position:relative}
+.card::before{content:"";position:absolute;top:0;left:0;width:38px;height:2px;background:var(--acc)}
+.card .file{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.26em;color:var(--acc)}
+.card h3{margin:8px 0 4px;font-size:20px}
+.card h3 a{color:var(--ink);text-decoration:none}
+.card h3 a:hover{color:var(--pale)}
+.card .charge{color:var(--lav);font-style:italic;font-size:14px;margin:0 0 10px}
+.card p{color:var(--muted);font-size:15px;margin:0 0 14px}
+.card img.shot{width:100%;height:auto;border:1px solid var(--line2);display:block;margin:0 0 14px}
+.card .links{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.14em}
+.card .links a{margin-right:16px}
+table.index{width:100%;border-collapse:collapse;font-size:14.5px}
+table.index th{font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.24em;text-align:left;color:var(--acc);padding:8px 10px;border-bottom:1px solid var(--line)}
+table.index td{padding:9px 10px;border-bottom:1px solid rgba(201,184,232,.12);color:var(--muted);vertical-align:top}
+table.index td.name{color:var(--ink);white-space:nowrap}
+table.index td.name .concept{display:block;color:var(--lav);font-style:italic;font-size:12.5px;white-space:normal}
+.record{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.record .cell{background:var(--panel2);border:1px solid var(--line2);padding:20px}
+.record h3{font-family:ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.26em;color:var(--acc);margin:0 0 10px;font-weight:400}
+.record p{color:var(--muted);font-size:15px;margin:0 0 10px}
+.record p strong{color:var(--ink)}
+.redacted{background:#1c0533;color:transparent;border-radius:2px;padding:0 6px;cursor:help;transition:color .3s,background .3s;user-select:none}
+.redacted:hover,.redacted:focus{color:var(--pale);background:rgba(191,0,255,.14);user-select:auto}
+footer{margin-top:80px;border-top:1px solid var(--line2);padding-top:34px;text-align:center}
+footer img.insignia{width:110px;height:110px}
+footer img.sign{width:340px;max-width:80vw;height:auto;display:block;margin:10px auto 0}
+footer .fine{color:var(--muted);font-size:13px;margin-top:16px}
+.js .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.js .reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (max-width:560px){table.index td.name{white-space:normal}.hero{padding-top:38px}}
 </style>
 </head>
 <body>
-<canvas id="matrix-rain" aria-hidden="true"></canvas>
-<div class="page">
-
-<header class="masthead">
-  <img class="official-mark" src="assets/insignia-crimson-command.png" alt="The Crimson Command insignia: a red globe under a crown of spikes, ringed by the legend of the record">
-  <p class="kicker">Portfolio index</p>
-  <h1>Epsilon0xCell</h1>
-  <p class="role">Cybersecurity researcher and developer. Offensive
-  security, OS internals, and AI-driven tooling. <b>I build and I
-  break.</b> This page is the front door to the work: the flagships
-  first, then a rebuilt site of its own for every finished project,
-  then the record, with its sources.</p>
-  <div class="badges">
-    <img src="https://img.shields.io/github/followers/Epsilon0xCell?style=flat&amp;label=followers&amp;labelColor=000000&amp;color=ff0033" alt="GitHub followers">
-    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Event_Zero?style=flat&amp;label=Event_Zero%20stars&amp;labelColor=000000&amp;color=ff0033" alt="Event Zero stars">
-    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Eclipse-Shield?style=flat&amp;label=Eclipse-Shield%20stars&amp;labelColor=000000&amp;color=ff0033" alt="Eclipse Shield stars">
-  </div>
+<div id="loader" aria-hidden="true">
+  <svg class="ring" viewBox="0 0 120 120" aria-hidden="true"><circle cx="60" cy="60" r="54"/><circle class="inner" cx="60" cy="60" r="42"/></svg>
+  <div class="agency">SHADOW NIGHT INTELLIGENCE</div>
+  <div class="beat">CLEARANCE GRANTED</div>
+  <div class="skip">CLICK ANYWHERE TO ENTER</div>
+</div>
+<script>document.documentElement.classList.add('js');</script>
+<div class="wrap">
+<header class="top">
+  <span>SNI // PUBLIC DOSSIER</span>
+  <span class="zulu" id="zulu">ZULU --:--:--</span>
+  <span>EST. 2022</span>
 </header>
 
-<!-- I wrote this intro to do one job: tell a reader in under a minute
-     whose work this is, why it sits on a second account, and where the
-     proof of that lives. The succession is a fact I state plainly, not
-     a problem to bury, so it goes near the top. -->
-<section class="intro">
-  <p>I started building in public in April 2022, at fifteen, on the account
-  <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>. Over
-  four years it grew to 163 repositories. In September 2026 I stopped
-  working from it and consolidated everything here, with full histories
-  migrated and re-signed under this account. The old account stands
-  untouched as the archive of record, and everything new ships from
-  here.</p>
-  <p>Anyone can copy public code, so copies prove nothing. What cannot be
-  copied into existence is the lineage: the project histories continue
-  here without a break. And the name: the old account's history carries
-  my full name as the author of 2,867 of its commits across 32
-  repositories, written between January and May 2023, years before this
-  account existed. That lineage and that name in the commits are the
-  proof. The rest matches too, and I offer it as consistency, not
-  proof: the starred library matches the old account exactly, and its
-  following network is being rebuilt name by name. Every one of those
-  commits, and the Terms of Service basis for the succession, is indexed
-  in <a href="https://github.com/Epsilon0xCell/proof-of-succession">proof-of-succession</a>.</p>
-  <p>Everything below is written by me, about work I can point to. Where
-  a project is unfinished or a site is still waiting, its entry says
-  so. I would rather a reader find an honest note than a dressed-up
-  one.</p>
-
-  <!-- I date my rollout notes because counts go stale, and a stale
-       count stated as current is a small falsehood I will not ship. -->
-  <div class="note">
-    <p><span class="when">Rollout note, 2026-10-31</span>
-    As of today, 25 of the 27 published project sites have been rebuilt
-    to the Phase 3 standard. The last two, Kokoro-FastAPI-Colab and
-    MacOS-Performance-Tweaks, are live with their earlier sites. Their
-    security fixes have landed, and their site rebuilds are queued.</p>
-    <p><span class="when">Security audit note, 2026-10-31</span>
-    My personal repos have been read line by line, 170 of 170,
-    Banking-Program included. Its audit found one defect, a deposit
-    overflow that could print an infinite balance; the defect is fixed,
-    and a regression test now covers it. The audit of the
-    ShadowGuard-AI library continues as the rest of its repos land.</p>
-  </div>
-</section>
-
-<h2>The flagships</h2>
-<p class="sec-note">Five efforts carry the rest, plus the library behind
-them. Each one is described the way I describe it in my profile, no
-larger.</p>
-
-<div class="ledger">
-  <div class="row">
-    <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/ShadowStrike-Logo.png" alt="ShadowStrike OS logo">
-    <div>
-      <h3>ShadowStrike OS</h3>
-      <p><span class="what">The platform</span>
-      A custom, security-focused Linux distribution engineered for
-      penetration testing and security research, my primary development
-      testbed for novel security tooling and system hardening. Now
-      public under the ShadowStrike organization.</p>
-    </div>
-    <div class="links">
-      <a href="https://github.com/ShadowStrikeOS/ShadowStrike-OS">The code</a>
-      <a href="https://github.com/ShadowStrikeOS">The organization</a>
-    </div>
-  </div>
-
-  <div class="row wide">
-    <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/NightSalvo.png" alt="NightSalvo mark">
-    <div>
-      <h3>NightSalvo</h3>
-      <p><span class="what">The flagship tool</span>
-      The flagship engineering effort, developed in private and held to
-      an audit-first standard. Its original core architecture is an
-      autonomous planner, an enforced scope guard, and a hash-chained
-      evidence ledger, designed so that every action the system takes
-      is authorized, bounded, and provable after the fact. Public
-      artifacts and proof are released through the NightSalvo
-      organization as they clear review.</p>
-    </div>
-    <div class="links">
-      <a href="https://github.com/NightSalvo">The organization</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/Shatterpoint-Globehead.png" alt="Shatterpoint Security mark">
-    <div>
-      <h3>Shatterpoint Security</h3>
-      <p><span class="what">The firm</span>
-      Founder of Shatterpoint Security: a boutique offensive-security
-      practice in formation. Penetration testing, red teaming, and AI
-      security testing.</p>
-    </div>
-    <div class="links">
-      <a href="https://github.com/ShatterpointSecurity">The organization</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/Event_Zero.png" alt="Event Zero artwork">
-    <div>
-      <h3>Event_Zero</h3>
-      <p><span class="what">Featured project</span>
-      An experimental AI analysis environment built around strict
-      isolation: the host system is completely separated from the
-      analysis environment, and the AI operates inside a non-persistent
-      container with restricted kernel access and no path to the
-      underlying OS.</p>
-    </div>
-    <div class="links">
-      <a href="https://epsilon0xcell.github.io/Event_Zero/">The site</a>
-      <a href="https://github.com/Epsilon0xCell/Event_Zero">The code</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/EclipseShield.png" alt="Eclipse Shield artwork">
-    <div>
-      <h3>Eclipse-Shield</h3>
-      <p><span class="what">Featured project</span>
-      A productivity analyzer with a hardened Flask backend: a browser
-      extension and Flask backend that judge whether a site fits your
-      current mode, work, school, or personal. Decisions run on local
-      allow and block rules, with optional Gemini calls for sites no
-      rule covers.</p>
-    </div>
-    <div class="links">
-      <a href="https://epsilon0xcell.github.io/Eclipse-Shield/">The site</a>
-      <a href="https://github.com/Epsilon0xCell/Eclipse-Shield">The code</a>
-    </div>
-  </div>
-
-  <div class="row">
-    <img class="mark" src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/ShadowGuard.png" alt="ShadowGuard artwork">
-    <div>
-      <h3>ShadowGuard AI</h3>
-      <p><span class="what">The library</span>
-      A 584-project library of security tools and experiments, built
-      with AI assistance under my direction, originally published under
-      the ShadowGuardAI organization and now being restored under the
-      ShadowGuard-AI organization, repository by repository.</p>
-    </div>
-    <div class="links">
-      <a href="https://github.com/ShadowGuard-AI">The organization</a>
-      <a href="https://github.com/orgs/ShadowGuard-AI/repositories">The catalogue</a>
-    </div>
+<div class="hero">
+  <img class="seal" src="assets/sni-seal.png" alt="The Shadow Night Intelligence seal: a violet night-lights globe inside hairline rings on true black" width="480" height="480">
+  <h1>SHADOW NIGHT<br>INTELLIGENCE</h1>
+  <p class="sub">VIGILANT IN THE DARK</p>
+  <p class="who"><strong>Gavin Blacklock</strong>, operating as <strong>Epsilon0xCell</strong>. Founder, ShatterPoint Security. Offensive security, AI red teaming, and adversary emulation. This page is the front door to the work: the case files first, then the full index, then the record, with its sources.</p>
+  <div class="badges">
+    <img src="https://img.shields.io/github/followers/Epsilon0xCell?style=flat&amp;label=followers&amp;labelColor=000000&amp;color=BF00FF" alt="GitHub followers">
+    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Event_Zero?style=flat&amp;label=Event_Zero%20stars&amp;labelColor=000000&amp;color=BF00FF" alt="Event Zero stars">
+    <img src="https://img.shields.io/github/stars/Epsilon0xCell/Eclipse-Shield?style=flat&amp;label=Eclipse-Shield%20stars&amp;labelColor=000000&amp;color=BF00FF" alt="Eclipse Shield stars">
   </div>
 </div>
 
-<div class="cols">
-<div>
-  <h2>Project sites, rebuilt</h2>
-  <p class="sec-note">Every project gets a site designed for that project
-  alone, written in my voice. These 25 are rebuilt to the Phase 3
-  standard and live today, 31 October 2026. Each row names the site by
-  the title its own page carries, then says in one line what the
-  project is.</p>
-  <!-- I keep this table plain on purpose: name, one honest line, two
-       links. An index that decorates itself stops being an index. I
-       checked every line below against its repository or its live
-       site, not against anyone's summary of them. -->
+<section aria-labelledby="d1">
+  <p class="dossier">DOSSIER 01 // THE OPERATOR</p>
+  <h2 id="d1">The Operator</h2>
+  <div class="rule"></div>
+  <p class="lede">I started building in public in April 2022, at fifteen, on the account <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>. Over four years it grew to 163 repositories. In September 2026 I consolidated everything here, with full histories migrated and re-signed under this account. The old account stands untouched as the archive of record, and everything new ships from here.</p>
+  <p class="lede">Anyone can copy public code, so copies prove nothing. What cannot be copied into existence is the lineage: the project histories continue here without a break, and the old account's history carries my full name as the author of 2,867 of its commits across 32 repositories, written between January and May 2023, years before this account existed. Every one of those commits, and the Terms of Service basis for the succession, is indexed in <a href="https://github.com/Epsilon0xCell/proof-of-succession">proof-of-succession</a>.</p>
+  <p class="lede">Current objective, declassified on request: <span class="redacted" tabindex="0">elite standing on GitHub, HackerOne, and HackTheBox</span>. Everything below is written by me, about work I can point to. Where a project is unfinished, its entry says so.</p>
+</section>
+
+<section aria-labelledby="d2">
+  <p class="dossier">DOSSIER 02 // CASE FILES</p>
+  <h2 id="d2">Case Files</h2>
+  <div class="rule"></div>
+  <div class="grid">
+    <article class="card reveal">
+      <p class="file">CASE FILE 01 // FEATURED</p>
+      <h3><a href="https://github.com/Epsilon0xCell/Eclipse-Shield">Eclipse-Shield</a></h3>
+      <p class="charge">the shield holds the line</p>
+      <img class="shot" src="https://raw.githubusercontent.com/Epsilon0xCell/Eclipse-Shield/main/demo/eclipse-shield-demo.gif" alt="Eclipse-Shield live footage: the extension blocking a search under the Work profile and allowing it under Personal" loading="lazy">
+      <p>A productivity analyzer with a hardened Flask backend: a browser extension and backend that judge whether a site fits your current mode, work, school, or personal. Decisions run on local allow and block rules, with optional Gemini calls for sites no rule covers.</p>
+      <p class="links"><a href="https://epsilon0xcell.github.io/Eclipse-Shield/">THE SITE</a><a href="https://github.com/Epsilon0xCell/Eclipse-Shield">THE CODE</a></p>
+    </article>
+    <article class="card reveal">
+      <p class="file">CASE FILE 02 // FEATURED</p>
+      <h3><a href="https://github.com/Epsilon0xCell/Event_Zero">Event_Zero</a></h3>
+      <p class="charge">the fake_malware case file</p>
+      <p>An experimental AI analysis environment built around strict isolation: the host system is completely separated from the analysis environment, and the AI operates inside a non-persistent container with restricted kernel access and no path to the underlying OS.</p>
+      <p class="links"><a href="https://epsilon0xcell.github.io/Event_Zero/">THE SITE</a><a href="https://github.com/Epsilon0xCell/Event_Zero">THE CODE</a></p>
+    </article>
+    <article class="card reveal">
+      <p class="file">CASE FILE 03 // THE PLATFORM</p>
+      <h3><a href="https://github.com/ShadowStrikeOS/ShadowStrike-OS">ShadowStrike OS</a></h3>
+      <p class="charge">the platform</p>
+      <p>A custom, security-focused Linux distribution engineered for penetration testing and security research, my primary development testbed for novel security tooling and system hardening. Now public under the ShadowStrike organization.</p>
+      <p class="links"><a href="https://github.com/ShadowStrikeOS/ShadowStrike-OS">THE CODE</a><a href="https://github.com/ShadowStrikeOS">THE ORGANIZATION</a></p>
+    </article>
+    <article class="card reveal">
+      <p class="file">CASE FILE 04 // THE FLAGSHIP TOOL</p>
+      <h3><a href="https://github.com/NightSalvo">NightSalvo</a></h3>
+      <p class="charge">the flagship tool</p>
+      <p>The flagship engineering effort, developed in private and held to an audit-first standard. Its core architecture is an autonomous planner, an enforced scope guard, and a hash-chained evidence ledger, designed so that every action the system takes is authorized, bounded, and provable after the fact. Public artifacts are released through the NightSalvo organization as they clear review.</p>
+      <p class="links"><a href="https://github.com/NightSalvo">THE ORGANIZATION</a></p>
+    </article>
+    <article class="card reveal">
+      <p class="file">CASE FILE 05 // THE FIRM</p>
+      <h3><a href="https://github.com/ShatterpointSecurity">ShatterPoint Security</a></h3>
+      <p class="charge">the firm</p>
+      <p>Founder of ShatterPoint Security: a boutique offensive-security practice in formation. Penetration testing, red teaming, and AI security testing. SNI (Shadow Night Intelligence) is the network mark of the firm.</p>
+      <p class="links"><a href="https://github.com/ShatterpointSecurity">THE ORGANIZATION</a></p>
+    </article>
+    <article class="card reveal">
+      <p class="file">CASE FILE 06 // THE LIBRARY</p>
+      <h3><a href="https://github.com/ShadowGuard-AI">ShadowGuard AI</a></h3>
+      <p class="charge">the library</p>
+      <p>A 584-project library of security tools and experiments, built with AI assistance under my direction, originally published under the ShadowGuardAI organization and now being restored under the ShadowGuard-AI organization, repository by repository.</p>
+      <p class="links"><a href="https://github.com/ShadowGuard-AI">THE ORGANIZATION</a><a href="https://github.com/orgs/ShadowGuard-AI/repositories">THE CATALOGUE</a></p>
+    </article>
+  </div>
+</section>
+
+<section aria-labelledby="d3">
+  <p class="dossier">DOSSIER 03 // PROJECT INDEX</p>
+  <h2 id="d3">Project Index</h2>
+  <div class="rule"></div>
+  <p class="lede">Every project gets a site designed for that project alone, written in my voice. Each row names the site by the title its own page carries, then says in one line what the project is. Two further sites, Kokoro-FastAPI-Colab and MacOS-Performance-Tweaks, are live with their earlier versions; their security fixes have landed and their rebuilds are queued, so they are not presented as rebuilt.</p>
   <table class="index">
-    <tr><th>Project</th><th>What it is</th><th></th><th></th></tr>
-    <tr class="reveal"><td class="name">Event_Zero<span class="concept">the fake_malware case file</span></td><td class="desc">An experimental AI analysis environment built around strict isolation.</td><td><a href="https://epsilon0xcell.github.io/Event_Zero/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Event_Zero">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Eclipse-Shield<span class="concept">notes from the night watch</span></td><td class="desc">A browser extension and Flask backend that judge whether a site fits your current mode: work, school, or personal.</td><td><a href="https://epsilon0xcell.github.io/Eclipse-Shield/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Eclipse-Shield">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Wack-A-Mole<span class="concept">the midway booth</span></td><td class="desc">Nine holes, thirty seconds, one point per whack.</td><td><a href="https://epsilon0xcell.github.io/Wack-A-Mole/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Wack-A-Mole">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Flowmodoro-Timer<span class="concept">the clock is the page</span></td><td class="desc">A timer where work earns break time at a fixed rate.</td><td><a href="https://epsilon0xcell.github.io/Flowmodoro-Timer/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Flowmodoro-Timer">Code</a></td></tr>
-    <tr class="reveal"><td class="name">AI-Image-Generator<span class="concept">the contact sheet</span></td><td class="desc">A prompt-seeded procedural PNG maker: palettes, styles, and one real specimen.</td><td><a href="https://epsilon0xcell.github.io/AI-Image-Generator/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AI-Image-Generator">Code</a></td></tr>
-    <tr class="reveal"><td class="name">AI-Chatbot-Basic-V2<span class="concept">knock first</span></td><td class="desc">A small ChatterBot based chatbot named Jordan, built around a home storyline with an identity check at startup.</td><td><a href="https://epsilon0xcell.github.io/AI-Chatbot-Basic-V2/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AI-Chatbot-Basic-V2">Code</a></td></tr>
-    <tr class="reveal"><td class="name">AST-Scientific-Calculator<span class="concept">The Instrument Panel</span></td><td class="desc">A calculator that parses to a tree and never uses eval().</td><td><a href="https://epsilon0xcell.github.io/AST-Scientific-Calculator/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AST-Scientific-Calculator">Code</a></td></tr>
-    <tr class="reveal"><td class="name">RSS-Atom-CLI<span class="concept">The Wire Room</span></td><td class="desc">RSS and Atom feeds, read in the terminal.</td><td><a href="https://epsilon0xcell.github.io/RSS-Atom-CLI/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/RSS-Atom-CLI">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Python-Shape-Generator<span class="concept">The Geometry Plate</span></td><td class="desc">A program that generates five ASCII shapes.</td><td><a href="https://epsilon0xcell.github.io/Python-Shape-Generator/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Python-Shape-Generator">Code</a></td></tr>
-    <tr class="reveal"><td class="name">ASCII-Fireworks-Animated<span class="concept">The Night Sky Programme</span></td><td class="desc">Two firework scripts from 2023, shown in their own ANSI art.</td><td><a href="https://epsilon0xcell.github.io/ASCII-Fireworks-Animated/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/ASCII-Fireworks-Animated">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Printable-Bookmark<span class="concept">on the cutting table</span></td><td class="desc">A bookmark printer, specified like a printer's spec sheet.</td><td><a href="https://epsilon0xcell.github.io/Printable-Bookmark/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Printable-Bookmark">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Sandboxed-Brave-Browser<span class="concept">The Airlock</span></td><td class="desc">Brave run inside firejail, documented as a man page.</td><td><a href="https://epsilon0xcell.github.io/Sandboxed-Brave-Browser/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Sandboxed-Brave-Browser">Code</a></td></tr>
-    <tr class="reveal"><td class="name">ShadowSecurity-Tribute<span class="concept">The Memorial Wall</span></td><td class="desc">A tribute to the organization I founded at the start, kept honest.</td><td><a href="https://epsilon0xcell.github.io/ShadowSecurity-Tribute/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/ShadowSecurity-Tribute">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Python-DataType-Variable<span class="concept">The Specimen Ledger</span></td><td class="desc">A two-line first Python lesson on data types and variables, kept at two lines on purpose.</td><td><a href="https://epsilon0xcell.github.io/Python-DataType-Variable/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Python-DataType-Variable">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Python-Print-Strategies<span class="concept">The Print Shop Proof Sheet</span></td><td class="desc">A Python print cookbook, every recipe a real transcript.</td><td><a href="https://epsilon0xcell.github.io/Python-Print-Strategies/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Python-Print-Strategies">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Custom-Cursor-Anki-2.0<span class="concept">The Desktop Workbench</span></td><td class="desc">A 2021 Anki add-on for custom cursors, guarded so it cannot hide your pointer.</td><td><a href="https://epsilon0xcell.github.io/Custom-Cursor-Anki-2.0/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Custom-Cursor-Anki-2.0">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Fun-Script-Animation<span class="concept">The Green Room Terminal Theatre</span></td><td class="desc">A terminal animation script, storyboarded in six panels.</td><td><a href="https://epsilon0xcell.github.io/Fun-Script-Animation/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Fun-Script-Animation">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Minimal-Reddit<span class="concept">The Austere Broadsheet</span></td><td class="desc">Eleven third-party minimal Reddit clients, cataloged; my own two tries sit empty, and the site says so.</td><td><a href="https://epsilon0xcell.github.io/Minimal-Reddit/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Minimal-Reddit">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Multiple-Programming-Languages<span class="concept">The Phrasebook</span></td><td class="desc">A small collection of example programs, one per language, each file standing alone.</td><td><a href="https://epsilon0xcell.github.io/Multiple-Programming-Languages/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Multiple-Programming-Languages">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Favorite-Browser-Picks<span class="concept">The Switchboard</span></td><td class="desc">Two browser picks, Opera GX and Opera Air, plus my userscript that sends DuckDuckGo searches to StartPage.</td><td><a href="https://epsilon0xcell.github.io/Favorite-Browser-Picks/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Favorite-Browser-Picks">Code</a></td></tr>
-    <tr class="reveal"><td class="name">macos-optimizer<span class="concept">The Control Panel</span></td><td class="desc">A menu-driven macOS optimisation script, adapted from an upstream optimiser with my own changes, credited to the original, and Gatekeeper enabled rather than disabled.</td><td><a href="https://epsilon0xcell.github.io/macos-optimizer/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/macos-optimizer">Code</a></td></tr>
-    <tr class="reveal"><td class="name">AllTalk-V2-MacOS-Guide<span class="concept">The Installation Route</span></td><td class="desc">A step by step guide to installing AllTalk V2 on macOS.</td><td><a href="https://epsilon0xcell.github.io/AllTalk-V2-MacOS-Guide/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AllTalk-V2-MacOS-Guide">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Media-Formats-Essay<span class="concept">The Essay, Typeset</span></td><td class="desc">A short opinion essay on why text, audio, and pictures are the best forms of media.</td><td><a href="https://epsilon0xcell.github.io/Media-Formats-Essay/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Media-Formats-Essay">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Contributing-Template<span class="concept">The Annotated Blank</span></td><td class="desc">A ready to copy contributing guide template, meant to be filled in and copied into another project.</td><td><a href="https://epsilon0xcell.github.io/Contributing-Template/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Contributing-Template">Code</a></td></tr>
-    <tr class="reveal"><td class="name">Favorite-Linux-Distributions<span class="concept">Two Specimens and a Hybrid</span></td><td class="desc">A short list of picks: Garuda Linux with KDE and Pop!_OS with Cosmic, and my combined pick, Garuda with Cosmic instead of KDE.</td><td><a href="https://epsilon0xcell.github.io/Favorite-Linux-Distributions/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Favorite-Linux-Distributions">Code</a></td></tr>
+    <thead><tr><th>Project</th><th>What it is</th><th>Site</th><th>Code</th></tr></thead>
+    <tbody>
+      <tr class="reveal"><td class="name">Event_Zero<span class="concept">the fake_malware case file</span></td><td>An experimental AI analysis environment built around strict isolation.</td><td><a href="https://epsilon0xcell.github.io/Event_Zero/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Event_Zero">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Eclipse-Shield<span class="concept">the shield holds the line</span></td><td>A browser extension and Flask backend that judge whether a site fits your current mode: work, school, or personal.</td><td><a href="https://epsilon0xcell.github.io/Eclipse-Shield/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Eclipse-Shield">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Wack-A-Mole<span class="concept">the midway booth</span></td><td>Nine holes, thirty seconds, one point per whack.</td><td><a href="https://epsilon0xcell.github.io/Wack-A-Mole/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Wack-A-Mole">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Flowmodoro-Timer<span class="concept">the clock is the page</span></td><td>A timer where work earns break time at a fixed rate.</td><td><a href="https://epsilon0xcell.github.io/Flowmodoro-Timer/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Flowmodoro-Timer">Code</a></td></tr>
+      <tr class="reveal"><td class="name">AI-Image-Generator<span class="concept">the contact sheet</span></td><td>A prompt-seeded procedural PNG maker: palettes, styles, and one real specimen.</td><td><a href="https://epsilon0xcell.github.io/AI-Image-Generator/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AI-Image-Generator">Code</a></td></tr>
+      <tr class="reveal"><td class="name">AI-Chatbot-Basic-V2<span class="concept">knock first</span></td><td>A small ChatterBot based chatbot named Jordan, built around a home storyline with an identity check at startup.</td><td><a href="https://epsilon0xcell.github.io/AI-Chatbot-Basic-V2/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AI-Chatbot-Basic-V2">Code</a></td></tr>
+      <tr class="reveal"><td class="name">AST-Scientific-Calculator<span class="concept">The Instrument Panel</span></td><td>A calculator that parses to a tree and never uses eval().</td><td><a href="https://epsilon0xcell.github.io/AST-Scientific-Calculator/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AST-Scientific-Calculator">Code</a></td></tr>
+      <tr class="reveal"><td class="name">RSS-Atom-CLI<span class="concept">The Wire Room</span></td><td>RSS and Atom feeds, read in the terminal.</td><td><a href="https://epsilon0xcell.github.io/RSS-Atom-CLI/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/RSS-Atom-CLI">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Python-Shape-Generator<span class="concept">The Geometry Plate</span></td><td>A program that generates five ASCII shapes.</td><td><a href="https://epsilon0xcell.github.io/Python-Shape-Generator/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Python-Shape-Generator">Code</a></td></tr>
+      <tr class="reveal"><td class="name">ASCII-Fireworks-Animated<span class="concept">The Night Sky Programme</span></td><td>Two firework scripts from 2023, shown in their own ANSI art.</td><td><a href="https://epsilon0xcell.github.io/ASCII-Fireworks-Animated/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/ASCII-Fireworks-Animated">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Printable-Bookmark<span class="concept">on the cutting table</span></td><td>A bookmark printer, specified like a printer's spec sheet.</td><td><a href="https://epsilon0xcell.github.io/Printable-Bookmark/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Printable-Bookmark">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Sandboxed-Brave-Browser<span class="concept">The Airlock</span></td><td>Brave run inside firejail, documented as a man page.</td><td><a href="https://epsilon0xcell.github.io/Sandboxed-Brave-Browser/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Sandboxed-Brave-Browser">Code</a></td></tr>
+      <tr class="reveal"><td class="name">ShadowSecurity-Tribute<span class="concept">The Memorial Wall</span></td><td>A tribute to the organization I founded at the start, kept honest.</td><td><a href="https://epsilon0xcell.github.io/ShadowSecurity-Tribute/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/ShadowSecurity-Tribute">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Python-DataType-Variable<span class="concept">The Specimen Ledger</span></td><td>A two-line first Python lesson on data types and variables, kept at two lines on purpose.</td><td><a href="https://epsilon0xcell.github.io/Python-DataType-Variable/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Python-DataType-Variable">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Python-Print-Strategies<span class="concept">The Print Shop Proof Sheet</span></td><td>A Python print cookbook, every recipe a real transcript.</td><td><a href="https://epsilon0xcell.github.io/Python-Print-Strategies/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Python-Print-Strategies">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Custom-Cursor-Anki-2.0<span class="concept">The Desktop Workbench</span></td><td>A 2021 Anki add-on for custom cursors, guarded so it cannot hide your pointer.</td><td><a href="https://epsilon0xcell.github.io/Custom-Cursor-Anki-2.0/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Custom-Cursor-Anki-2.0">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Fun-Script-Animation<span class="concept">The Green Room Terminal Theatre</span></td><td>A terminal animation script, storyboarded in six panels.</td><td><a href="https://epsilon0xcell.github.io/Fun-Script-Animation/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Fun-Script-Animation">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Minimal-Reddit<span class="concept">The Austere Broadsheet</span></td><td>Eleven third-party minimal Reddit clients, cataloged; my own two tries sit empty, and the site says so.</td><td><a href="https://epsilon0xcell.github.io/Minimal-Reddit/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Minimal-Reddit">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Multiple-Programming-Languages<span class="concept">The Phrasebook</span></td><td>A small collection of example programs, one per language, each file standing alone.</td><td><a href="https://epsilon0xcell.github.io/Multiple-Programming-Languages/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Multiple-Programming-Languages">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Favorite-Browser-Picks<span class="concept">The Switchboard</span></td><td>Two browser picks, Opera GX and Opera Air, plus my userscript that sends DuckDuckGo searches to StartPage.</td><td><a href="https://epsilon0xcell.github.io/Favorite-Browser-Picks/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Favorite-Browser-Picks">Code</a></td></tr>
+      <tr class="reveal"><td class="name">macos-optimizer<span class="concept">The Control Panel</span></td><td>A menu-driven macOS optimisation script, adapted from an upstream optimiser with my own changes, credited to the original, and Gatekeeper enabled rather than disabled.</td><td><a href="https://epsilon0xcell.github.io/macos-optimizer/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/macos-optimizer">Code</a></td></tr>
+      <tr class="reveal"><td class="name">AllTalk-V2-MacOS-Guide<span class="concept">The Installation Route</span></td><td>A step by step guide to installing AllTalk V2 on macOS.</td><td><a href="https://epsilon0xcell.github.io/AllTalk-V2-MacOS-Guide/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/AllTalk-V2-MacOS-Guide">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Media-Formats-Essay<span class="concept">The Essay, Typeset</span></td><td>A short opinion essay on why text, audio, and pictures are the best forms of media.</td><td><a href="https://epsilon0xcell.github.io/Media-Formats-Essay/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Media-Formats-Essay">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Contributing-Template<span class="concept">The Annotated Blank</span></td><td>A ready to copy contributing guide template, meant to be filled in and copied into another project.</td><td><a href="https://epsilon0xcell.github.io/Contributing-Template/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Contributing-Template">Code</a></td></tr>
+      <tr class="reveal"><td class="name">Favorite-Linux-Distributions<span class="concept">Two Specimens and a Hybrid</span></td><td>A short list of picks: Garuda Linux with KDE and Pop!_OS with Cosmic, and my combined pick, Garuda with Cosmic instead of KDE.</td><td><a href="https://epsilon0xcell.github.io/Favorite-Linux-Distributions/">Site</a></td><td><a href="https://github.com/Epsilon0xCell/Favorite-Linux-Distributions">Code</a></td></tr>
+    </tbody>
   </table>
-
-  <!-- I list the last two apart from the rebuilt index because they
-       are not rebuilt, and folding them into the count above would
-       claim work I have not done. They stay linked, and the reason
-       stays printed next to them. -->
-  <div class="waiting">
-    <h2>Still waiting</h2>
-    <p>Two published sites are live with their earlier versions. They
-    are not part of the 25 above, and I do not present them as rebuilt.
-    Their security fixes have landed; their rebuilds are queued.</p>
-    <p><strong>Kokoro-FastAPI-Colab</strong>: a Kokoro text-to-speech
-    server for Colab, documented endpoint by endpoint.
-    <a href="https://epsilon0xcell.github.io/Kokoro-FastAPI-Colab/">Site</a> ·
-    <a href="https://github.com/Epsilon0xCell/Kokoro-FastAPI-Colab">Code</a></p>
-    <p><strong>MacOS-Performance-Tweaks</strong>: a set of macOS
-    performance tweaks, written as a field manual.
-    <a href="https://epsilon0xcell.github.io/MacOS-Performance-Tweaks/">Site</a> ·
-    <a href="https://github.com/Epsilon0xCell/MacOS-Performance-Tweaks">Code</a></p>
-  </div>
-</div>
-
-<aside class="record">
-  <h2>The record</h2>
-  <p class="sec-note" style="margin-bottom:0">Earned as
-  <a href="https://github.com/CY83R-3X71NC710N">@CY83R-3X71NC710N</a>.
-  Every claim here also stands on my profile with a link to its
-  source.</p>
-
-  <h3>Competition</h3>
-  <ul>
-    <li>NSA Codebreaker Challenge 2023-2024: #72 nationally of 450+
-    institutions, competing solo against multi-person university
-    teams; Level 7 reached within the first 10 days; my high school
-    became the first high school ever to participate in the
-    program.</li>
-    <li>CyberStart America: National Cyber Scholar with Honors, three
-    consecutive years; $12,000 in scholarships earned.</li>
-    <li>Star History: Top Committer #8 of 2024; #150 on the 2026 Top
-    1000 Committers list, with 13,288 commits.</li>
-  </ul>
-
-  <h3>Recognition</h3>
-  <ul>
-    <li>GIAC Advisory Board: invited to join the guidance community
-    reserved for top scorers on SANS and GIAC certification exams.</li>
-    <li>FBI TEAM Program: selected for the Bureau's competitive Teen
-    and Youth Engagement and Mentorship program.</li>
-    <li>CodersRank: Top 1% of coders in the USA.</li>
-  </ul>
-  <figure>
-    <img src="https://raw.githubusercontent.com/Epsilon0xCell/Epsilon0xCell/main/assets/CodersRank.png" alt="CodersRank profile: score 291.7, Top 1 percent in the USA">
-    <figcaption>CodersRank score 291.7, Top 1% in the USA, based on 159
-    repositories at the time of scoring.</figcaption>
-  </figure>
-
-  <h3>Certifications and education</h3>
-  <ul>
-    <li>GIAC Security Essentials (GSEC)</li>
-    <li>GIAC Foundational Cybersecurity Technologies (GFACT)</li>
-    <li>AP Scholar with Honors</li>
-    <li>Dual award in Business and Computer Science, one of the only
-    recipients in a graduating class of about 1,000</li>
-    <li>Verified Member of the GitHub Developer Program</li>
-  </ul>
-</aside>
-</div>
-
-<!-- The rollout note near the top carries the counts, so I keep this
-     section to the method: how each site gets its own design, and why
-     I would rather rebuild one properly than stamp out twenty. -->
-
-<section class="elite">
-<style>
-.official-mark{display:block;width:92px;height:92px;margin:0 0 14px}
-.official-rule{display:block;width:min(560px,92%);height:auto;margin:16px 0 0}
-.elite .elite-strip{border:1px solid #8A6D1B;outline:1px solid #3A321D;outline-offset:5px;position:relative;box-shadow:inset 0 0 34px rgba(0,0,0,.55)}
-.elite .elite-wall.plate{border:1px solid #8A6D1B;outline:1px solid #3A321D;outline-offset:5px;padding:20px 16px 12px;background:#070708 url('assets/official-guilloche.svg') center/620px;box-shadow:inset 0 0 60px rgba(0,0,0,.62)}
-</style>
-
-  <h2>The elite row</h2>
-  <style>
-  .elite .elite-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:1px solid #2e060e;margin:20px 0;background:rgba(0,0,0,.45)}
-  .elite .elite-cell{padding:14px;border-right:1px solid #2e060e}.elite .elite-cell:last-child{border-right:none}
-  .elite .elite-n{font-size:26px;color:#ff3355}.elite .elite-l{font-size:11px;letter-spacing:1.5px;color:#B9B2A4;line-height:1.5}
-  .elite .elite-wall{display:flex;flex-wrap:wrap;gap:10px}
-  .elite figure.elite-badge{margin:0;text-align:center;width:168px}
-  .elite figure.elite-badge figcaption{font-size:11px;color:#B9B2A4;line-height:1.5;padding:0 6px}
-  .elite .elite-crest{text-align:center;margin:4px 0 10px}.elite .elite-crest img{width:54px;height:54px}.elite .elite-h{letter-spacing:3px;color:#E3C565;font-size:13px;margin:22px 0 4px}
-  </style>
-  <div class="elite-strip">
-    <div class="elite-cell"><div class="elite-n">757</div><div class="elite-l">REPOSITORIES IN THE FLEET</div></div>
-    <div class="elite-cell"><div class="elite-n">584</div><div class="elite-l">PROJECT ORG LIBRARY</div></div>
-    <div class="elite-cell"><div class="elite-n">754</div><div class="elite-l">AUDITED LINE BY LINE</div></div>
-    <div class="elite-cell"><div class="elite-n">48</div><div class="elite-l">FULLY THEMED PRESENTATIONS SHIPPED</div></div>
-    <div class="elite-cell"><div class="elite-n">0</div><div class="elite-l">LIVE SECRETS FOUND IN FINAL VERIFICATION</div></div>
-  </div>
-  <div class="elite-wall plate"><figure class="elite-badge"><img src="assets/badges/nsa-codebreaker.svg" width="168" alt="NSA Codebreaker Challenge: Finisher, Solo Entrant"><figcaption>NSA Codebreaker Challenge: Finisher, Solo Entrant</figcaption></figure><figure class="elite-badge"><img src="assets/badges/fbi-team.svg" width="168" alt="FBI TEAM Program Alumnus"><figcaption>FBI TEAM Program Alumnus</figcaption></figure><figure class="elite-badge"><img src="assets/badges/giac-gsec.svg" width="168" alt="SANS GIAC: GSEC Certified"><figcaption>SANS GIAC: GSEC Certified</figcaption></figure><figure class="elite-badge"><img src="assets/badges/giac-gfact.svg" width="168" alt="SANS GIAC: GFACT Certified"><figcaption>SANS GIAC: GFACT Certified</figcaption></figure><figure class="elite-badge"><img src="assets/badges/giac-advisory.svg" width="168" alt="GIAC Advisory Board"><figcaption>GIAC Advisory Board</figcaption></figure></div>
-  <p>Operator-grade work, every claim on this page verifiable.</p>
-  <div class="elite-h">THE RECORD</div>
-  <div class="elite-crest"><img src="assets/founders-mark.svg" alt="Founder's mark"></div><div class="elite-wall"><figure class="elite-badge"><img src="assets/badges/cyber-scholar.svg" width="150" alt="National Cyber Scholar with Honors"><figcaption>National Cyber Scholar with Honors</figcaption></figure><figure class="elite-badge"><img src="assets/badges/cyberstart.svg" width="150" alt="CyberStart America"><figcaption>CyberStart America</figcaption></figure><figure class="elite-badge"><img src="assets/badges/founder.svg" width="150" alt="Founder"><figcaption>Founder</figcaption></figure><figure class="elite-badge"><img src="assets/badges/fleet-757.svg" width="150" alt="757 Repositories"><figcaption>757 Repositories</figcaption></figure></div>
 </section>
-<section class="how">
-  <h2>How this collection is built</h2>
-  <p>I am building a site for every project I keep, one wave at a time,
-  and each site is designed for its project alone: a terminal for a
-  terminal tool, a man page for a wrapper script, a broadsheet for a
-  feed reader. No templates, because two projects that differ only in
-  their text were never two projects to begin with. The source of every
-  site lives in its own repository, in a folder named after the
-  project, written in the first person, comments included.</p>
-  <p>The work behind the sites is the same work a reader can audit in
-  the repositories themselves: every project reviewed, its code read
-  and tested, its README made true, its comments written to explain
-  choices rather than fill space. The sites are one face of that
-  standard. The repositories are the rest of it.</p>
+
+<section aria-labelledby="d4">
+  <p class="dossier">DOSSIER 04 // THE RECORD</p>
+  <h2 id="d4">The Record</h2>
+  <div class="rule"></div>
+  <div class="record">
+    <div class="cell reveal">
+      <h3>COMPETITION</h3>
+      <p><strong>NSA Codebreaker Challenge 2023-2024:</strong> #72 nationally of 450+ institutions, competing solo against multi-person university teams; Level 7 reached within the first 10 days; my high school became the first high school ever to participate in the program.</p>
+      <p><strong>CyberStart America:</strong> National Cyber Scholar with Honors, three consecutive years; $12,000 in scholarships earned.</p>
+      <p><strong>Star History:</strong> Top Committer #8 of 2024; #150 on the 2026 Top 1000 Committers list, with 13,288 commits.</p>
+    </div>
+    <div class="cell reveal">
+      <h3>RECOGNITION</h3>
+      <p><strong>GIAC Advisory Board:</strong> invited to join the guidance community reserved for top scorers on SANS and GIAC certification exams.</p>
+      <p><strong>FBI TEAM Program:</strong> selected for the Bureau's competitive Teen and Youth Engagement and Mentorship program.</p>
+      <p><strong>CodersRank:</strong> Top 1% of coders in the USA; score 291.7, based on 159 repositories at the time of scoring.</p>
+    </div>
+    <div class="cell reveal">
+      <h3>CERTIFICATIONS AND EDUCATION</h3>
+      <p>GIAC Security Essentials (GSEC)</p>
+      <p>GIAC Foundational Cybersecurity Technologies (GFACT)</p>
+      <p>AP Scholar with Honors</p>
+      <p>Dual award in Business and Computer Science, one of the only recipients in a graduating class of about 1,000</p>
+      <p>Verified Member of the GitHub Developer Program</p>
+    </div>
+    <div class="cell reveal">
+      <h3>THE FLEET, BY THE NUMBERS</h3>
+      <p><strong>757</strong> repositories in the fleet</p>
+      <p><strong>584</strong> project org library</p>
+      <p><strong>754</strong> audited line by line</p>
+      <p><strong>0</strong> live secrets found in final verification</p>
+      <p>Operator-grade work, every claim on this page verifiable.</p>
+    </div>
+  </div>
 </section>
 
 <footer>
-  <span>Built by Gavin Blacklock (Gavin K.) (@Epsilon0xCell). Colophon: ledger layout, black and
-  neon red, serif masthead, hairline rules, one red rule top and
-  bottom.</span>
-  <span><a href="https://github.com/Epsilon0xCell">github.com/Epsilon0xCell</a></span>
-  <span>Last updated 2026-10-31</span>
+  <img class="insignia" src="assets/gb-insignia-sni.png" alt="The GB insignia of Gavin Blacklock, recoloured in the violet of Shadow Night Intelligence" width="1600" height="1600">
+  <img class="sign" src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="2499" height="694">
+  <p class="fine">Gavin Blacklock · Epsilon0xCell · Founder, ShatterPoint Security<br>
+  <a href="https://github.com/Epsilon0xCell">GitHub</a> · <a href="https://orcid.org/0009-0001-2203-5576">ORCID</a> · <a href="https://github.com/Epsilon0xCell/Epsilon0xCell">The profile dossier</a></p>
+  <p class="fine">Defense is the promise. Eradication is the proof.</p>
 </footer>
-
 </div>
 <script>
-  /*
-    I add the js class first, so the hidden state only ever applies
-    when this script can also reveal it. Rows are observed in reading
-    order and revealed once, then unobserved. The record rail is never
-    given the reveal treatment, on purpose.
-  */
-  document.documentElement.classList.add("js");
-  (function () {
-    var rows = document.querySelectorAll(".ledger .row, table.index tr.reveal");
-    if (!("IntersectionObserver" in window)) {
-      rows.forEach(function (row) { row.classList.add("seen"); });
-      return;
-    }
-    var watcher = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("seen");
-          watcher.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    rows.forEach(function (row) { watcher.observe(row); });
-  })();
-</script>
-<script>
-  /*
-    The rain itself: columns of katakana, digits, and hex letters
-    falling in red on the fixed canvas. Trails come from laying a
-    translucent black wash over each frame instead of clearing it.
-    The loop is throttled to about thirty frames a second, and the
-    canvas is capped at one and a half times pixel density, so the
-    decoration never taxes the page it decorates. Reduced motion
-    gets one still frame. No script at all gets the black page,
-    complete, exactly as it read before the rain came.
-  */
-  (function () {
-    var canvas = document.getElementById("matrix-rain");
-    if (!canvas || typeof canvas.getContext !== "function") { return; }
-    var ctx = canvas.getContext("2d");
-    if (!ctx) { return; }
-    var GLYPHS = "ｱｲｳｴｵｶｷｸｹｺｻｼｽｾｿﾀﾁﾂﾃﾄﾅﾆﾇﾈﾉﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾖﾗﾘﾙﾚﾛﾜﾝ0123456789ABCDEF";
-    var FONT = 17;
-    var width = 0;
-    var height = 0;
-    var drops = [];
-    var reduce = false;
-    if (window.matchMedia) {
-      reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    }
-    function sizeCanvas() {
-      var dpr = Math.min(window.devicePixelRatio || 1, 1.5);
-      width = window.innerWidth;
-      height = window.innerHeight;
-      canvas.width = Math.floor(width * dpr);
-      canvas.height = Math.floor(height * dpr);
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var cols = Math.max(1, Math.ceil(width / FONT));
-      drops = [];
-      for (var i = 0; i < cols; i++) {
-        drops.push(Math.floor(Math.random() * (height / FONT)));
-      }
-      ctx.fillStyle = "#000000";
-      ctx.fillRect(0, 0, width, height);
-    }
-    function frame() {
-      var i;
-      var r;
-      ctx.fillStyle = "rgba(0,0,0,0.08)";
-      ctx.fillRect(0, 0, width, height);
-      ctx.font = FONT + "px ui-monospace, 'DejaVu Sans Mono', monospace";
-      for (i = 0; i < drops.length; i++) {
-        r = Math.random();
-        ctx.fillStyle = r < 0.10 ? "#ffe9ec" : (r < 0.45 ? "#ff5c74" : "#e6002e");
-        ctx.fillText(GLYPHS.charAt(Math.floor(Math.random() * GLYPHS.length)), i * FONT, drops[i] * FONT);
-        drops[i] += 1;
-        if (drops[i] * FONT > height && Math.random() > 0.976) { drops[i] = 0; }
-      }
-    }
-    sizeCanvas();
-    if (reduce) {
-      for (var k = 0; k < 28; k++) { frame(); }
-      return;
-    }
-    var last = 0;
-    function loop(now) {
-      requestAnimationFrame(loop);
-      if (now - last < 33) { return; }
-      last = now;
-      frame();
-    }
-    requestAnimationFrame(loop);
-    var resizeTimer = null;
-    window.addEventListener("resize", function () {
-      if (resizeTimer) { clearTimeout(resizeTimer); }
-      resizeTimer = setTimeout(function () {
-        sizeCanvas();
-        if (reduce) { for (var k2 = 0; k2 < 28; k2++) { frame(); } }
-      }, 150);
-    });
-  })();
+(function(){
+  var loader=document.getElementById('loader');
+  var dismissed=false;
+  function dismiss(){ if(dismissed||!loader) return; dismissed=true; loader.classList.add('done'); setTimeout(function(){ if(loader&&loader.parentNode) loader.parentNode.removeChild(loader); },600); }
+  if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches){ dismiss(); }
+  else{
+    setTimeout(dismiss,2300);
+    loader.addEventListener('click',dismiss);
+    document.addEventListener('keydown',dismiss,{once:true});
+  }
+  var z=document.getElementById('zulu');
+  function tick(){ if(!z) return; var d=new Date(); function p(n){return (n<10?'0':'')+n;} z.textContent='ZULU '+p(d.getUTCHours())+':'+p(d.getUTCMinutes())+':'+p(d.getUTCSeconds())+' UTC'; }
+  tick(); setInterval(tick,1000);
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); },{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+  }
+})();
 </script>
 </body>
 </html>
