@@ -2,7 +2,10 @@
   <img src="assets/banner.gif" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
 </p>
 
-<p align="center"><img src="logo-wide.gif" alt="The Crimson Command insignia: a red globe under a crown of spikes, ringed by the legend of the record, centered on a star field that runs the full width of the page" width="100%"></p>
+<p align="center"><img src="logo-wide.gif" alt="The Shadow Night Intelligence seal: a golden city-lights globe on a black Earth inside a golden ring, ringed by the legend SNI NETWORK and THE SHADOW DIRECTOR, floating on transparency" width="100%"></p>
+
+<p align="center"><img src="assets/signature-lockup.png" alt="The GB insignia of Gavin Blacklock in the violet of Shadow Night Intelligence, above the signature of Gavin Blacklock as it appears in his book, The Command Chair" width="440"></p>
+
 <p align="center">
   <strong>Founder, ShatterPoint Security™ | Offensive Security & AI Red Teaming | Adversary Emulation · LLM & Agent Exploitation | NSA Codebreaker Champion · FBI TEAM Threat Hunter · 3x National Cyber Scholar · GIAC GSEC & GFACT</strong>
 </p>
@@ -516,3 +519,9 @@ The long version of the argument, with the dread left in, is a short book: [The 
 If you work on shutdown, corrigibility, or AI red teaming, and you find an error anywhere on this page or in the book, publish it against me. I would rather be corrected in public than believed in private.
 
 My life's work is the alignment process itself: the whole layered effort to keep advanced AI from ever becoming dangerous in the first place, not merely to react once it has. My specialty inside that process is its hardest edge, offensive testing, shutdown capability, and the study of how control fails, but the mission is the process entire, pursued for as long as it takes. I assume the pressure will arrive at the worst possible time: in wartime, safeguards are traded for speed, as they have been in every war on record, so anything that has not been built before the crisis should be assumed absent during it.
+
+<p align="center">
+  <img src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="380">
+</p>
+
+<p align="center"><em>Signed, Gavin Blacklock. Founder, ShatterPoint Security. Shadow Night Intelligence.</em></p>
