@@ -369,8 +369,7 @@
 
 <p align="center">
   <strong>Top 1% Coders USA: CodersRank</strong><br>
-
-    <img src="assets/CodersRank.png" alt="CodersRank: Score 291.7, Rank Top 1%" width="560">
+  <img src="assets/CodersRank.png" alt="CodersRank: Score 291.7, Rank Top 1%" width="560">
   <br>
   <em>CodersRank Score 291.7 · Rank: Top 1% · Based on 159 repositories</em>
 </p>
