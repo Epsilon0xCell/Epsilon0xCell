@@ -2,9 +2,11 @@
   <img src="assets/banner.gif" alt="Epsilon0xCell: Defense is the promise. Eradication is the proof." width="100%">
 </p>
 
+<p align="center"><img src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="440"></p>
+
 <p align="center"><img src="logo-wide.gif" alt="The Shadow Night Intelligence seal: a golden city-lights globe on a black Earth inside a golden ring, ringed by the legend SNI NETWORK and THE SHADOW DIRECTOR, floating on transparency" width="100%"></p>
 
-<p align="center"><img src="assets/signature-lockup.png" alt="The GB insignia of Gavin Blacklock in the violet of Shadow Night Intelligence, above the signature of Gavin Blacklock as it appears in his book, The Command Chair" width="440"></p>
+<p align="center"><img src="assets/gb-insignia-sni.png" alt="The GB insignia of Gavin Blacklock, in the violet of Shadow Night Intelligence" width="200"></p>
 
 <p align="center">
   <strong>Founder, ShatterPoint Security™ | Offensive Security & AI Red Teaming | Adversary Emulation · LLM & Agent Exploitation | NSA Codebreaker Champion · FBI TEAM Threat Hunter · 3x National Cyber Scholar · GIAC GSEC & GFACT</strong>
