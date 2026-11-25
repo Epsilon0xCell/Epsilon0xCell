@@ -400,10 +400,12 @@
 </p>
 
 <p align="center">
-  <img src="assets/trophies.svg" alt="GitHub trophies: Rainbow Lang User (S rank, 35pt), God Committer (S rank, 11.6kpt), God Repo Creator (S rank, 209pt), Super Star (A rank, 100pt), High Puller (A rank, 27pt)" width="100%">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://hacked-github-stat-trophies.vercel.app/?username=cy83r-3x71nc710n&column=4&rank=SECRET,SSS,SS,S,AAA,AA,A&theme=dracula&margin-w=18&margin-h=10" alt="GitHub Profile Trophy">
+  </a>
 </p>
 
-<p align="center"><em>God Committer · God Repo Creator · Super Star · Rainbow Lang User · High Puller.</em></p>
+<p align="center"><em>S Rank Hacker · God Committer · God Issuer · God PR User · Ultra Celebrity · Super Repo Creator · Super Star · Rainbow Lang User.</em></p>
 
 <p align="center">
   <img src="assets/divider.gif" alt="" width="100%">
