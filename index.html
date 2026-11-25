@@ -75,11 +75,17 @@ footer{margin-top:80px;border-top:1px solid var(--line2);padding-top:34px;text-a
 footer img.insignia{width:110px;height:110px;display:block;margin:12px auto 0}
 footer img.sign{width:340px;max-width:80vw;height:auto;display:block;margin:0 auto}
 footer .fine{color:var(--muted);font-size:13px;margin-top:16px}
-.fsep{display:flex;align-items:center;justify-content:center;gap:10px;max-width:420px;margin:12px auto}
-.fsep::before,.fsep::after{content:"";height:1px;flex:1}
-.fsep::before{background:linear-gradient(to right,rgba(191,0,255,0),rgba(191,0,255,.85))}
-.fsep::after{background:linear-gradient(to left,rgba(191,0,255,0),rgba(191,0,255,.85))}
-.fsep i{width:7px;height:7px;display:block;background:#E0AAFF;border:1px solid #BF00FF;transform:rotate(45deg)}
+.fsep{position:relative;display:flex;align-items:center;justify-content:center;max-width:420px;margin:12px auto;height:14px}
+.fsep::before,.fsep::after{content:"";height:1.5px;flex:1}
+.fsep::before{background:radial-gradient(circle at 30% 50%,rgba(255,217,122,.95) 0 1.5px,transparent 3px),radial-gradient(circle at 68% 50%,rgba(255,201,87,.9) 0 1px,transparent 2.5px),linear-gradient(to right,rgba(217,164,65,0),rgba(217,164,65,.85) 30%,rgba(255,201,87,.95))}
+.fsep::after{background:radial-gradient(circle at 70% 50%,rgba(255,217,122,.95) 0 1.5px,transparent 3px),radial-gradient(circle at 32% 50%,rgba(255,201,87,.9) 0 1px,transparent 2.5px),linear-gradient(to left,rgba(217,164,65,0),rgba(217,164,65,.85) 30%,rgba(255,201,87,.95))}
+.fsep .mid{width:64px;height:2px;flex:none;position:relative;background:linear-gradient(to right,rgba(191,0,255,.55),#BF00FF,rgba(191,0,255,.55))}
+.fsep .mid i{position:absolute;left:50%;top:50%;width:8px;height:8px;background:#E0AAFF;border:1px solid #BF00FF;transform:translate(-50%,-50%) rotate(45deg)}
+.fsep .sp{position:absolute;top:50%;transform:translate(-50%,-50%);background:linear-gradient(135deg,#FFE9A8,#FFC857);clip-path:polygon(50% 0,63% 37%,100% 50%,63% 63%,50% 100%,37% 63%,0 50%,37% 37%)}
+.fsep .sp.a{left:12%;width:9px;height:9px}
+.fsep .sp.b{left:31%;width:6px;height:6px}
+.fsep .sp.c{left:69%;width:6px;height:6px}
+.fsep .sp.d{left:88%;width:9px;height:9px}
 .js .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 .js .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion: reduce){.js .reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
@@ -247,11 +253,11 @@ footer .fine{color:var(--muted);font-size:13px;margin-top:16px}
 </section>
 
 <footer>
-  <div class="fsep" aria-hidden="true"><i></i></div>
+  <div class="fsep" aria-hidden="true"><span class="mid"><i></i></span><b class="sp a"></b><b class="sp b"></b><b class="sp c"></b><b class="sp d"></b></div>
   <img class="sign" src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="2499" height="694">
-  <div class="fsep" aria-hidden="true"><i></i></div>
+  <div class="fsep" aria-hidden="true"><span class="mid"><i></i></span><b class="sp a"></b><b class="sp b"></b><b class="sp c"></b><b class="sp d"></b></div>
   <img class="insignia" src="assets/gb-insignia-sni.png" alt="The GB insignia of Gavin Blacklock, recoloured in the violet of Shadow Night Intelligence" width="1600" height="1600">
-  <div class="fsep" aria-hidden="true"><i></i></div>
+  <div class="fsep" aria-hidden="true"><span class="mid"><i></i></span><b class="sp a"></b><b class="sp b"></b><b class="sp c"></b><b class="sp d"></b></div>
   <p class="fine">Gavin Blacklock · Epsilon0xCell · Founder, ShatterPoint Security<br>
   <a href="https://github.com/Epsilon0xCell">GitHub</a> · <a href="https://orcid.org/0009-0001-2203-5576">ORCID</a> · <a href="https://github.com/Epsilon0xCell/Epsilon0xCell">The profile dossier</a></p>
   <p class="fine">Defense is the promise. Eradication is the proof.</p>
