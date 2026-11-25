@@ -399,8 +399,11 @@
   <img src="assets/prompt-trophy-wall.gif" alt="Trophy Wall" width="100%">
 </p>
 
+<p align="center">
+  <img src="assets/trophies.svg" alt="GitHub trophies: Rainbow Lang User (S rank, 35pt), God Committer (S rank, 11.6kpt), God Repo Creator (S rank, 209pt), Super Star (A rank, 100pt), High Puller (A rank, 27pt)" width="100%">
+</p>
 
-<p align="center"><em>S Rank Hacker · God Committer · God PR User · Ultra Celebrity · Super Repo Creator · Super Star.</em></p>
+<p align="center"><em>God Committer · God Repo Creator · Super Star · Rainbow Lang User · High Puller.</em></p>
 
 <p align="center">
   <img src="assets/divider.gif" alt="" width="100%">
