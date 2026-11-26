@@ -12,10 +12,6 @@
 
 <p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
 
-<p align="center"><img src="assets/gb-insignia-sni.png" alt="The GB insignia of Gavin Blacklock, in the violet of Shadow Night Intelligence" width="200"></p>
-
-<p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
-
 <p align="center">
   <strong>Founder, ShatterPoint Security™ | Offensive Security & AI Red Teaming | Adversary Emulation · LLM & Agent Exploitation | NSA Codebreaker Champion · FBI TEAM Threat Hunter · 3x National Cyber Scholar · GIAC GSEC & GFACT</strong>
 </p>
@@ -540,3 +536,7 @@ My life's work is the alignment process itself: the whole layered effort to keep
 </p>
 
 <p align="center"><em>Signed, Gavin Blacklock. Founder, ShatterPoint Security. Shadow Night Intelligence.</em></p>
+
+<p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>p>
+
+<p align="center"><img src="assets/gb-insignia-sni.png" alt="The GB insignia of Gavin Blacklock, in the violet of Shadow Night Intelligence" width="200"></p>p>
