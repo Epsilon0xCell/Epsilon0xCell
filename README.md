@@ -8,7 +8,7 @@
 
 <p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
 
-<p align="center"><img src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="440"></p
+<p align="center"><img src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="440"></p>
 
 <p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
 
