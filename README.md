@@ -4,11 +4,11 @@
 
 <p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
 
-<p align="center"><img src="logo-wide.gif" alt="The Shadow Night Intelligence seal: a golden city-lights globe on a black Earth inside a golden ring, ringed by the legend SNI NETWORK and THE SHADOW DIRECTOR, floating on transparency" width="100%"></p>p>
+<p align="center"><img src="logo-wide.gif" alt="The Shadow Night Intelligence seal: a golden city-lights globe on a black Earth inside a golden ring, ringed by the legend SNI NETWORK and THE SHADOW DIRECTOR, floating on transparency" width="100%"></p>
 
 <p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
 
-<p align="center"><img src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="440"></p>p>
+<p align="center"><img src="assets/signature-display.png" alt="The signature of Gavin Blacklock, as it appears in his book, The Command Chair" width="440"></p
 
 <p align="center"><img src="assets/sni-separator.svg" alt="" width="880"></p>
 
